@@ -1,0 +1,2775 @@
+MultiResUnet1_32_1.67
+n_filts : 32
+Training on giraffe
+Training using GPU : NVIDIA TITAN RTX
+log dir: 
+
+========= Epoch [1/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [1][1/5]  Loss:0.773 (Avg 0.7730) Dice:0.1401 (Avg 0.1401) LR 1.00e-03   (AvgTime 1.7)   
+   [Train] Epoch: [1][2/5]  Loss:0.694 (Avg 0.7338) Dice:0.1826 (Avg 0.1613) LR 1.00e-03   (AvgTime 1.1)   
+   [Train] Epoch: [1][3/5]  Loss:0.607 (Avg 0.6914) Dice:0.2974 (Avg 0.2067) LR 1.00e-03   (AvgTime 1.0)   
+   [Train] Epoch: [1][4/5]  Loss:0.607 (Avg 0.6702) Dice:0.2789 (Avg 0.2247) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [1][5/5]  Loss:0.583 (Avg 0.6527) Dice:0.3024 (Avg 0.2403) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [1][1/2]  Loss:0.749 (Avg 0.7493) Dice:0.0000 (Avg 0.0000) (AvgTime 1.0)   
+   [Val] Epoch: [1][2/2]  Loss:0.768 (Avg 0.7567) Dice:0.0000 (Avg 0.0000) (AvgTime 0.7)   
+	 Mean dice:0.0000 does not increase, the best is still: 0.0000 in epoch 1
+	 early_stopping_count: 0/100
+
+========= Epoch [2/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [2][1/5]  Loss:0.554 (Avg 0.5543) Dice:0.3623 (Avg 0.3623) LR 9.78e-04   (AvgTime 1.1)   
+   [Train] Epoch: [2][2/5]  Loss:0.591 (Avg 0.5724) Dice:0.2957 (Avg 0.3290) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [2][3/5]  Loss:0.574 (Avg 0.5729) Dice:0.3318 (Avg 0.3299) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [2][4/5]  Loss:0.583 (Avg 0.5754) Dice:0.2848 (Avg 0.3186) LR 9.78e-04   (AvgTime 0.7)   
+   [Train] Epoch: [2][5/5]  Loss:0.510 (Avg 0.5623) Dice:0.4513 (Avg 0.3452) LR 9.78e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [2][1/2]  Loss:0.736 (Avg 0.7362) Dice:0.0000 (Avg 0.0000) (AvgTime 0.8)   
+   [Val] Epoch: [2][2/2]  Loss:0.785 (Avg 0.7559) Dice:0.0000 (Avg 0.0000) (AvgTime 0.6)   
+	 Mean dice:0.0000 does not increase, the best is still: 0.0000 in epoch 1
+	 early_stopping_count: 1/100
+
+========= Epoch [3/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [3][1/5]  Loss:0.565 (Avg 0.5649) Dice:0.3449 (Avg 0.3449) LR 9.14e-04   (AvgTime 1.0)   
+   [Train] Epoch: [3][2/5]  Loss:0.526 (Avg 0.5455) Dice:0.4697 (Avg 0.4073) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [3][3/5]  Loss:0.536 (Avg 0.5424) Dice:0.4186 (Avg 0.4111) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [3][4/5]  Loss:0.595 (Avg 0.5554) Dice:0.3138 (Avg 0.3868) LR 9.14e-04   (AvgTime 0.7)   
+   [Train] Epoch: [3][5/5]  Loss:0.536 (Avg 0.5516) Dice:0.3787 (Avg 0.3851) LR 9.14e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [3][1/2]  Loss:0.782 (Avg 0.7818) Dice:0.0000 (Avg 0.0000) (AvgTime 0.8)   
+   [Val] Epoch: [3][2/2]  Loss:0.718 (Avg 0.7564) Dice:0.0000 (Avg 0.0000) (AvgTime 0.6)   
+	 Mean dice:0.0000 does not increase, the best is still: 0.0000 in epoch 1
+	 early_stopping_count: 2/100
+
+========= Epoch [4/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [4][1/5]  Loss:0.542 (Avg 0.5423) Dice:0.3513 (Avg 0.3513) LR 8.15e-04   (AvgTime 1.0)   
+   [Train] Epoch: [4][2/5]  Loss:0.568 (Avg 0.5550) Dice:0.2936 (Avg 0.3225) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [4][3/5]  Loss:0.565 (Avg 0.5581) Dice:0.3516 (Avg 0.3322) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [4][4/5]  Loss:0.531 (Avg 0.5514) Dice:0.4981 (Avg 0.3737) LR 8.15e-04   (AvgTime 0.7)   
+   [Train] Epoch: [4][5/5]  Loss:0.552 (Avg 0.5514) Dice:0.3811 (Avg 0.3751) LR 8.15e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [4][1/2]  Loss:0.745 (Avg 0.7455) Dice:0.0000 (Avg 0.0000) (AvgTime 0.8)   
+   [Val] Epoch: [4][2/2]  Loss:0.774 (Avg 0.7567) Dice:0.0000 (Avg 0.0000) (AvgTime 0.6)   
+	 Mean dice:0.0000 does not increase, the best is still: 0.0000 in epoch 1
+	 early_stopping_count: 3/100
+
+========= Epoch [5/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [5][1/5]  Loss:0.539 (Avg 0.5388) Dice:0.3805 (Avg 0.3805) LR 6.89e-04   (AvgTime 1.0)   
+   [Train] Epoch: [5][2/5]  Loss:0.539 (Avg 0.5388) Dice:0.3912 (Avg 0.3858) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [5][3/5]  Loss:0.504 (Avg 0.5272) Dice:0.4184 (Avg 0.3967) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [5][4/5]  Loss:0.508 (Avg 0.5223) Dice:0.4596 (Avg 0.4124) LR 6.89e-04   (AvgTime 0.7)   
+   [Train] Epoch: [5][5/5]  Loss:0.571 (Avg 0.5321) Dice:0.3110 (Avg 0.3921) LR 6.89e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [5][1/2]  Loss:0.769 (Avg 0.7692) Dice:0.0000 (Avg 0.0000) (AvgTime 0.8)   
+   [Val] Epoch: [5][2/2]  Loss:0.731 (Avg 0.7537) Dice:0.0000 (Avg 0.0000) (AvgTime 0.6)   
+	 Mean dice:0.0000 does not increase, the best is still: 0.0000 in epoch 1
+	 early_stopping_count: 4/100
+
+========= Epoch [6/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [6][1/5]  Loss:0.493 (Avg 0.4926) Dice:0.4713 (Avg 0.4713) LR 5.50e-04   (AvgTime 1.0)   
+   [Train] Epoch: [6][2/5]  Loss:0.556 (Avg 0.5242) Dice:0.3271 (Avg 0.3992) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [6][3/5]  Loss:0.523 (Avg 0.5237) Dice:0.4268 (Avg 0.4084) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [6][4/5]  Loss:0.543 (Avg 0.5285) Dice:0.3669 (Avg 0.3980) LR 5.50e-04   (AvgTime 0.7)   
+   [Train] Epoch: [6][5/5]  Loss:0.512 (Avg 0.5251) Dice:0.4845 (Avg 0.4153) LR 5.50e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [6][1/2]  Loss:0.710 (Avg 0.7098) Dice:0.1394 (Avg 0.1394) (AvgTime 0.8)   
+   [Val] Epoch: [6][2/2]  Loss:0.769 (Avg 0.7334) Dice:0.0922 (Avg 0.1205) (AvgTime 0.5)   
+	 Saving best model, mean dice increased from: 0.0000 to 0.1205
+	 Saving to Covidf3/MultiResUnet1_32_1.67/session_32/models/
+	 early_stopping_count: 0/100
+
+========= Epoch [7/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [7][1/5]  Loss:0.492 (Avg 0.4919) Dice:0.5184 (Avg 0.5184) LR 4.11e-04   (AvgTime 1.1)   
+   [Train] Epoch: [7][2/5]  Loss:0.496 (Avg 0.4939) Dice:0.4302 (Avg 0.4743) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [7][3/5]  Loss:0.502 (Avg 0.4967) Dice:0.4779 (Avg 0.4755) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [7][4/5]  Loss:0.573 (Avg 0.5158) Dice:0.3087 (Avg 0.4338) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [7][5/5]  Loss:0.552 (Avg 0.5231) Dice:0.3844 (Avg 0.4239) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [7][1/2]  Loss:0.685 (Avg 0.6851) Dice:0.2496 (Avg 0.2496) (AvgTime 0.8)   
+   [Val] Epoch: [7][2/2]  Loss:0.665 (Avg 0.6771) Dice:0.3420 (Avg 0.2866) (AvgTime 0.6)   
+	 Saving best model, mean dice increased from: 0.1205 to 0.2866
+	 Saving to Covidf3/MultiResUnet1_32_1.67/session_32/models/
+	 early_stopping_count: 0/100
+
+========= Epoch [8/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [8][1/5]  Loss:0.484 (Avg 0.4844) Dice:0.5184 (Avg 0.5184) LR 2.85e-04   (AvgTime 1.2)   
+   [Train] Epoch: [8][2/5]  Loss:0.524 (Avg 0.5040) Dice:0.4131 (Avg 0.4658) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [8][3/5]  Loss:0.507 (Avg 0.5049) Dice:0.4185 (Avg 0.4500) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [8][4/5]  Loss:0.488 (Avg 0.5007) Dice:0.5078 (Avg 0.4644) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [8][5/5]  Loss:0.572 (Avg 0.5149) Dice:0.3109 (Avg 0.4337) LR 2.85e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [8][1/2]  Loss:0.619 (Avg 0.6195) Dice:0.4107 (Avg 0.4107) (AvgTime 0.8)   
+   [Val] Epoch: [8][2/2]  Loss:0.669 (Avg 0.6395) Dice:0.3899 (Avg 0.4024) (AvgTime 0.6)   
+	 Saving best model, mean dice increased from: 0.2866 to 0.4024
+	 Saving to Covidf3/MultiResUnet1_32_1.67/session_32/models/
+	 early_stopping_count: 0/100
+
+========= Epoch [9/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [9][1/5]  Loss:0.553 (Avg 0.5529) Dice:0.3190 (Avg 0.3190) LR 1.86e-04   (AvgTime 1.1)   
+   [Train] Epoch: [9][2/5]  Loss:0.499 (Avg 0.5261) Dice:0.4817 (Avg 0.4004) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [9][3/5]  Loss:0.517 (Avg 0.5230) Dice:0.4358 (Avg 0.4122) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [9][4/5]  Loss:0.497 (Avg 0.5164) Dice:0.4713 (Avg 0.4270) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [9][5/5]  Loss:0.512 (Avg 0.5156) Dice:0.4903 (Avg 0.4396) LR 1.86e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [9][1/2]  Loss:0.615 (Avg 0.6146) Dice:0.4449 (Avg 0.4449) (AvgTime 0.8)   
+   [Val] Epoch: [9][2/2]  Loss:0.597 (Avg 0.6077) Dice:0.5118 (Avg 0.4716) (AvgTime 0.6)   
+	 Saving best model, mean dice increased from: 0.4024 to 0.4716
+	 Saving to Covidf3/MultiResUnet1_32_1.67/session_32/models/
+	 early_stopping_count: 0/100
+
+========= Epoch [10/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [10][1/5]  Loss:0.545 (Avg 0.5446) Dice:0.3347 (Avg 0.3347) LR 1.22e-04   (AvgTime 1.2)   
+   [Train] Epoch: [10][2/5]  Loss:0.502 (Avg 0.5233) Dice:0.4601 (Avg 0.3974) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [10][3/5]  Loss:0.506 (Avg 0.5175) Dice:0.4572 (Avg 0.4173) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [10][4/5]  Loss:0.493 (Avg 0.5114) Dice:0.5133 (Avg 0.4413) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [10][5/5]  Loss:0.504 (Avg 0.5100) Dice:0.4490 (Avg 0.4429) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [10][1/2]  Loss:0.598 (Avg 0.5976) Dice:0.4682 (Avg 0.4682) (AvgTime 0.8)   
+   [Val] Epoch: [10][2/2]  Loss:0.574 (Avg 0.5884) Dice:0.5654 (Avg 0.5071) (AvgTime 0.6)   
+	 Saving best model, mean dice increased from: 0.4716 to 0.5071
+	 Saving to Covidf3/MultiResUnet1_32_1.67/session_32/models/
+	 early_stopping_count: 0/100
+
+========= Epoch [11/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [11][1/5]  Loss:0.524 (Avg 0.5240) Dice:0.3872 (Avg 0.3872) LR 1.00e-03   (AvgTime 1.1)   
+   [Train] Epoch: [11][2/5]  Loss:0.488 (Avg 0.5061) Dice:0.4829 (Avg 0.4351) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [11][3/5]  Loss:0.486 (Avg 0.4993) Dice:0.5132 (Avg 0.4611) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [11][4/5]  Loss:0.492 (Avg 0.4975) Dice:0.5709 (Avg 0.4886) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [11][5/5]  Loss:0.580 (Avg 0.5139) Dice:0.2843 (Avg 0.4477) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [11][1/2]  Loss:0.607 (Avg 0.6074) Dice:0.3977 (Avg 0.3977) (AvgTime 0.8)   
+   [Val] Epoch: [11][2/2]  Loss:0.548 (Avg 0.5834) Dice:0.4410 (Avg 0.4150) (AvgTime 0.6)   
+	 Mean dice:0.4150 does not increase, the best is still: 0.5071 in epoch 10
+	 early_stopping_count: 1/100
+
+========= Epoch [12/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [12][1/5]  Loss:0.467 (Avg 0.4672) Dice:0.5826 (Avg 0.5826) LR 9.78e-04   (AvgTime 1.0)   
+   [Train] Epoch: [12][2/5]  Loss:0.484 (Avg 0.4757) Dice:0.5725 (Avg 0.5775) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [12][3/5]  Loss:0.553 (Avg 0.5016) Dice:0.3447 (Avg 0.4999) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [12][4/5]  Loss:0.499 (Avg 0.5011) Dice:0.4620 (Avg 0.4904) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [12][5/5]  Loss:0.548 (Avg 0.5104) Dice:0.3586 (Avg 0.4641) LR 9.78e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [12][1/2]  Loss:0.599 (Avg 0.5994) Dice:0.3422 (Avg 0.3422) (AvgTime 0.8)   
+   [Val] Epoch: [12][2/2]  Loss:0.578 (Avg 0.5909) Dice:0.4456 (Avg 0.3836) (AvgTime 0.6)   
+	 Mean dice:0.3836 does not increase, the best is still: 0.5071 in epoch 10
+	 early_stopping_count: 2/100
+
+========= Epoch [13/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [13][1/5]  Loss:0.513 (Avg 0.5129) Dice:0.4731 (Avg 0.4731) LR 9.14e-04   (AvgTime 1.1)   
+   [Train] Epoch: [13][2/5]  Loss:0.483 (Avg 0.4979) Dice:0.5211 (Avg 0.4971) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [13][3/5]  Loss:0.519 (Avg 0.5048) Dice:0.4657 (Avg 0.4866) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [13][4/5]  Loss:0.536 (Avg 0.5126) Dice:0.4200 (Avg 0.4700) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [13][5/5]  Loss:0.507 (Avg 0.5114) Dice:0.4342 (Avg 0.4628) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [13][1/2]  Loss:0.610 (Avg 0.6098) Dice:0.4121 (Avg 0.4121) (AvgTime 0.8)   
+   [Val] Epoch: [13][2/2]  Loss:0.552 (Avg 0.5868) Dice:0.5337 (Avg 0.4607) (AvgTime 0.6)   
+	 Mean dice:0.4607 does not increase, the best is still: 0.5071 in epoch 10
+	 early_stopping_count: 3/100
+
+========= Epoch [14/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [14][1/5]  Loss:0.536 (Avg 0.5363) Dice:0.3735 (Avg 0.3735) LR 8.15e-04   (AvgTime 1.1)   
+   [Train] Epoch: [14][2/5]  Loss:0.502 (Avg 0.5191) Dice:0.4923 (Avg 0.4329) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [14][3/5]  Loss:0.478 (Avg 0.5054) Dice:0.5543 (Avg 0.4733) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [14][4/5]  Loss:0.508 (Avg 0.5060) Dice:0.4694 (Avg 0.4724) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [14][5/5]  Loss:0.545 (Avg 0.5138) Dice:0.4067 (Avg 0.4592) LR 8.15e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [14][1/2]  Loss:0.551 (Avg 0.5514) Dice:0.5131 (Avg 0.5131) (AvgTime 0.8)   
+   [Val] Epoch: [14][2/2]  Loss:0.600 (Avg 0.5707) Dice:0.4233 (Avg 0.4772) (AvgTime 0.6)   
+	 Mean dice:0.4772 does not increase, the best is still: 0.5071 in epoch 10
+	 early_stopping_count: 4/100
+
+========= Epoch [15/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [15][1/5]  Loss:0.488 (Avg 0.4877) Dice:0.5134 (Avg 0.5134) LR 6.89e-04   (AvgTime 1.0)   
+   [Train] Epoch: [15][2/5]  Loss:0.478 (Avg 0.4828) Dice:0.5466 (Avg 0.5300) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [15][3/5]  Loss:0.509 (Avg 0.4914) Dice:0.4556 (Avg 0.5052) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [15][4/5]  Loss:0.533 (Avg 0.5018) Dice:0.3914 (Avg 0.4767) LR 6.89e-04   (AvgTime 0.7)   
+   [Train] Epoch: [15][5/5]  Loss:0.510 (Avg 0.5034) Dice:0.4280 (Avg 0.4670) LR 6.89e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [15][1/2]  Loss:0.566 (Avg 0.5659) Dice:0.5053 (Avg 0.5053) (AvgTime 0.9)   
+   [Val] Epoch: [15][2/2]  Loss:0.569 (Avg 0.5670) Dice:0.5381 (Avg 0.5184) (AvgTime 0.6)   
+	 Saving best model, mean dice increased from: 0.5071 to 0.5184
+	 Saving to Covidf3/MultiResUnet1_32_1.67/session_32/models/
+	 early_stopping_count: 0/100
+
+========= Epoch [16/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [16][1/5]  Loss:0.457 (Avg 0.4568) Dice:0.5801 (Avg 0.5801) LR 5.50e-04   (AvgTime 1.1)   
+   [Train] Epoch: [16][2/5]  Loss:0.528 (Avg 0.4923) Dice:0.4204 (Avg 0.5002) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [16][3/5]  Loss:0.495 (Avg 0.4932) Dice:0.4568 (Avg 0.4858) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [16][4/5]  Loss:0.522 (Avg 0.5004) Dice:0.4427 (Avg 0.4750) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [16][5/5]  Loss:0.502 (Avg 0.5006) Dice:0.4640 (Avg 0.4728) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [16][1/2]  Loss:0.565 (Avg 0.5645) Dice:0.6277 (Avg 0.6277) (AvgTime 0.8)   
+   [Val] Epoch: [16][2/2]  Loss:0.585 (Avg 0.5728) Dice:0.4858 (Avg 0.5710) (AvgTime 0.6)   
+	 Saving best model, mean dice increased from: 0.5184 to 0.5710
+	 Saving to Covidf3/MultiResUnet1_32_1.67/session_32/models/
+	 early_stopping_count: 0/100
+
+========= Epoch [17/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [17][1/5]  Loss:0.465 (Avg 0.4649) Dice:0.5736 (Avg 0.5736) LR 4.11e-04   (AvgTime 1.2)   
+   [Train] Epoch: [17][2/5]  Loss:0.533 (Avg 0.4992) Dice:0.3599 (Avg 0.4668) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [17][3/5]  Loss:0.460 (Avg 0.4860) Dice:0.5956 (Avg 0.5097) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [17][4/5]  Loss:0.552 (Avg 0.5024) Dice:0.3493 (Avg 0.4696) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [17][5/5]  Loss:0.479 (Avg 0.4977) Dice:0.5589 (Avg 0.4875) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [17][1/2]  Loss:0.593 (Avg 0.5931) Dice:0.5724 (Avg 0.5724) (AvgTime 0.9)   
+   [Val] Epoch: [17][2/2]  Loss:0.530 (Avg 0.5679) Dice:0.5115 (Avg 0.5481) (AvgTime 0.6)   
+	 Mean dice:0.5481 does not increase, the best is still: 0.5710 in epoch 16
+	 early_stopping_count: 1/100
+
+========= Epoch [18/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [18][1/5]  Loss:0.468 (Avg 0.4675) Dice:0.5694 (Avg 0.5694) LR 2.85e-04   (AvgTime 1.1)   
+   [Train] Epoch: [18][2/5]  Loss:0.508 (Avg 0.4879) Dice:0.4520 (Avg 0.5107) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [18][3/5]  Loss:0.457 (Avg 0.4774) Dice:0.6267 (Avg 0.5494) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [18][4/5]  Loss:0.548 (Avg 0.4950) Dice:0.3801 (Avg 0.5070) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [18][5/5]  Loss:0.490 (Avg 0.4941) Dice:0.5047 (Avg 0.5066) LR 2.85e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [18][1/2]  Loss:0.533 (Avg 0.5328) Dice:0.6078 (Avg 0.6078) (AvgTime 0.9)   
+   [Val] Epoch: [18][2/2]  Loss:0.606 (Avg 0.5621) Dice:0.5169 (Avg 0.5714) (AvgTime 0.6)   
+	 Saving best model, mean dice increased from: 0.5710 to 0.5714
+	 Saving to Covidf3/MultiResUnet1_32_1.67/session_32/models/
+	 early_stopping_count: 0/100
+
+========= Epoch [19/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [19][1/5]  Loss:0.484 (Avg 0.4844) Dice:0.5535 (Avg 0.5535) LR 1.86e-04   (AvgTime 1.1)   
+   [Train] Epoch: [19][2/5]  Loss:0.529 (Avg 0.5067) Dice:0.3642 (Avg 0.4588) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [19][3/5]  Loss:0.458 (Avg 0.4906) Dice:0.5832 (Avg 0.5003) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [19][4/5]  Loss:0.494 (Avg 0.4915) Dice:0.4825 (Avg 0.4958) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [19][5/5]  Loss:0.487 (Avg 0.4905) Dice:0.5413 (Avg 0.5049) LR 1.86e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [19][1/2]  Loss:0.529 (Avg 0.5293) Dice:0.5955 (Avg 0.5955) (AvgTime 0.8)   
+   [Val] Epoch: [19][2/2]  Loss:0.586 (Avg 0.5520) Dice:0.4703 (Avg 0.5454) (AvgTime 0.6)   
+	 Mean dice:0.5454 does not increase, the best is still: 0.5714 in epoch 18
+	 early_stopping_count: 1/100
+
+========= Epoch [20/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [20][1/5]  Loss:0.489 (Avg 0.4889) Dice:0.5214 (Avg 0.5214) LR 1.22e-04   (AvgTime 1.1)   
+   [Train] Epoch: [20][2/5]  Loss:0.500 (Avg 0.4942) Dice:0.5029 (Avg 0.5122) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [20][3/5]  Loss:0.470 (Avg 0.4861) Dice:0.5569 (Avg 0.5271) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [20][4/5]  Loss:0.535 (Avg 0.4984) Dice:0.3957 (Avg 0.4942) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [20][5/5]  Loss:0.457 (Avg 0.4901) Dice:0.5962 (Avg 0.5146) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [20][1/2]  Loss:0.570 (Avg 0.5697) Dice:0.5286 (Avg 0.5286) (AvgTime 0.8)   
+   [Val] Epoch: [20][2/2]  Loss:0.532 (Avg 0.5548) Dice:0.5880 (Avg 0.5524) (AvgTime 0.6)   
+	 Mean dice:0.5524 does not increase, the best is still: 0.5714 in epoch 18
+	 early_stopping_count: 2/100
+
+========= Epoch [21/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [21][1/5]  Loss:0.477 (Avg 0.4765) Dice:0.5278 (Avg 0.5278) LR 1.00e-03   (AvgTime 1.2)   
+   [Train] Epoch: [21][2/5]  Loss:0.504 (Avg 0.4904) Dice:0.4542 (Avg 0.4910) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [21][3/5]  Loss:0.503 (Avg 0.4946) Dice:0.4965 (Avg 0.4929) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [21][4/5]  Loss:0.488 (Avg 0.4929) Dice:0.5286 (Avg 0.5018) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [21][5/5]  Loss:0.484 (Avg 0.4912) Dice:0.5230 (Avg 0.5060) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [21][1/2]  Loss:0.555 (Avg 0.5547) Dice:0.5481 (Avg 0.5481) (AvgTime 0.8)   
+   [Val] Epoch: [21][2/2]  Loss:0.573 (Avg 0.5619) Dice:0.4859 (Avg 0.5232) (AvgTime 0.6)   
+	 Mean dice:0.5232 does not increase, the best is still: 0.5714 in epoch 18
+	 early_stopping_count: 3/100
+
+========= Epoch [22/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [22][1/5]  Loss:0.584 (Avg 0.5842) Dice:0.3188 (Avg 0.3188) LR 9.78e-04   (AvgTime 1.1)   
+   [Train] Epoch: [22][2/5]  Loss:0.456 (Avg 0.5199) Dice:0.5984 (Avg 0.4586) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [22][3/5]  Loss:0.452 (Avg 0.4974) Dice:0.6237 (Avg 0.5136) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [22][4/5]  Loss:0.533 (Avg 0.5063) Dice:0.4222 (Avg 0.4908) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [22][5/5]  Loss:0.464 (Avg 0.4978) Dice:0.5603 (Avg 0.5047) LR 9.78e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [22][1/2]  Loss:0.579 (Avg 0.5787) Dice:0.6072 (Avg 0.6072) (AvgTime 0.8)   
+   [Val] Epoch: [22][2/2]  Loss:0.591 (Avg 0.5835) Dice:0.4768 (Avg 0.5551) (AvgTime 0.6)   
+	 Mean dice:0.5551 does not increase, the best is still: 0.5714 in epoch 18
+	 early_stopping_count: 4/100
+
+========= Epoch [23/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [23][1/5]  Loss:0.534 (Avg 0.5341) Dice:0.3894 (Avg 0.3894) LR 9.14e-04   (AvgTime 1.1)   
+   [Train] Epoch: [23][2/5]  Loss:0.471 (Avg 0.5024) Dice:0.5739 (Avg 0.4817) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [23][3/5]  Loss:0.587 (Avg 0.5305) Dice:0.3370 (Avg 0.4335) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [23][4/5]  Loss:0.479 (Avg 0.5175) Dice:0.5119 (Avg 0.4531) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [23][5/5]  Loss:0.414 (Avg 0.4968) Dice:0.7229 (Avg 0.5070) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [23][1/2]  Loss:0.604 (Avg 0.6036) Dice:0.5129 (Avg 0.5129) (AvgTime 0.9)   
+   [Val] Epoch: [23][2/2]  Loss:0.618 (Avg 0.6095) Dice:0.5630 (Avg 0.5329) (AvgTime 0.6)   
+	 Mean dice:0.5329 does not increase, the best is still: 0.5714 in epoch 18
+	 early_stopping_count: 5/100
+
+========= Epoch [24/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [24][1/5]  Loss:0.553 (Avg 0.5532) Dice:0.3208 (Avg 0.3208) LR 8.15e-04   (AvgTime 1.1)   
+   [Train] Epoch: [24][2/5]  Loss:0.512 (Avg 0.5327) Dice:0.4884 (Avg 0.4046) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [24][3/5]  Loss:0.466 (Avg 0.5106) Dice:0.5991 (Avg 0.4695) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [24][4/5]  Loss:0.418 (Avg 0.4874) Dice:0.7263 (Avg 0.5337) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [24][5/5]  Loss:0.520 (Avg 0.4939) Dice:0.4285 (Avg 0.5126) LR 8.15e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [24][1/2]  Loss:0.532 (Avg 0.5319) Dice:0.5488 (Avg 0.5488) (AvgTime 0.8)   
+   [Val] Epoch: [24][2/2]  Loss:0.625 (Avg 0.5691) Dice:0.4988 (Avg 0.5288) (AvgTime 0.6)   
+	 Mean dice:0.5288 does not increase, the best is still: 0.5714 in epoch 18
+	 early_stopping_count: 6/100
+
+========= Epoch [25/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [25][1/5]  Loss:0.541 (Avg 0.5414) Dice:0.3711 (Avg 0.3711) LR 6.89e-04   (AvgTime 1.2)   
+   [Train] Epoch: [25][2/5]  Loss:0.537 (Avg 0.5394) Dice:0.3613 (Avg 0.3662) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [25][3/5]  Loss:0.494 (Avg 0.5241) Dice:0.4640 (Avg 0.3988) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [25][4/5]  Loss:0.429 (Avg 0.5004) Dice:0.6651 (Avg 0.4654) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [25][5/5]  Loss:0.441 (Avg 0.4885) Dice:0.6209 (Avg 0.4965) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [25][1/2]  Loss:0.560 (Avg 0.5600) Dice:0.4388 (Avg 0.4388) (AvgTime 0.8)   
+   [Val] Epoch: [25][2/2]  Loss:0.525 (Avg 0.5460) Dice:0.4496 (Avg 0.4431) (AvgTime 0.6)   
+	 Mean dice:0.4431 does not increase, the best is still: 0.5714 in epoch 18
+	 early_stopping_count: 7/100
+
+========= Epoch [26/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [26][1/5]  Loss:0.464 (Avg 0.4644) Dice:0.5767 (Avg 0.5767) LR 5.50e-04   (AvgTime 1.1)   
+   [Train] Epoch: [26][2/5]  Loss:0.521 (Avg 0.4926) Dice:0.4037 (Avg 0.4902) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [26][3/5]  Loss:0.431 (Avg 0.4720) Dice:0.6216 (Avg 0.5340) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [26][4/5]  Loss:0.525 (Avg 0.4853) Dice:0.4356 (Avg 0.5094) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [26][5/5]  Loss:0.495 (Avg 0.4872) Dice:0.4727 (Avg 0.5021) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [26][1/2]  Loss:0.514 (Avg 0.5141) Dice:0.4509 (Avg 0.4509) (AvgTime 0.9)   
+   [Val] Epoch: [26][2/2]  Loss:0.587 (Avg 0.5431) Dice:0.3417 (Avg 0.4072) (AvgTime 0.6)   
+	 Mean dice:0.4072 does not increase, the best is still: 0.5714 in epoch 18
+	 early_stopping_count: 8/100
+
+========= Epoch [27/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [27][1/5]  Loss:0.492 (Avg 0.4924) Dice:0.4725 (Avg 0.4725) LR 4.11e-04   (AvgTime 1.1)   
+   [Train] Epoch: [27][2/5]  Loss:0.468 (Avg 0.4800) Dice:0.5721 (Avg 0.5223) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [27][3/5]  Loss:0.456 (Avg 0.4719) Dice:0.5916 (Avg 0.5454) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [27][4/5]  Loss:0.472 (Avg 0.4720) Dice:0.5389 (Avg 0.5438) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [27][5/5]  Loss:0.508 (Avg 0.4792) Dice:0.4479 (Avg 0.5246) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [27][1/2]  Loss:0.555 (Avg 0.5547) Dice:0.4173 (Avg 0.4173) (AvgTime 0.9)   
+   [Val] Epoch: [27][2/2]  Loss:0.521 (Avg 0.5411) Dice:0.5361 (Avg 0.4648) (AvgTime 0.6)   
+	 Mean dice:0.4648 does not increase, the best is still: 0.5714 in epoch 18
+	 early_stopping_count: 9/100
+
+========= Epoch [28/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [28][1/5]  Loss:0.473 (Avg 0.4733) Dice:0.5541 (Avg 0.5541) LR 2.85e-04   (AvgTime 1.1)   
+   [Train] Epoch: [28][2/5]  Loss:0.518 (Avg 0.4959) Dice:0.4197 (Avg 0.4869) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [28][3/5]  Loss:0.498 (Avg 0.4964) Dice:0.5030 (Avg 0.4922) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [28][4/5]  Loss:0.471 (Avg 0.4900) Dice:0.5191 (Avg 0.4989) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [28][5/5]  Loss:0.446 (Avg 0.4812) Dice:0.6504 (Avg 0.5292) LR 2.85e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [28][1/2]  Loss:0.539 (Avg 0.5388) Dice:0.5954 (Avg 0.5954) (AvgTime 0.8)   
+   [Val] Epoch: [28][2/2]  Loss:0.579 (Avg 0.5550) Dice:0.4576 (Avg 0.5403) (AvgTime 0.6)   
+	 Mean dice:0.5403 does not increase, the best is still: 0.5714 in epoch 18
+	 early_stopping_count: 10/100
+
+========= Epoch [29/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [29][1/5]  Loss:0.486 (Avg 0.4859) Dice:0.5001 (Avg 0.5001) LR 1.86e-04   (AvgTime 1.1)   
+   [Train] Epoch: [29][2/5]  Loss:0.461 (Avg 0.4735) Dice:0.5843 (Avg 0.5422) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [29][3/5]  Loss:0.488 (Avg 0.4783) Dice:0.4986 (Avg 0.5277) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [29][4/5]  Loss:0.504 (Avg 0.4848) Dice:0.4438 (Avg 0.5067) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [29][5/5]  Loss:0.432 (Avg 0.4743) Dice:0.6325 (Avg 0.5319) LR 1.86e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [29][1/2]  Loss:0.536 (Avg 0.5360) Dice:0.5968 (Avg 0.5968) (AvgTime 0.9)   
+   [Val] Epoch: [29][2/2]  Loss:0.601 (Avg 0.5618) Dice:0.4963 (Avg 0.5566) (AvgTime 0.6)   
+	 Mean dice:0.5566 does not increase, the best is still: 0.5714 in epoch 18
+	 early_stopping_count: 11/100
+
+========= Epoch [30/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [30][1/5]  Loss:0.489 (Avg 0.4894) Dice:0.4959 (Avg 0.4959) LR 1.22e-04   (AvgTime 1.1)   
+   [Train] Epoch: [30][2/5]  Loss:0.435 (Avg 0.4624) Dice:0.6145 (Avg 0.5552) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [30][3/5]  Loss:0.509 (Avg 0.4778) Dice:0.4266 (Avg 0.5123) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [30][4/5]  Loss:0.467 (Avg 0.4751) Dice:0.5695 (Avg 0.5266) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [30][5/5]  Loss:0.467 (Avg 0.4734) Dice:0.5372 (Avg 0.5287) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [30][1/2]  Loss:0.534 (Avg 0.5338) Dice:0.6410 (Avg 0.6410) (AvgTime 0.9)   
+   [Val] Epoch: [30][2/2]  Loss:0.594 (Avg 0.5579) Dice:0.4351 (Avg 0.5586) (AvgTime 0.6)   
+	 Mean dice:0.5586 does not increase, the best is still: 0.5714 in epoch 18
+	 early_stopping_count: 12/100
+
+========= Epoch [31/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [31][1/5]  Loss:0.458 (Avg 0.4579) Dice:0.5650 (Avg 0.5650) LR 1.00e-03   (AvgTime 1.1)   
+   [Train] Epoch: [31][2/5]  Loss:0.481 (Avg 0.4697) Dice:0.5199 (Avg 0.5424) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [31][3/5]  Loss:0.465 (Avg 0.4681) Dice:0.6043 (Avg 0.5630) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [31][4/5]  Loss:0.476 (Avg 0.4701) Dice:0.5591 (Avg 0.5621) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [31][5/5]  Loss:0.498 (Avg 0.4756) Dice:0.4797 (Avg 0.5456) LR 1.00e-03   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [31][1/2]  Loss:0.574 (Avg 0.5736) Dice:0.4944 (Avg 0.4944) (AvgTime 0.8)   
+   [Val] Epoch: [31][2/2]  Loss:0.515 (Avg 0.5500) Dice:0.6215 (Avg 0.5452) (AvgTime 0.6)   
+	 Mean dice:0.5452 does not increase, the best is still: 0.5714 in epoch 18
+	 early_stopping_count: 13/100
+
+========= Epoch [32/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [32][1/5]  Loss:0.514 (Avg 0.5139) Dice:0.4310 (Avg 0.4310) LR 9.78e-04   (AvgTime 1.1)   
+   [Train] Epoch: [32][2/5]  Loss:0.509 (Avg 0.5117) Dice:0.4795 (Avg 0.4553) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [32][3/5]  Loss:0.463 (Avg 0.4954) Dice:0.5937 (Avg 0.5014) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [32][4/5]  Loss:0.454 (Avg 0.4852) Dice:0.6101 (Avg 0.5286) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [32][5/5]  Loss:0.445 (Avg 0.4772) Dice:0.6413 (Avg 0.5511) LR 9.78e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [32][1/2]  Loss:0.585 (Avg 0.5853) Dice:0.5548 (Avg 0.5548) (AvgTime 0.9)   
+   [Val] Epoch: [32][2/2]  Loss:0.530 (Avg 0.5631) Dice:0.5566 (Avg 0.5555) (AvgTime 0.6)   
+	 Mean dice:0.5555 does not increase, the best is still: 0.5714 in epoch 18
+	 early_stopping_count: 14/100
+
+========= Epoch [33/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [33][1/5]  Loss:0.468 (Avg 0.4682) Dice:0.5251 (Avg 0.5251) LR 9.14e-04   (AvgTime 1.1)   
+   [Train] Epoch: [33][2/5]  Loss:0.440 (Avg 0.4541) Dice:0.6164 (Avg 0.5708) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [33][3/5]  Loss:0.462 (Avg 0.4567) Dice:0.5453 (Avg 0.5623) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [33][4/5]  Loss:0.505 (Avg 0.4688) Dice:0.4635 (Avg 0.5376) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [33][5/5]  Loss:0.479 (Avg 0.4709) Dice:0.4922 (Avg 0.5285) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [33][1/2]  Loss:0.534 (Avg 0.5335) Dice:0.5378 (Avg 0.5378) (AvgTime 0.9)   
+   [Val] Epoch: [33][2/2]  Loss:0.537 (Avg 0.5348) Dice:0.5233 (Avg 0.5320) (AvgTime 0.6)   
+	 Mean dice:0.5320 does not increase, the best is still: 0.5714 in epoch 18
+	 early_stopping_count: 15/100
+
+========= Epoch [34/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [34][1/5]  Loss:0.442 (Avg 0.4423) Dice:0.6200 (Avg 0.6200) LR 8.15e-04   (AvgTime 1.2)   
+   [Train] Epoch: [34][2/5]  Loss:0.455 (Avg 0.4486) Dice:0.6711 (Avg 0.6455) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [34][3/5]  Loss:0.484 (Avg 0.4604) Dice:0.5400 (Avg 0.6104) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [34][4/5]  Loss:0.507 (Avg 0.4721) Dice:0.4837 (Avg 0.5787) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [34][5/5]  Loss:0.476 (Avg 0.4729) Dice:0.5234 (Avg 0.5676) LR 8.15e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [34][1/2]  Loss:0.586 (Avg 0.5859) Dice:0.5529 (Avg 0.5529) (AvgTime 0.8)   
+   [Val] Epoch: [34][2/2]  Loss:0.564 (Avg 0.5773) Dice:0.5333 (Avg 0.5451) (AvgTime 0.6)   
+	 Mean dice:0.5451 does not increase, the best is still: 0.5714 in epoch 18
+	 early_stopping_count: 16/100
+
+========= Epoch [35/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [35][1/5]  Loss:0.476 (Avg 0.4756) Dice:0.5453 (Avg 0.5453) LR 6.89e-04   (AvgTime 1.1)   
+   [Train] Epoch: [35][2/5]  Loss:0.528 (Avg 0.5016) Dice:0.4268 (Avg 0.4860) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [35][3/5]  Loss:0.441 (Avg 0.4816) Dice:0.6267 (Avg 0.5329) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [35][4/5]  Loss:0.486 (Avg 0.4828) Dice:0.4699 (Avg 0.5172) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [35][5/5]  Loss:0.445 (Avg 0.4753) Dice:0.6465 (Avg 0.5431) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [35][1/2]  Loss:0.545 (Avg 0.5449) Dice:0.6725 (Avg 0.6725) (AvgTime 0.8)   
+   [Val] Epoch: [35][2/2]  Loss:0.567 (Avg 0.5536) Dice:0.5644 (Avg 0.6293) (AvgTime 0.6)   
+	 Saving best model, mean dice increased from: 0.5714 to 0.6293
+	 Saving to Covidf3/MultiResUnet1_32_1.67/session_32/models/
+	 early_stopping_count: 0/100
+
+========= Epoch [36/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [36][1/5]  Loss:0.500 (Avg 0.5005) Dice:0.5328 (Avg 0.5328) LR 5.50e-04   (AvgTime 1.2)   
+   [Train] Epoch: [36][2/5]  Loss:0.464 (Avg 0.4824) Dice:0.5736 (Avg 0.5532) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [36][3/5]  Loss:0.481 (Avg 0.4820) Dice:0.5636 (Avg 0.5567) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [36][4/5]  Loss:0.470 (Avg 0.4789) Dice:0.5809 (Avg 0.5627) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [36][5/5]  Loss:0.458 (Avg 0.4748) Dice:0.5803 (Avg 0.5662) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [36][1/2]  Loss:0.542 (Avg 0.5420) Dice:0.5216 (Avg 0.5216) (AvgTime 0.8)   
+   [Val] Epoch: [36][2/2]  Loss:0.494 (Avg 0.5229) Dice:0.5192 (Avg 0.5206) (AvgTime 0.6)   
+	 Mean dice:0.5206 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 1/100
+
+========= Epoch [37/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [37][1/5]  Loss:0.462 (Avg 0.4617) Dice:0.5758 (Avg 0.5758) LR 4.11e-04   (AvgTime 1.2)   
+   [Train] Epoch: [37][2/5]  Loss:0.461 (Avg 0.4615) Dice:0.5687 (Avg 0.5723) LR 4.11e-04   (AvgTime 1.0)   
+   [Train] Epoch: [37][3/5]  Loss:0.434 (Avg 0.4522) Dice:0.6012 (Avg 0.5819) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [37][4/5]  Loss:0.489 (Avg 0.4615) Dice:0.4739 (Avg 0.5549) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [37][5/5]  Loss:0.490 (Avg 0.4673) Dice:0.4978 (Avg 0.5435) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [37][1/2]  Loss:0.538 (Avg 0.5376) Dice:0.4293 (Avg 0.4293) (AvgTime 0.9)   
+   [Val] Epoch: [37][2/2]  Loss:0.534 (Avg 0.5361) Dice:0.4909 (Avg 0.4540) (AvgTime 0.6)   
+	 Mean dice:0.4540 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 2/100
+
+========= Epoch [38/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [38][1/5]  Loss:0.495 (Avg 0.4945) Dice:0.4730 (Avg 0.4730) LR 2.85e-04   (AvgTime 1.2)   
+   [Train] Epoch: [38][2/5]  Loss:0.408 (Avg 0.4511) Dice:0.6916 (Avg 0.5823) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [38][3/5]  Loss:0.464 (Avg 0.4552) Dice:0.5216 (Avg 0.5621) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [38][4/5]  Loss:0.510 (Avg 0.4689) Dice:0.4530 (Avg 0.5348) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [38][5/5]  Loss:0.458 (Avg 0.4668) Dice:0.5859 (Avg 0.5450) LR 2.85e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [38][1/2]  Loss:0.540 (Avg 0.5402) Dice:0.5296 (Avg 0.5296) (AvgTime 0.8)   
+   [Val] Epoch: [38][2/2]  Loss:0.542 (Avg 0.5407) Dice:0.4652 (Avg 0.5039) (AvgTime 0.6)   
+	 Mean dice:0.5039 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 3/100
+
+========= Epoch [39/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [39][1/5]  Loss:0.443 (Avg 0.4434) Dice:0.6191 (Avg 0.6191) LR 1.86e-04   (AvgTime 1.1)   
+   [Train] Epoch: [39][2/5]  Loss:0.462 (Avg 0.4526) Dice:0.6085 (Avg 0.6138) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [39][3/5]  Loss:0.473 (Avg 0.4594) Dice:0.5379 (Avg 0.5885) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [39][4/5]  Loss:0.475 (Avg 0.4634) Dice:0.5199 (Avg 0.5713) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [39][5/5]  Loss:0.483 (Avg 0.4673) Dice:0.5219 (Avg 0.5615) LR 1.86e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [39][1/2]  Loss:0.556 (Avg 0.5558) Dice:0.5743 (Avg 0.5743) (AvgTime 0.8)   
+   [Val] Epoch: [39][2/2]  Loss:0.513 (Avg 0.5388) Dice:0.6202 (Avg 0.5927) (AvgTime 0.6)   
+	 Mean dice:0.5927 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 4/100
+
+========= Epoch [40/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [40][1/5]  Loss:0.469 (Avg 0.4693) Dice:0.6059 (Avg 0.6059) LR 1.22e-04   (AvgTime 1.2)   
+   [Train] Epoch: [40][2/5]  Loss:0.499 (Avg 0.4841) Dice:0.4730 (Avg 0.5395) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [40][3/5]  Loss:0.520 (Avg 0.4960) Dice:0.4170 (Avg 0.4987) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [40][4/5]  Loss:0.423 (Avg 0.4778) Dice:0.6658 (Avg 0.5405) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [40][5/5]  Loss:0.413 (Avg 0.4648) Dice:0.6848 (Avg 0.5693) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [40][1/2]  Loss:0.551 (Avg 0.5509) Dice:0.5671 (Avg 0.5671) (AvgTime 0.8)   
+   [Val] Epoch: [40][2/2]  Loss:0.515 (Avg 0.5367) Dice:0.6660 (Avg 0.6067) (AvgTime 0.6)   
+	 Mean dice:0.6067 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 5/100
+
+========= Epoch [41/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [41][1/5]  Loss:0.450 (Avg 0.4504) Dice:0.6065 (Avg 0.6065) LR 1.00e-03   (AvgTime 1.1)   
+   [Train] Epoch: [41][2/5]  Loss:0.481 (Avg 0.4656) Dice:0.5594 (Avg 0.5829) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [41][3/5]  Loss:0.499 (Avg 0.4768) Dice:0.4594 (Avg 0.5417) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [41][4/5]  Loss:0.493 (Avg 0.4808) Dice:0.4624 (Avg 0.5219) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [41][5/5]  Loss:0.410 (Avg 0.4667) Dice:0.7211 (Avg 0.5617) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [41][1/2]  Loss:0.539 (Avg 0.5391) Dice:0.5630 (Avg 0.5630) (AvgTime 0.9)   
+   [Val] Epoch: [41][2/2]  Loss:0.554 (Avg 0.5450) Dice:0.5244 (Avg 0.5476) (AvgTime 0.6)   
+	 Mean dice:0.5476 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 6/100
+
+========= Epoch [42/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [42][1/5]  Loss:0.479 (Avg 0.4791) Dice:0.4996 (Avg 0.4996) LR 9.78e-04   (AvgTime 1.1)   
+   [Train] Epoch: [42][2/5]  Loss:0.481 (Avg 0.4800) Dice:0.5035 (Avg 0.5016) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [42][3/5]  Loss:0.463 (Avg 0.4744) Dice:0.5711 (Avg 0.5248) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [42][4/5]  Loss:0.485 (Avg 0.4770) Dice:0.5026 (Avg 0.5192) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [42][5/5]  Loss:0.432 (Avg 0.4680) Dice:0.6926 (Avg 0.5539) LR 9.78e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [42][1/2]  Loss:0.520 (Avg 0.5196) Dice:0.6642 (Avg 0.6642) (AvgTime 0.8)   
+   [Val] Epoch: [42][2/2]  Loss:0.605 (Avg 0.5537) Dice:0.4865 (Avg 0.5931) (AvgTime 0.6)   
+	 Mean dice:0.5931 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 7/100
+
+========= Epoch [43/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [43][1/5]  Loss:0.473 (Avg 0.4727) Dice:0.5973 (Avg 0.5973) LR 9.14e-04   (AvgTime 1.1)   
+   [Train] Epoch: [43][2/5]  Loss:0.448 (Avg 0.4606) Dice:0.5774 (Avg 0.5873) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [43][3/5]  Loss:0.496 (Avg 0.4723) Dice:0.4406 (Avg 0.5384) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [43][4/5]  Loss:0.426 (Avg 0.4606) Dice:0.6167 (Avg 0.5580) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [43][5/5]  Loss:0.511 (Avg 0.4707) Dice:0.4388 (Avg 0.5342) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [43][1/2]  Loss:0.507 (Avg 0.5065) Dice:0.5909 (Avg 0.5909) (AvgTime 0.8)   
+   [Val] Epoch: [43][2/2]  Loss:0.543 (Avg 0.5210) Dice:0.4708 (Avg 0.5429) (AvgTime 0.6)   
+	 Mean dice:0.5429 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 8/100
+
+========= Epoch [44/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [44][1/5]  Loss:0.493 (Avg 0.4932) Dice:0.5030 (Avg 0.5030) LR 8.15e-04   (AvgTime 1.2)   
+   [Train] Epoch: [44][2/5]  Loss:0.479 (Avg 0.4862) Dice:0.5586 (Avg 0.5308) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [44][3/5]  Loss:0.450 (Avg 0.4742) Dice:0.5670 (Avg 0.5428) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [44][4/5]  Loss:0.471 (Avg 0.4734) Dice:0.5768 (Avg 0.5513) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [44][5/5]  Loss:0.449 (Avg 0.4685) Dice:0.6467 (Avg 0.5704) LR 8.15e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [44][1/2]  Loss:0.503 (Avg 0.5032) Dice:0.5338 (Avg 0.5338) (AvgTime 0.8)   
+   [Val] Epoch: [44][2/2]  Loss:0.558 (Avg 0.5251) Dice:0.4894 (Avg 0.5160) (AvgTime 0.6)   
+	 Mean dice:0.5160 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 9/100
+
+========= Epoch [45/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [45][1/5]  Loss:0.435 (Avg 0.4346) Dice:0.6656 (Avg 0.6656) LR 6.89e-04   (AvgTime 1.1)   
+   [Train] Epoch: [45][2/5]  Loss:0.467 (Avg 0.4510) Dice:0.5552 (Avg 0.6104) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [45][3/5]  Loss:0.456 (Avg 0.4527) Dice:0.5523 (Avg 0.5910) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [45][4/5]  Loss:0.471 (Avg 0.4573) Dice:0.5358 (Avg 0.5772) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [45][5/5]  Loss:0.486 (Avg 0.4631) Dice:0.4749 (Avg 0.5568) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [45][1/2]  Loss:0.513 (Avg 0.5132) Dice:0.5281 (Avg 0.5281) (AvgTime 0.8)   
+   [Val] Epoch: [45][2/2]  Loss:0.515 (Avg 0.5141) Dice:0.5344 (Avg 0.5306) (AvgTime 0.6)   
+	 Mean dice:0.5306 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 10/100
+
+========= Epoch [46/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [46][1/5]  Loss:0.498 (Avg 0.4980) Dice:0.5018 (Avg 0.5018) LR 5.50e-04   (AvgTime 1.1)   
+   [Train] Epoch: [46][2/5]  Loss:0.434 (Avg 0.4662) Dice:0.5812 (Avg 0.5415) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [46][3/5]  Loss:0.408 (Avg 0.4468) Dice:0.7086 (Avg 0.5972) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [46][4/5]  Loss:0.449 (Avg 0.4474) Dice:0.5893 (Avg 0.5952) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [46][5/5]  Loss:0.528 (Avg 0.4636) Dice:0.4445 (Avg 0.5651) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [46][1/2]  Loss:0.480 (Avg 0.4803) Dice:0.6136 (Avg 0.6136) (AvgTime 0.8)   
+   [Val] Epoch: [46][2/2]  Loss:0.578 (Avg 0.5195) Dice:0.4112 (Avg 0.5326) (AvgTime 0.6)   
+	 Mean dice:0.5326 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 11/100
+
+========= Epoch [47/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [47][1/5]  Loss:0.445 (Avg 0.4447) Dice:0.5979 (Avg 0.5979) LR 4.11e-04   (AvgTime 1.1)   
+   [Train] Epoch: [47][2/5]  Loss:0.480 (Avg 0.4622) Dice:0.5342 (Avg 0.5661) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [47][3/5]  Loss:0.475 (Avg 0.4665) Dice:0.5270 (Avg 0.5530) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [47][4/5]  Loss:0.505 (Avg 0.4762) Dice:0.4339 (Avg 0.5232) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [47][5/5]  Loss:0.406 (Avg 0.4622) Dice:0.7064 (Avg 0.5599) LR 4.11e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [47][1/2]  Loss:0.531 (Avg 0.5310) Dice:0.5294 (Avg 0.5294) (AvgTime 0.8)   
+   [Val] Epoch: [47][2/2]  Loss:0.518 (Avg 0.5258) Dice:0.6262 (Avg 0.5681) (AvgTime 0.6)   
+	 Mean dice:0.5681 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 12/100
+
+========= Epoch [48/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [48][1/5]  Loss:0.487 (Avg 0.4869) Dice:0.4801 (Avg 0.4801) LR 2.85e-04   (AvgTime 1.2)   
+   [Train] Epoch: [48][2/5]  Loss:0.427 (Avg 0.4568) Dice:0.6397 (Avg 0.5599) LR 2.85e-04   (AvgTime 1.0)   
+   [Train] Epoch: [48][3/5]  Loss:0.425 (Avg 0.4463) Dice:0.6637 (Avg 0.5945) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [48][4/5]  Loss:0.501 (Avg 0.4601) Dice:0.4677 (Avg 0.5628) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [48][5/5]  Loss:0.443 (Avg 0.4567) Dice:0.5765 (Avg 0.5655) LR 2.85e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [48][1/2]  Loss:0.519 (Avg 0.5186) Dice:0.5886 (Avg 0.5886) (AvgTime 0.8)   
+   [Val] Epoch: [48][2/2]  Loss:0.544 (Avg 0.5288) Dice:0.4707 (Avg 0.5414) (AvgTime 0.6)   
+	 Mean dice:0.5414 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 13/100
+
+========= Epoch [49/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [49][1/5]  Loss:0.460 (Avg 0.4599) Dice:0.5384 (Avg 0.5384) LR 1.86e-04   (AvgTime 1.2)   
+   [Train] Epoch: [49][2/5]  Loss:0.420 (Avg 0.4400) Dice:0.6835 (Avg 0.6110) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [49][3/5]  Loss:0.490 (Avg 0.4566) Dice:0.4677 (Avg 0.5632) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [49][4/5]  Loss:0.441 (Avg 0.4527) Dice:0.6227 (Avg 0.5781) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [49][5/5]  Loss:0.452 (Avg 0.4524) Dice:0.5644 (Avg 0.5754) LR 1.86e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [49][1/2]  Loss:0.504 (Avg 0.5039) Dice:0.6291 (Avg 0.6291) (AvgTime 0.8)   
+   [Val] Epoch: [49][2/2]  Loss:0.572 (Avg 0.5310) Dice:0.5194 (Avg 0.5852) (AvgTime 0.6)   
+	 Mean dice:0.5852 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 14/100
+
+========= Epoch [50/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [50][1/5]  Loss:0.508 (Avg 0.5077) Dice:0.4196 (Avg 0.4196) LR 1.22e-04   (AvgTime 1.1)   
+   [Train] Epoch: [50][2/5]  Loss:0.419 (Avg 0.4631) Dice:0.6604 (Avg 0.5400) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [50][3/5]  Loss:0.415 (Avg 0.4470) Dice:0.6910 (Avg 0.5904) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [50][4/5]  Loss:0.469 (Avg 0.4524) Dice:0.5664 (Avg 0.5844) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [50][5/5]  Loss:0.459 (Avg 0.4537) Dice:0.5625 (Avg 0.5800) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [50][1/2]  Loss:0.539 (Avg 0.5394) Dice:0.5951 (Avg 0.5951) (AvgTime 0.8)   
+   [Val] Epoch: [50][2/2]  Loss:0.527 (Avg 0.5344) Dice:0.6312 (Avg 0.6096) (AvgTime 0.6)   
+	 Mean dice:0.6096 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 15/100
+
+========= Epoch [51/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [51][1/5]  Loss:0.378 (Avg 0.3783) Dice:0.7698 (Avg 0.7698) LR 1.00e-03   (AvgTime 1.1)   
+   [Train] Epoch: [51][2/5]  Loss:0.472 (Avg 0.4251) Dice:0.5747 (Avg 0.6723) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [51][3/5]  Loss:0.466 (Avg 0.4389) Dice:0.5423 (Avg 0.6289) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [51][4/5]  Loss:0.443 (Avg 0.4400) Dice:0.6243 (Avg 0.6278) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [51][5/5]  Loss:0.509 (Avg 0.4538) Dice:0.4071 (Avg 0.5836) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [51][1/2]  Loss:0.539 (Avg 0.5388) Dice:0.5991 (Avg 0.5991) (AvgTime 0.8)   
+   [Val] Epoch: [51][2/2]  Loss:0.566 (Avg 0.5499) Dice:0.5423 (Avg 0.5764) (AvgTime 0.6)   
+	 Mean dice:0.5764 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 16/100
+
+========= Epoch [52/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [52][1/5]  Loss:0.423 (Avg 0.4232) Dice:0.6321 (Avg 0.6321) LR 9.78e-04   (AvgTime 1.2)   
+   [Train] Epoch: [52][2/5]  Loss:0.449 (Avg 0.4359) Dice:0.5792 (Avg 0.6057) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [52][3/5]  Loss:0.446 (Avg 0.4392) Dice:0.6342 (Avg 0.6152) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [52][4/5]  Loss:0.462 (Avg 0.4450) Dice:0.5830 (Avg 0.6071) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [52][5/5]  Loss:0.489 (Avg 0.4538) Dice:0.5064 (Avg 0.5870) LR 9.78e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [52][1/2]  Loss:0.550 (Avg 0.5500) Dice:0.5370 (Avg 0.5370) (AvgTime 0.8)   
+   [Val] Epoch: [52][2/2]  Loss:0.505 (Avg 0.5320) Dice:0.6314 (Avg 0.5748) (AvgTime 0.6)   
+	 Mean dice:0.5748 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 17/100
+
+========= Epoch [53/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [53][1/5]  Loss:0.423 (Avg 0.4233) Dice:0.6913 (Avg 0.6913) LR 9.14e-04   (AvgTime 1.1)   
+   [Train] Epoch: [53][2/5]  Loss:0.485 (Avg 0.4543) Dice:0.5376 (Avg 0.6144) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [53][3/5]  Loss:0.445 (Avg 0.4512) Dice:0.5426 (Avg 0.5905) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [53][4/5]  Loss:0.514 (Avg 0.4670) Dice:0.4498 (Avg 0.5553) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [53][5/5]  Loss:0.419 (Avg 0.4574) Dice:0.7307 (Avg 0.5904) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [53][1/2]  Loss:0.532 (Avg 0.5318) Dice:0.5881 (Avg 0.5881) (AvgTime 0.9)   
+   [Val] Epoch: [53][2/2]  Loss:0.558 (Avg 0.5424) Dice:0.6356 (Avg 0.6071) (AvgTime 0.6)   
+	 Mean dice:0.6071 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 18/100
+
+========= Epoch [54/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [54][1/5]  Loss:0.398 (Avg 0.3978) Dice:0.7346 (Avg 0.7346) LR 8.15e-04   (AvgTime 1.1)   
+   [Train] Epoch: [54][2/5]  Loss:0.509 (Avg 0.4532) Dice:0.4262 (Avg 0.5804) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [54][3/5]  Loss:0.516 (Avg 0.4740) Dice:0.4134 (Avg 0.5247) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [54][4/5]  Loss:0.434 (Avg 0.4640) Dice:0.5978 (Avg 0.5430) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [54][5/5]  Loss:0.424 (Avg 0.4560) Dice:0.6212 (Avg 0.5586) LR 8.15e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [54][1/2]  Loss:0.486 (Avg 0.4860) Dice:0.6003 (Avg 0.6003) (AvgTime 0.8)   
+   [Val] Epoch: [54][2/2]  Loss:0.556 (Avg 0.5141) Dice:0.5857 (Avg 0.5945) (AvgTime 0.6)   
+	 Mean dice:0.5945 does not increase, the best is still: 0.6293 in epoch 35
+	 early_stopping_count: 19/100
+
+========= Epoch [55/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [55][1/5]  Loss:0.428 (Avg 0.4284) Dice:0.6276 (Avg 0.6276) LR 6.89e-04   (AvgTime 1.2)   
+   [Train] Epoch: [55][2/5]  Loss:0.449 (Avg 0.4388) Dice:0.5591 (Avg 0.5934) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [55][3/5]  Loss:0.476 (Avg 0.4512) Dice:0.5032 (Avg 0.5633) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [55][4/5]  Loss:0.419 (Avg 0.4432) Dice:0.6602 (Avg 0.5876) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [55][5/5]  Loss:0.480 (Avg 0.4506) Dice:0.4791 (Avg 0.5659) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [55][1/2]  Loss:0.534 (Avg 0.5340) Dice:0.6403 (Avg 0.6403) (AvgTime 0.9)   
+   [Val] Epoch: [55][2/2]  Loss:0.549 (Avg 0.5399) Dice:0.6278 (Avg 0.6353) (AvgTime 0.7)   
+	 Saving best model, mean dice increased from: 0.6293 to 0.6353
+	 Saving to Covidf3/MultiResUnet1_32_1.67/session_32/models/
+	 early_stopping_count: 0/100
+
+========= Epoch [56/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [56][1/5]  Loss:0.416 (Avg 0.4162) Dice:0.6795 (Avg 0.6795) LR 5.50e-04   (AvgTime 1.2)   
+   [Train] Epoch: [56][2/5]  Loss:0.424 (Avg 0.4201) Dice:0.6609 (Avg 0.6702) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [56][3/5]  Loss:0.460 (Avg 0.4335) Dice:0.5680 (Avg 0.6361) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [56][4/5]  Loss:0.438 (Avg 0.4346) Dice:0.6028 (Avg 0.6278) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [56][5/5]  Loss:0.491 (Avg 0.4459) Dice:0.4481 (Avg 0.5918) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [56][1/2]  Loss:0.519 (Avg 0.5192) Dice:0.6721 (Avg 0.6721) (AvgTime 0.8)   
+   [Val] Epoch: [56][2/2]  Loss:0.570 (Avg 0.5397) Dice:0.5682 (Avg 0.6305) (AvgTime 0.6)   
+	 Mean dice:0.6305 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 1/100
+
+========= Epoch [57/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [57][1/5]  Loss:0.516 (Avg 0.5160) Dice:0.4378 (Avg 0.4378) LR 4.11e-04   (AvgTime 1.1)   
+   [Train] Epoch: [57][2/5]  Loss:0.389 (Avg 0.4527) Dice:0.7294 (Avg 0.5836) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [57][3/5]  Loss:0.470 (Avg 0.4585) Dice:0.5295 (Avg 0.5656) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [57][4/5]  Loss:0.414 (Avg 0.4473) Dice:0.7025 (Avg 0.5998) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [57][5/5]  Loss:0.438 (Avg 0.4455) Dice:0.6182 (Avg 0.6035) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [57][1/2]  Loss:0.564 (Avg 0.5639) Dice:0.5041 (Avg 0.5041) (AvgTime 0.8)   
+   [Val] Epoch: [57][2/2]  Loss:0.472 (Avg 0.5270) Dice:0.6959 (Avg 0.5808) (AvgTime 0.6)   
+	 Mean dice:0.5808 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 2/100
+
+========= Epoch [58/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [58][1/5]  Loss:0.453 (Avg 0.4532) Dice:0.5890 (Avg 0.5890) LR 2.85e-04   (AvgTime 1.1)   
+   [Train] Epoch: [58][2/5]  Loss:0.449 (Avg 0.4512) Dice:0.5870 (Avg 0.5880) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [58][3/5]  Loss:0.424 (Avg 0.4422) Dice:0.6610 (Avg 0.6123) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [58][4/5]  Loss:0.472 (Avg 0.4496) Dice:0.4921 (Avg 0.5823) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [58][5/5]  Loss:0.410 (Avg 0.4416) Dice:0.6588 (Avg 0.5976) LR 2.85e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [58][1/2]  Loss:0.530 (Avg 0.5303) Dice:0.5543 (Avg 0.5543) (AvgTime 0.8)   
+   [Val] Epoch: [58][2/2]  Loss:0.516 (Avg 0.5247) Dice:0.6275 (Avg 0.5836) (AvgTime 0.6)   
+	 Mean dice:0.5836 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 3/100
+
+========= Epoch [59/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [59][1/5]  Loss:0.429 (Avg 0.4291) Dice:0.6319 (Avg 0.6319) LR 1.86e-04   (AvgTime 1.1)   
+   [Train] Epoch: [59][2/5]  Loss:0.450 (Avg 0.4395) Dice:0.5853 (Avg 0.6086) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [59][3/5]  Loss:0.465 (Avg 0.4479) Dice:0.5155 (Avg 0.5776) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [59][4/5]  Loss:0.438 (Avg 0.4454) Dice:0.6387 (Avg 0.5928) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [59][5/5]  Loss:0.414 (Avg 0.4392) Dice:0.6678 (Avg 0.6078) LR 1.86e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [59][1/2]  Loss:0.546 (Avg 0.5462) Dice:0.5918 (Avg 0.5918) (AvgTime 0.9)   
+   [Val] Epoch: [59][2/2]  Loss:0.508 (Avg 0.5309) Dice:0.6673 (Avg 0.6220) (AvgTime 0.6)   
+	 Mean dice:0.6220 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 4/100
+
+========= Epoch [60/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [60][1/5]  Loss:0.409 (Avg 0.4092) Dice:0.6744 (Avg 0.6744) LR 1.22e-04   (AvgTime 1.2)   
+   [Train] Epoch: [60][2/5]  Loss:0.481 (Avg 0.4453) Dice:0.5032 (Avg 0.5888) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [60][3/5]  Loss:0.451 (Avg 0.4473) Dice:0.5954 (Avg 0.5910) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [60][4/5]  Loss:0.405 (Avg 0.4367) Dice:0.7165 (Avg 0.6224) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [60][5/5]  Loss:0.449 (Avg 0.4392) Dice:0.5943 (Avg 0.6168) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [60][1/2]  Loss:0.556 (Avg 0.5561) Dice:0.6081 (Avg 0.6081) (AvgTime 0.8)   
+   [Val] Epoch: [60][2/2]  Loss:0.511 (Avg 0.5382) Dice:0.6561 (Avg 0.6273) (AvgTime 0.6)   
+	 Mean dice:0.6273 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 5/100
+
+========= Epoch [61/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [61][1/5]  Loss:0.426 (Avg 0.4258) Dice:0.6291 (Avg 0.6291) LR 1.00e-03   (AvgTime 1.1)   
+   [Train] Epoch: [61][2/5]  Loss:0.431 (Avg 0.4284) Dice:0.6657 (Avg 0.6474) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [61][3/5]  Loss:0.429 (Avg 0.4288) Dice:0.6282 (Avg 0.6410) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [61][4/5]  Loss:0.487 (Avg 0.4433) Dice:0.5376 (Avg 0.6152) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [61][5/5]  Loss:0.427 (Avg 0.4400) Dice:0.6383 (Avg 0.6198) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [61][1/2]  Loss:0.488 (Avg 0.4877) Dice:0.6630 (Avg 0.6630) (AvgTime 0.8)   
+   [Val] Epoch: [61][2/2]  Loss:0.601 (Avg 0.5332) Dice:0.4818 (Avg 0.5905) (AvgTime 0.6)   
+	 Mean dice:0.5905 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 6/100
+
+========= Epoch [62/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [62][1/5]  Loss:0.434 (Avg 0.4337) Dice:0.6197 (Avg 0.6197) LR 9.78e-04   (AvgTime 1.2)   
+   [Train] Epoch: [62][2/5]  Loss:0.425 (Avg 0.4294) Dice:0.6294 (Avg 0.6246) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [62][3/5]  Loss:0.423 (Avg 0.4272) Dice:0.6863 (Avg 0.6451) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [62][4/5]  Loss:0.426 (Avg 0.4268) Dice:0.6623 (Avg 0.6494) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [62][5/5]  Loss:0.483 (Avg 0.4381) Dice:0.5174 (Avg 0.6230) LR 9.78e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [62][1/2]  Loss:0.574 (Avg 0.5736) Dice:0.5906 (Avg 0.5906) (AvgTime 0.8)   
+   [Val] Epoch: [62][2/2]  Loss:0.543 (Avg 0.5614) Dice:0.6405 (Avg 0.6106) (AvgTime 0.6)   
+	 Mean dice:0.6106 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 7/100
+
+========= Epoch [63/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [63][1/5]  Loss:0.443 (Avg 0.4432) Dice:0.6349 (Avg 0.6349) LR 9.14e-04   (AvgTime 1.1)   
+   [Train] Epoch: [63][2/5]  Loss:0.417 (Avg 0.4301) Dice:0.6782 (Avg 0.6565) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [63][3/5]  Loss:0.403 (Avg 0.4212) Dice:0.6444 (Avg 0.6525) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [63][4/5]  Loss:0.438 (Avg 0.4254) Dice:0.5820 (Avg 0.6349) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [63][5/5]  Loss:0.496 (Avg 0.4396) Dice:0.4684 (Avg 0.6016) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [63][1/2]  Loss:0.549 (Avg 0.5487) Dice:0.5480 (Avg 0.5480) (AvgTime 0.9)   
+   [Val] Epoch: [63][2/2]  Loss:0.506 (Avg 0.5317) Dice:0.6431 (Avg 0.5860) (AvgTime 0.6)   
+	 Mean dice:0.5860 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 8/100
+
+========= Epoch [64/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [64][1/5]  Loss:0.439 (Avg 0.4386) Dice:0.6276 (Avg 0.6276) LR 8.15e-04   (AvgTime 1.1)   
+   [Train] Epoch: [64][2/5]  Loss:0.446 (Avg 0.4423) Dice:0.6213 (Avg 0.6245) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [64][3/5]  Loss:0.460 (Avg 0.4483) Dice:0.5572 (Avg 0.6020) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [64][4/5]  Loss:0.430 (Avg 0.4437) Dice:0.6608 (Avg 0.6167) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [64][5/5]  Loss:0.414 (Avg 0.4379) Dice:0.7281 (Avg 0.6390) LR 8.15e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [64][1/2]  Loss:0.544 (Avg 0.5443) Dice:0.5931 (Avg 0.5931) (AvgTime 0.8)   
+   [Val] Epoch: [64][2/2]  Loss:0.530 (Avg 0.5385) Dice:0.5697 (Avg 0.5837) (AvgTime 0.6)   
+	 Mean dice:0.5837 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 9/100
+
+========= Epoch [65/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [65][1/5]  Loss:0.392 (Avg 0.3920) Dice:0.7401 (Avg 0.7401) LR 6.89e-04   (AvgTime 1.1)   
+   [Train] Epoch: [65][2/5]  Loss:0.440 (Avg 0.4159) Dice:0.5771 (Avg 0.6586) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [65][3/5]  Loss:0.438 (Avg 0.4231) Dice:0.6267 (Avg 0.6480) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [65][4/5]  Loss:0.481 (Avg 0.4376) Dice:0.5077 (Avg 0.6129) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [65][5/5]  Loss:0.432 (Avg 0.4364) Dice:0.6190 (Avg 0.6141) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [65][1/2]  Loss:0.532 (Avg 0.5320) Dice:0.5548 (Avg 0.5548) (AvgTime 0.8)   
+   [Val] Epoch: [65][2/2]  Loss:0.592 (Avg 0.5559) Dice:0.5798 (Avg 0.5648) (AvgTime 0.6)   
+	 Mean dice:0.5648 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 10/100
+
+========= Epoch [66/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [66][1/5]  Loss:0.504 (Avg 0.5041) Dice:0.4440 (Avg 0.4440) LR 5.50e-04   (AvgTime 1.2)   
+   [Train] Epoch: [66][2/5]  Loss:0.405 (Avg 0.4545) Dice:0.6734 (Avg 0.5587) LR 5.50e-04   (AvgTime 1.0)   
+   [Train] Epoch: [66][3/5]  Loss:0.426 (Avg 0.4450) Dice:0.6314 (Avg 0.5829) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [66][4/5]  Loss:0.405 (Avg 0.4351) Dice:0.6996 (Avg 0.6121) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [66][5/5]  Loss:0.466 (Avg 0.4412) Dice:0.5064 (Avg 0.5910) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [66][1/2]  Loss:0.523 (Avg 0.5226) Dice:0.5299 (Avg 0.5299) (AvgTime 0.9)   
+   [Val] Epoch: [66][2/2]  Loss:0.501 (Avg 0.5141) Dice:0.5944 (Avg 0.5557) (AvgTime 0.6)   
+	 Mean dice:0.5557 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 11/100
+
+========= Epoch [67/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [67][1/5]  Loss:0.436 (Avg 0.4363) Dice:0.6094 (Avg 0.6094) LR 4.11e-04   (AvgTime 1.2)   
+   [Train] Epoch: [67][2/5]  Loss:0.467 (Avg 0.4517) Dice:0.5078 (Avg 0.5586) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [67][3/5]  Loss:0.412 (Avg 0.4386) Dice:0.6744 (Avg 0.5972) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [67][4/5]  Loss:0.477 (Avg 0.4481) Dice:0.5075 (Avg 0.5748) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [67][5/5]  Loss:0.402 (Avg 0.4389) Dice:0.7323 (Avg 0.6063) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [67][1/2]  Loss:0.528 (Avg 0.5283) Dice:0.6142 (Avg 0.6142) (AvgTime 0.8)   
+   [Val] Epoch: [67][2/2]  Loss:0.501 (Avg 0.5176) Dice:0.6545 (Avg 0.6303) (AvgTime 0.6)   
+	 Mean dice:0.6303 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 12/100
+
+========= Epoch [68/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [68][1/5]  Loss:0.405 (Avg 0.4055) Dice:0.6962 (Avg 0.6962) LR 2.85e-04   (AvgTime 1.1)   
+   [Train] Epoch: [68][2/5]  Loss:0.458 (Avg 0.4319) Dice:0.6367 (Avg 0.6664) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [68][3/5]  Loss:0.449 (Avg 0.4376) Dice:0.5991 (Avg 0.6440) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [68][4/5]  Loss:0.437 (Avg 0.4375) Dice:0.6558 (Avg 0.6469) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [68][5/5]  Loss:0.412 (Avg 0.4323) Dice:0.6856 (Avg 0.6547) LR 2.85e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [68][1/2]  Loss:0.486 (Avg 0.4862) Dice:0.6811 (Avg 0.6811) (AvgTime 0.8)   
+   [Val] Epoch: [68][2/2]  Loss:0.565 (Avg 0.5176) Dice:0.5281 (Avg 0.6199) (AvgTime 0.6)   
+	 Mean dice:0.6199 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 13/100
+
+========= Epoch [69/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [69][1/5]  Loss:0.479 (Avg 0.4789) Dice:0.4934 (Avg 0.4934) LR 1.86e-04   (AvgTime 1.1)   
+   [Train] Epoch: [69][2/5]  Loss:0.390 (Avg 0.4345) Dice:0.7157 (Avg 0.6046) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [69][3/5]  Loss:0.395 (Avg 0.4214) Dice:0.7213 (Avg 0.6435) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [69][4/5]  Loss:0.425 (Avg 0.4224) Dice:0.6348 (Avg 0.6413) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [69][5/5]  Loss:0.459 (Avg 0.4297) Dice:0.5491 (Avg 0.6229) LR 1.86e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [69][1/2]  Loss:0.539 (Avg 0.5393) Dice:0.5276 (Avg 0.5276) (AvgTime 0.8)   
+   [Val] Epoch: [69][2/2]  Loss:0.478 (Avg 0.5147) Dice:0.7301 (Avg 0.6086) (AvgTime 0.6)   
+	 Mean dice:0.6086 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 14/100
+
+========= Epoch [70/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [70][1/5]  Loss:0.415 (Avg 0.4152) Dice:0.6440 (Avg 0.6440) LR 1.22e-04   (AvgTime 1.2)   
+   [Train] Epoch: [70][2/5]  Loss:0.450 (Avg 0.4328) Dice:0.5387 (Avg 0.5914) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [70][3/5]  Loss:0.427 (Avg 0.4308) Dice:0.6645 (Avg 0.6157) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [70][4/5]  Loss:0.447 (Avg 0.4348) Dice:0.5634 (Avg 0.6027) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [70][5/5]  Loss:0.404 (Avg 0.4286) Dice:0.6794 (Avg 0.6180) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [70][1/2]  Loss:0.507 (Avg 0.5068) Dice:0.5971 (Avg 0.5971) (AvgTime 0.8)   
+   [Val] Epoch: [70][2/2]  Loss:0.533 (Avg 0.5172) Dice:0.6113 (Avg 0.6028) (AvgTime 0.6)   
+	 Mean dice:0.6028 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 15/100
+
+========= Epoch [71/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [71][1/5]  Loss:0.477 (Avg 0.4772) Dice:0.5043 (Avg 0.5043) LR 1.00e-03   (AvgTime 1.1)   
+   [Train] Epoch: [71][2/5]  Loss:0.434 (Avg 0.4554) Dice:0.6155 (Avg 0.5599) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [71][3/5]  Loss:0.420 (Avg 0.4437) Dice:0.7316 (Avg 0.6171) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [71][4/5]  Loss:0.450 (Avg 0.4452) Dice:0.6186 (Avg 0.6175) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [71][5/5]  Loss:0.404 (Avg 0.4370) Dice:0.7153 (Avg 0.6371) LR 1.00e-03   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [71][1/2]  Loss:0.528 (Avg 0.5281) Dice:0.5770 (Avg 0.5770) (AvgTime 0.9)   
+   [Val] Epoch: [71][2/2]  Loss:0.556 (Avg 0.5392) Dice:0.5483 (Avg 0.5655) (AvgTime 0.6)   
+	 Mean dice:0.5655 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 16/100
+
+========= Epoch [72/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [72][1/5]  Loss:0.452 (Avg 0.4524) Dice:0.5458 (Avg 0.5458) LR 9.78e-04   (AvgTime 1.1)   
+   [Train] Epoch: [72][2/5]  Loss:0.464 (Avg 0.4583) Dice:0.5641 (Avg 0.5549) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [72][3/5]  Loss:0.410 (Avg 0.4423) Dice:0.6786 (Avg 0.5961) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [72][4/5]  Loss:0.434 (Avg 0.4403) Dice:0.6081 (Avg 0.5991) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [72][5/5]  Loss:0.404 (Avg 0.4330) Dice:0.6987 (Avg 0.6190) LR 9.78e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [72][1/2]  Loss:0.471 (Avg 0.4709) Dice:0.6767 (Avg 0.6767) (AvgTime 0.8)   
+   [Val] Epoch: [72][2/2]  Loss:0.542 (Avg 0.4992) Dice:0.5662 (Avg 0.6325) (AvgTime 0.6)   
+	 Mean dice:0.6325 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 17/100
+
+========= Epoch [73/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [73][1/5]  Loss:0.445 (Avg 0.4450) Dice:0.6144 (Avg 0.6144) LR 9.14e-04   (AvgTime 1.1)   
+   [Train] Epoch: [73][2/5]  Loss:0.415 (Avg 0.4300) Dice:0.6586 (Avg 0.6365) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [73][3/5]  Loss:0.392 (Avg 0.4173) Dice:0.7503 (Avg 0.6744) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [73][4/5]  Loss:0.498 (Avg 0.4374) Dice:0.4348 (Avg 0.6145) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [73][5/5]  Loss:0.438 (Avg 0.4374) Dice:0.5678 (Avg 0.6052) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [73][1/2]  Loss:0.543 (Avg 0.5425) Dice:0.6141 (Avg 0.6141) (AvgTime 0.8)   
+   [Val] Epoch: [73][2/2]  Loss:0.497 (Avg 0.5242) Dice:0.6444 (Avg 0.6262) (AvgTime 0.6)   
+	 Mean dice:0.6262 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 18/100
+
+========= Epoch [74/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [74][1/5]  Loss:0.463 (Avg 0.4629) Dice:0.4963 (Avg 0.4963) LR 8.15e-04   (AvgTime 1.2)   
+   [Train] Epoch: [74][2/5]  Loss:0.487 (Avg 0.4752) Dice:0.4697 (Avg 0.4830) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [74][3/5]  Loss:0.419 (Avg 0.4565) Dice:0.6601 (Avg 0.5420) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [74][4/5]  Loss:0.406 (Avg 0.4439) Dice:0.6482 (Avg 0.5686) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [74][5/5]  Loss:0.383 (Avg 0.4316) Dice:0.7098 (Avg 0.5968) LR 8.15e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [74][1/2]  Loss:0.485 (Avg 0.4847) Dice:0.5499 (Avg 0.5499) (AvgTime 0.8)   
+   [Val] Epoch: [74][2/2]  Loss:0.503 (Avg 0.4922) Dice:0.5741 (Avg 0.5596) (AvgTime 0.6)   
+	 Mean dice:0.5596 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 19/100
+
+========= Epoch [75/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [75][1/5]  Loss:0.518 (Avg 0.5183) Dice:0.4097 (Avg 0.4097) LR 6.89e-04   (AvgTime 1.2)   
+   [Train] Epoch: [75][2/5]  Loss:0.408 (Avg 0.4629) Dice:0.6700 (Avg 0.5398) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [75][3/5]  Loss:0.390 (Avg 0.4385) Dice:0.7342 (Avg 0.6046) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [75][4/5]  Loss:0.406 (Avg 0.4303) Dice:0.6650 (Avg 0.6197) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [75][5/5]  Loss:0.416 (Avg 0.4275) Dice:0.6793 (Avg 0.6316) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [75][1/2]  Loss:0.546 (Avg 0.5456) Dice:0.4854 (Avg 0.4854) (AvgTime 0.8)   
+   [Val] Epoch: [75][2/2]  Loss:0.462 (Avg 0.5122) Dice:0.6554 (Avg 0.5534) (AvgTime 0.6)   
+	 Mean dice:0.5534 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 20/100
+
+========= Epoch [76/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [76][1/5]  Loss:0.459 (Avg 0.4592) Dice:0.5336 (Avg 0.5336) LR 5.50e-04   (AvgTime 1.1)   
+   [Train] Epoch: [76][2/5]  Loss:0.428 (Avg 0.4434) Dice:0.6404 (Avg 0.5870) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [76][3/5]  Loss:0.437 (Avg 0.4411) Dice:0.5815 (Avg 0.5852) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [76][4/5]  Loss:0.407 (Avg 0.4327) Dice:0.6798 (Avg 0.6088) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [76][5/5]  Loss:0.402 (Avg 0.4266) Dice:0.7010 (Avg 0.6273) LR 5.50e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [76][1/2]  Loss:0.508 (Avg 0.5084) Dice:0.6773 (Avg 0.6773) (AvgTime 0.8)   
+   [Val] Epoch: [76][2/2]  Loss:0.549 (Avg 0.5246) Dice:0.5533 (Avg 0.6277) (AvgTime 0.6)   
+	 Mean dice:0.6277 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 21/100
+
+========= Epoch [77/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [77][1/5]  Loss:0.413 (Avg 0.4126) Dice:0.6512 (Avg 0.6512) LR 4.11e-04   (AvgTime 1.1)   
+   [Train] Epoch: [77][2/5]  Loss:0.434 (Avg 0.4232) Dice:0.6170 (Avg 0.6341) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [77][3/5]  Loss:0.401 (Avg 0.4159) Dice:0.6839 (Avg 0.6507) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [77][4/5]  Loss:0.465 (Avg 0.4282) Dice:0.5381 (Avg 0.6226) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [77][5/5]  Loss:0.396 (Avg 0.4217) Dice:0.7234 (Avg 0.6427) LR 4.11e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [77][1/2]  Loss:0.529 (Avg 0.5289) Dice:0.6191 (Avg 0.6191) (AvgTime 0.8)   
+   [Val] Epoch: [77][2/2]  Loss:0.517 (Avg 0.5242) Dice:0.6516 (Avg 0.6321) (AvgTime 0.6)   
+	 Mean dice:0.6321 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 22/100
+
+========= Epoch [78/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [78][1/5]  Loss:0.462 (Avg 0.4619) Dice:0.5172 (Avg 0.5172) LR 2.85e-04   (AvgTime 1.1)   
+   [Train] Epoch: [78][2/5]  Loss:0.423 (Avg 0.4426) Dice:0.6185 (Avg 0.5679) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [78][3/5]  Loss:0.362 (Avg 0.4159) Dice:0.7580 (Avg 0.6312) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [78][4/5]  Loss:0.372 (Avg 0.4049) Dice:0.7563 (Avg 0.6625) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [78][5/5]  Loss:0.491 (Avg 0.4220) Dice:0.5056 (Avg 0.6311) LR 2.85e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [78][1/2]  Loss:0.548 (Avg 0.5478) Dice:0.6040 (Avg 0.6040) (AvgTime 0.9)   
+   [Val] Epoch: [78][2/2]  Loss:0.478 (Avg 0.5198) Dice:0.6547 (Avg 0.6243) (AvgTime 0.6)   
+	 Mean dice:0.6243 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 23/100
+
+========= Epoch [79/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [79][1/5]  Loss:0.407 (Avg 0.4072) Dice:0.6887 (Avg 0.6887) LR 1.86e-04   (AvgTime 1.1)   
+   [Train] Epoch: [79][2/5]  Loss:0.396 (Avg 0.4017) Dice:0.7088 (Avg 0.6987) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [79][3/5]  Loss:0.433 (Avg 0.4123) Dice:0.6084 (Avg 0.6686) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [79][4/5]  Loss:0.362 (Avg 0.3997) Dice:0.7614 (Avg 0.6918) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [79][5/5]  Loss:0.501 (Avg 0.4200) Dice:0.4640 (Avg 0.6463) LR 1.86e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [79][1/2]  Loss:0.531 (Avg 0.5306) Dice:0.5745 (Avg 0.5745) (AvgTime 0.9)   
+   [Val] Epoch: [79][2/2]  Loss:0.502 (Avg 0.5192) Dice:0.7034 (Avg 0.6261) (AvgTime 0.6)   
+	 Mean dice:0.6261 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 24/100
+
+========= Epoch [80/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [80][1/5]  Loss:0.425 (Avg 0.4253) Dice:0.6418 (Avg 0.6418) LR 1.22e-04   (AvgTime 1.1)   
+   [Train] Epoch: [80][2/5]  Loss:0.459 (Avg 0.4420) Dice:0.5556 (Avg 0.5987) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [80][3/5]  Loss:0.417 (Avg 0.4335) Dice:0.6420 (Avg 0.6131) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [80][4/5]  Loss:0.372 (Avg 0.4180) Dice:0.7436 (Avg 0.6457) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [80][5/5]  Loss:0.430 (Avg 0.4205) Dice:0.6228 (Avg 0.6412) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [80][1/2]  Loss:0.543 (Avg 0.5430) Dice:0.6061 (Avg 0.6061) (AvgTime 0.8)   
+   [Val] Epoch: [80][2/2]  Loss:0.506 (Avg 0.5284) Dice:0.6656 (Avg 0.6299) (AvgTime 0.6)   
+	 Mean dice:0.6299 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 25/100
+
+========= Epoch [81/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [81][1/5]  Loss:0.391 (Avg 0.3914) Dice:0.7027 (Avg 0.7027) LR 1.00e-03   (AvgTime 1.1)   
+   [Train] Epoch: [81][2/5]  Loss:0.417 (Avg 0.4042) Dice:0.6378 (Avg 0.6703) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [81][3/5]  Loss:0.462 (Avg 0.4234) Dice:0.5248 (Avg 0.6218) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [81][4/5]  Loss:0.459 (Avg 0.4322) Dice:0.5950 (Avg 0.6151) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [81][5/5]  Loss:0.373 (Avg 0.4203) Dice:0.7844 (Avg 0.6489) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [81][1/2]  Loss:0.504 (Avg 0.5036) Dice:0.6797 (Avg 0.6797) (AvgTime 0.8)   
+   [Val] Epoch: [81][2/2]  Loss:0.605 (Avg 0.5443) Dice:0.5350 (Avg 0.6218) (AvgTime 0.6)   
+	 Mean dice:0.6218 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 26/100
+
+========= Epoch [82/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [82][1/5]  Loss:0.379 (Avg 0.3792) Dice:0.7412 (Avg 0.7412) LR 9.78e-04   (AvgTime 1.1)   
+   [Train] Epoch: [82][2/5]  Loss:0.422 (Avg 0.4008) Dice:0.6448 (Avg 0.6930) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [82][3/5]  Loss:0.412 (Avg 0.4044) Dice:0.6200 (Avg 0.6686) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [82][4/5]  Loss:0.450 (Avg 0.4159) Dice:0.5785 (Avg 0.6461) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [82][5/5]  Loss:0.440 (Avg 0.4207) Dice:0.5855 (Avg 0.6340) LR 9.78e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [82][1/2]  Loss:0.515 (Avg 0.5154) Dice:0.6706 (Avg 0.6706) (AvgTime 0.9)   
+   [Val] Epoch: [82][2/2]  Loss:0.610 (Avg 0.5533) Dice:0.4603 (Avg 0.5865) (AvgTime 0.6)   
+	 Mean dice:0.5865 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 27/100
+
+========= Epoch [83/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [83][1/5]  Loss:0.419 (Avg 0.4191) Dice:0.6190 (Avg 0.6190) LR 9.14e-04   (AvgTime 1.1)   
+   [Train] Epoch: [83][2/5]  Loss:0.413 (Avg 0.4159) Dice:0.6825 (Avg 0.6508) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [83][3/5]  Loss:0.452 (Avg 0.4278) Dice:0.5661 (Avg 0.6226) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [83][4/5]  Loss:0.434 (Avg 0.4293) Dice:0.6707 (Avg 0.6346) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [83][5/5]  Loss:0.404 (Avg 0.4243) Dice:0.6861 (Avg 0.6449) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [83][1/2]  Loss:0.561 (Avg 0.5615) Dice:0.6063 (Avg 0.6063) (AvgTime 0.8)   
+   [Val] Epoch: [83][2/2]  Loss:0.610 (Avg 0.5807) Dice:0.5421 (Avg 0.5806) (AvgTime 0.6)   
+	 Mean dice:0.5806 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 28/100
+
+========= Epoch [84/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [84][1/5]  Loss:0.399 (Avg 0.3993) Dice:0.7075 (Avg 0.7075) LR 8.15e-04   (AvgTime 1.3)   
+   [Train] Epoch: [84][2/5]  Loss:0.430 (Avg 0.4149) Dice:0.6181 (Avg 0.6628) LR 8.15e-04   (AvgTime 1.0)   
+   [Train] Epoch: [84][3/5]  Loss:0.396 (Avg 0.4085) Dice:0.6440 (Avg 0.6565) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [84][4/5]  Loss:0.447 (Avg 0.4181) Dice:0.5572 (Avg 0.6317) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [84][5/5]  Loss:0.427 (Avg 0.4198) Dice:0.6078 (Avg 0.6269) LR 8.15e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [84][1/2]  Loss:0.524 (Avg 0.5236) Dice:0.5738 (Avg 0.5738) (AvgTime 0.9)   
+   [Val] Epoch: [84][2/2]  Loss:0.443 (Avg 0.4914) Dice:0.6912 (Avg 0.6207) (AvgTime 0.6)   
+	 Mean dice:0.6207 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 29/100
+
+========= Epoch [85/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [85][1/5]  Loss:0.390 (Avg 0.3899) Dice:0.6812 (Avg 0.6812) LR 6.89e-04   (AvgTime 1.2)   
+   [Train] Epoch: [85][2/5]  Loss:0.388 (Avg 0.3887) Dice:0.7262 (Avg 0.7037) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [85][3/5]  Loss:0.437 (Avg 0.4048) Dice:0.5694 (Avg 0.6589) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [85][4/5]  Loss:0.416 (Avg 0.4076) Dice:0.6579 (Avg 0.6587) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [85][5/5]  Loss:0.464 (Avg 0.4188) Dice:0.5353 (Avg 0.6340) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [85][1/2]  Loss:0.449 (Avg 0.4488) Dice:0.6434 (Avg 0.6434) (AvgTime 0.8)   
+   [Val] Epoch: [85][2/2]  Loss:0.607 (Avg 0.5121) Dice:0.3764 (Avg 0.5366) (AvgTime 0.6)   
+	 Mean dice:0.5366 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 30/100
+
+========= Epoch [86/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [86][1/5]  Loss:0.401 (Avg 0.4009) Dice:0.6867 (Avg 0.6867) LR 5.50e-04   (AvgTime 1.2)   
+   [Train] Epoch: [86][2/5]  Loss:0.422 (Avg 0.4115) Dice:0.6118 (Avg 0.6493) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [86][3/5]  Loss:0.362 (Avg 0.3951) Dice:0.7840 (Avg 0.6942) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [86][4/5]  Loss:0.447 (Avg 0.4081) Dice:0.5616 (Avg 0.6610) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [86][5/5]  Loss:0.452 (Avg 0.4169) Dice:0.5837 (Avg 0.6456) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [86][1/2]  Loss:0.520 (Avg 0.5200) Dice:0.5694 (Avg 0.5694) (AvgTime 0.9)   
+   [Val] Epoch: [86][2/2]  Loss:0.463 (Avg 0.4972) Dice:0.6142 (Avg 0.5873) (AvgTime 0.6)   
+	 Mean dice:0.5873 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 31/100
+
+========= Epoch [87/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [87][1/5]  Loss:0.406 (Avg 0.4062) Dice:0.6788 (Avg 0.6788) LR 4.11e-04   (AvgTime 1.2)   
+   [Train] Epoch: [87][2/5]  Loss:0.400 (Avg 0.4029) Dice:0.6915 (Avg 0.6852) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [87][3/5]  Loss:0.427 (Avg 0.4111) Dice:0.6246 (Avg 0.6650) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [87][4/5]  Loss:0.372 (Avg 0.4014) Dice:0.7418 (Avg 0.6842) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [87][5/5]  Loss:0.466 (Avg 0.4142) Dice:0.4962 (Avg 0.6466) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [87][1/2]  Loss:0.514 (Avg 0.5140) Dice:0.5749 (Avg 0.5749) (AvgTime 0.9)   
+   [Val] Epoch: [87][2/2]  Loss:0.564 (Avg 0.5340) Dice:0.6548 (Avg 0.6068) (AvgTime 0.6)   
+	 Mean dice:0.6068 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 32/100
+
+========= Epoch [88/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [88][1/5]  Loss:0.332 (Avg 0.3324) Dice:0.7845 (Avg 0.7845) LR 2.85e-04   (AvgTime 1.0)   
+   [Train] Epoch: [88][2/5]  Loss:0.387 (Avg 0.3595) Dice:0.7429 (Avg 0.7637) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [88][3/5]  Loss:0.492 (Avg 0.4036) Dice:0.4292 (Avg 0.6522) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [88][4/5]  Loss:0.448 (Avg 0.4147) Dice:0.5353 (Avg 0.6230) LR 2.85e-04   (AvgTime 0.7)   
+   [Train] Epoch: [88][5/5]  Loss:0.417 (Avg 0.4152) Dice:0.6608 (Avg 0.6305) LR 2.85e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [88][1/2]  Loss:0.565 (Avg 0.5645) Dice:0.5489 (Avg 0.5489) (AvgTime 0.8)   
+   [Val] Epoch: [88][2/2]  Loss:0.499 (Avg 0.5383) Dice:0.6747 (Avg 0.5992) (AvgTime 0.6)   
+	 Mean dice:0.5992 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 33/100
+
+========= Epoch [89/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [89][1/5]  Loss:0.431 (Avg 0.4312) Dice:0.6248 (Avg 0.6248) LR 1.86e-04   (AvgTime 1.2)   
+   [Train] Epoch: [89][2/5]  Loss:0.393 (Avg 0.4123) Dice:0.6941 (Avg 0.6595) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [89][3/5]  Loss:0.427 (Avg 0.4173) Dice:0.6007 (Avg 0.6399) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [89][4/5]  Loss:0.415 (Avg 0.4167) Dice:0.6507 (Avg 0.6426) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [89][5/5]  Loss:0.385 (Avg 0.4104) Dice:0.7378 (Avg 0.6616) LR 1.86e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [89][1/2]  Loss:0.544 (Avg 0.5443) Dice:0.5694 (Avg 0.5694) (AvgTime 0.9)   
+   [Val] Epoch: [89][2/2]  Loss:0.554 (Avg 0.5480) Dice:0.6530 (Avg 0.6029) (AvgTime 0.6)   
+	 Mean dice:0.6029 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 34/100
+
+========= Epoch [90/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [90][1/5]  Loss:0.429 (Avg 0.4289) Dice:0.5976 (Avg 0.5976) LR 1.22e-04   (AvgTime 1.1)   
+   [Train] Epoch: [90][2/5]  Loss:0.384 (Avg 0.4065) Dice:0.7316 (Avg 0.6646) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [90][3/5]  Loss:0.432 (Avg 0.4150) Dice:0.6023 (Avg 0.6438) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [90][4/5]  Loss:0.403 (Avg 0.4119) Dice:0.7123 (Avg 0.6609) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [90][5/5]  Loss:0.398 (Avg 0.4091) Dice:0.7370 (Avg 0.6761) LR 1.22e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [90][1/2]  Loss:0.551 (Avg 0.5506) Dice:0.6222 (Avg 0.6222) (AvgTime 0.8)   
+   [Val] Epoch: [90][2/2]  Loss:0.556 (Avg 0.5527) Dice:0.5949 (Avg 0.6113) (AvgTime 0.6)   
+	 Mean dice:0.6113 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 35/100
+
+========= Epoch [91/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [91][1/5]  Loss:0.354 (Avg 0.3542) Dice:0.7987 (Avg 0.7987) LR 1.00e-03   (AvgTime 1.1)   
+   [Train] Epoch: [91][2/5]  Loss:0.427 (Avg 0.3906) Dice:0.5889 (Avg 0.6938) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [91][3/5]  Loss:0.383 (Avg 0.3880) Dice:0.7350 (Avg 0.7075) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [91][4/5]  Loss:0.485 (Avg 0.4122) Dice:0.4462 (Avg 0.6422) LR 1.00e-03   (AvgTime 0.7)   
+   [Train] Epoch: [91][5/5]  Loss:0.431 (Avg 0.4159) Dice:0.5811 (Avg 0.6300) LR 1.00e-03   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [91][1/2]  Loss:0.542 (Avg 0.5420) Dice:0.6179 (Avg 0.6179) (AvgTime 0.8)   
+   [Val] Epoch: [91][2/2]  Loss:0.633 (Avg 0.5785) Dice:0.5478 (Avg 0.5899) (AvgTime 0.6)   
+	 Mean dice:0.5899 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 36/100
+
+========= Epoch [92/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [92][1/5]  Loss:0.441 (Avg 0.4414) Dice:0.6119 (Avg 0.6119) LR 9.78e-04   (AvgTime 1.0)   
+   [Train] Epoch: [92][2/5]  Loss:0.386 (Avg 0.4135) Dice:0.7053 (Avg 0.6586) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [92][3/5]  Loss:0.457 (Avg 0.4279) Dice:0.5774 (Avg 0.6316) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [92][4/5]  Loss:0.433 (Avg 0.4293) Dice:0.6126 (Avg 0.6268) LR 9.78e-04   (AvgTime 0.7)   
+   [Train] Epoch: [92][5/5]  Loss:0.405 (Avg 0.4243) Dice:0.6321 (Avg 0.6279) LR 9.78e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [92][1/2]  Loss:0.473 (Avg 0.4728) Dice:0.5955 (Avg 0.5955) (AvgTime 1.0)   
+   [Val] Epoch: [92][2/2]  Loss:0.550 (Avg 0.5037) Dice:0.4482 (Avg 0.5366) (AvgTime 0.7)   
+	 Mean dice:0.5366 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 37/100
+
+========= Epoch [93/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [93][1/5]  Loss:0.431 (Avg 0.4313) Dice:0.6736 (Avg 0.6736) LR 9.14e-04   (AvgTime 1.1)   
+   [Train] Epoch: [93][2/5]  Loss:0.446 (Avg 0.4388) Dice:0.5759 (Avg 0.6248) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [93][3/5]  Loss:0.410 (Avg 0.4290) Dice:0.6376 (Avg 0.6291) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [93][4/5]  Loss:0.411 (Avg 0.4245) Dice:0.6613 (Avg 0.6371) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [93][5/5]  Loss:0.392 (Avg 0.4179) Dice:0.6810 (Avg 0.6459) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [93][1/2]  Loss:0.504 (Avg 0.5042) Dice:0.5957 (Avg 0.5957) (AvgTime 0.9)   
+   [Val] Epoch: [93][2/2]  Loss:0.443 (Avg 0.4799) Dice:0.6435 (Avg 0.6148) (AvgTime 0.6)   
+	 Mean dice:0.6148 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 38/100
+
+========= Epoch [94/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [94][1/5]  Loss:0.368 (Avg 0.3685) Dice:0.7228 (Avg 0.7228) LR 8.15e-04   (AvgTime 1.1)   
+   [Train] Epoch: [94][2/5]  Loss:0.461 (Avg 0.4149) Dice:0.4648 (Avg 0.5938) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [94][3/5]  Loss:0.432 (Avg 0.4206) Dice:0.6288 (Avg 0.6055) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [94][4/5]  Loss:0.451 (Avg 0.4281) Dice:0.5623 (Avg 0.5947) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [94][5/5]  Loss:0.376 (Avg 0.4177) Dice:0.7265 (Avg 0.6210) LR 8.15e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [94][1/2]  Loss:0.574 (Avg 0.5743) Dice:0.5888 (Avg 0.5888) (AvgTime 0.9)   
+   [Val] Epoch: [94][2/2]  Loss:0.478 (Avg 0.5357) Dice:0.6502 (Avg 0.6134) (AvgTime 0.6)   
+	 Mean dice:0.6134 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 39/100
+
+========= Epoch [95/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [95][1/5]  Loss:0.442 (Avg 0.4415) Dice:0.6181 (Avg 0.6181) LR 6.89e-04   (AvgTime 1.1)   
+   [Train] Epoch: [95][2/5]  Loss:0.438 (Avg 0.4396) Dice:0.5833 (Avg 0.6007) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [95][3/5]  Loss:0.435 (Avg 0.4381) Dice:0.6013 (Avg 0.6009) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [95][4/5]  Loss:0.350 (Avg 0.4162) Dice:0.7689 (Avg 0.6429) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [95][5/5]  Loss:0.428 (Avg 0.4185) Dice:0.5797 (Avg 0.6303) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [95][1/2]  Loss:0.488 (Avg 0.4875) Dice:0.5362 (Avg 0.5362) (AvgTime 0.8)   
+   [Val] Epoch: [95][2/2]  Loss:0.478 (Avg 0.4836) Dice:0.5904 (Avg 0.5579) (AvgTime 0.6)   
+	 Mean dice:0.5579 does not increase, the best is still: 0.6353 in epoch 55
+	 early_stopping_count: 40/100
+
+========= Epoch [96/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [96][1/5]  Loss:0.380 (Avg 0.3804) Dice:0.6876 (Avg 0.6876) LR 5.50e-04   (AvgTime 1.1)   
+   [Train] Epoch: [96][2/5]  Loss:0.380 (Avg 0.3801) Dice:0.6901 (Avg 0.6888) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [96][3/5]  Loss:0.452 (Avg 0.4039) Dice:0.5436 (Avg 0.6404) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [96][4/5]  Loss:0.450 (Avg 0.4155) Dice:0.5102 (Avg 0.6079) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [96][5/5]  Loss:0.395 (Avg 0.4115) Dice:0.7026 (Avg 0.6268) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [96][1/2]  Loss:0.491 (Avg 0.4907) Dice:0.6815 (Avg 0.6815) (AvgTime 0.8)   
+   [Val] Epoch: [96][2/2]  Loss:0.531 (Avg 0.5069) Dice:0.6179 (Avg 0.6560) (AvgTime 0.6)   
+	 Saving best model, mean dice increased from: 0.6353 to 0.6560
+	 Saving to Covidf3/MultiResUnet1_32_1.67/session_32/models/
+	 early_stopping_count: 0/100
+
+========= Epoch [97/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [97][1/5]  Loss:0.361 (Avg 0.3609) Dice:0.7795 (Avg 0.7795) LR 4.11e-04   (AvgTime 1.1)   
+   [Train] Epoch: [97][2/5]  Loss:0.377 (Avg 0.3689) Dice:0.7299 (Avg 0.7547) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [97][3/5]  Loss:0.462 (Avg 0.4000) Dice:0.5064 (Avg 0.6719) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [97][4/5]  Loss:0.402 (Avg 0.4006) Dice:0.6951 (Avg 0.6777) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [97][5/5]  Loss:0.435 (Avg 0.4074) Dice:0.5938 (Avg 0.6609) LR 4.11e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [97][1/2]  Loss:0.489 (Avg 0.4890) Dice:0.6881 (Avg 0.6881) (AvgTime 0.9)   
+   [Val] Epoch: [97][2/2]  Loss:0.531 (Avg 0.5058) Dice:0.5599 (Avg 0.6368) (AvgTime 0.6)   
+	 Mean dice:0.6368 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 1/100
+
+========= Epoch [98/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [98][1/5]  Loss:0.399 (Avg 0.3991) Dice:0.6916 (Avg 0.6916) LR 2.85e-04   (AvgTime 1.1)   
+   [Train] Epoch: [98][2/5]  Loss:0.352 (Avg 0.3757) Dice:0.7678 (Avg 0.7297) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [98][3/5]  Loss:0.416 (Avg 0.3891) Dice:0.6433 (Avg 0.7009) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [98][4/5]  Loss:0.441 (Avg 0.4020) Dice:0.5186 (Avg 0.6553) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [98][5/5]  Loss:0.413 (Avg 0.4042) Dice:0.6447 (Avg 0.6532) LR 2.85e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [98][1/2]  Loss:0.480 (Avg 0.4804) Dice:0.7031 (Avg 0.7031) (AvgTime 0.9)   
+   [Val] Epoch: [98][2/2]  Loss:0.590 (Avg 0.5244) Dice:0.5334 (Avg 0.6352) (AvgTime 0.6)   
+	 Mean dice:0.6352 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 2/100
+
+========= Epoch [99/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [99][1/5]  Loss:0.431 (Avg 0.4305) Dice:0.6051 (Avg 0.6051) LR 1.86e-04   (AvgTime 1.1)   
+   [Train] Epoch: [99][2/5]  Loss:0.349 (Avg 0.3898) Dice:0.7720 (Avg 0.6885) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [99][3/5]  Loss:0.389 (Avg 0.3896) Dice:0.6739 (Avg 0.6836) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [99][4/5]  Loss:0.434 (Avg 0.4006) Dice:0.6399 (Avg 0.6727) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [99][5/5]  Loss:0.410 (Avg 0.4025) Dice:0.6557 (Avg 0.6693) LR 1.86e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [99][1/2]  Loss:0.556 (Avg 0.5558) Dice:0.6491 (Avg 0.6491) (AvgTime 0.8)   
+   [Val] Epoch: [99][2/2]  Loss:0.516 (Avg 0.5400) Dice:0.6163 (Avg 0.6360) (AvgTime 0.6)   
+	 Mean dice:0.6360 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 3/100
+
+========= Epoch [100/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [100][1/5]  Loss:0.386 (Avg 0.3864) Dice:0.7220 (Avg 0.7220) LR 1.22e-04   (AvgTime 1.1)   
+   [Train] Epoch: [100][2/5]  Loss:0.391 (Avg 0.3888) Dice:0.6746 (Avg 0.6983) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [100][3/5]  Loss:0.432 (Avg 0.4034) Dice:0.6100 (Avg 0.6689) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [100][4/5]  Loss:0.382 (Avg 0.3981) Dice:0.7099 (Avg 0.6791) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [100][5/5]  Loss:0.410 (Avg 0.4005) Dice:0.7080 (Avg 0.6849) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [100][1/2]  Loss:0.537 (Avg 0.5367) Dice:0.6521 (Avg 0.6521) (AvgTime 0.8)   
+   [Val] Epoch: [100][2/2]  Loss:0.528 (Avg 0.5333) Dice:0.6138 (Avg 0.6368) (AvgTime 0.6)   
+	 Mean dice:0.6368 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 4/100
+
+========= Epoch [101/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [101][1/5]  Loss:0.421 (Avg 0.4208) Dice:0.6050 (Avg 0.6050) LR 1.00e-03   (AvgTime 1.1)   
+   [Train] Epoch: [101][2/5]  Loss:0.446 (Avg 0.4334) Dice:0.5649 (Avg 0.5849) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [101][3/5]  Loss:0.390 (Avg 0.4189) Dice:0.7152 (Avg 0.6284) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [101][4/5]  Loss:0.398 (Avg 0.4138) Dice:0.7057 (Avg 0.6477) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [101][5/5]  Loss:0.353 (Avg 0.4016) Dice:0.7864 (Avg 0.6754) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [101][1/2]  Loss:0.566 (Avg 0.5660) Dice:0.5940 (Avg 0.5940) (AvgTime 0.8)   
+   [Val] Epoch: [101][2/2]  Loss:0.529 (Avg 0.5512) Dice:0.6169 (Avg 0.6031) (AvgTime 0.6)   
+	 Mean dice:0.6031 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 5/100
+
+========= Epoch [102/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [102][1/5]  Loss:0.456 (Avg 0.4560) Dice:0.5474 (Avg 0.5474) LR 9.78e-04   (AvgTime 1.1)   
+   [Train] Epoch: [102][2/5]  Loss:0.344 (Avg 0.4000) Dice:0.7914 (Avg 0.6694) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [102][3/5]  Loss:0.361 (Avg 0.3870) Dice:0.7557 (Avg 0.6981) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [102][4/5]  Loss:0.390 (Avg 0.3877) Dice:0.7080 (Avg 0.7006) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [102][5/5]  Loss:0.447 (Avg 0.3995) Dice:0.5545 (Avg 0.6714) LR 9.78e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [102][1/2]  Loss:0.554 (Avg 0.5535) Dice:0.5656 (Avg 0.5656) (AvgTime 0.8)   
+   [Val] Epoch: [102][2/2]  Loss:0.525 (Avg 0.5422) Dice:0.6829 (Avg 0.6125) (AvgTime 0.6)   
+	 Mean dice:0.6125 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 6/100
+
+========= Epoch [103/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [103][1/5]  Loss:0.442 (Avg 0.4416) Dice:0.6049 (Avg 0.6049) LR 9.14e-04   (AvgTime 1.2)   
+   [Train] Epoch: [103][2/5]  Loss:0.405 (Avg 0.4234) Dice:0.6927 (Avg 0.6488) LR 9.14e-04   (AvgTime 1.0)   
+   [Train] Epoch: [103][3/5]  Loss:0.371 (Avg 0.4061) Dice:0.7338 (Avg 0.6771) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [103][4/5]  Loss:0.358 (Avg 0.3940) Dice:0.7765 (Avg 0.7020) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [103][5/5]  Loss:0.421 (Avg 0.3995) Dice:0.5903 (Avg 0.6796) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [103][1/2]  Loss:0.490 (Avg 0.4903) Dice:0.6022 (Avg 0.6022) (AvgTime 0.9)   
+   [Val] Epoch: [103][2/2]  Loss:0.530 (Avg 0.5060) Dice:0.6065 (Avg 0.6039) (AvgTime 0.6)   
+	 Mean dice:0.6039 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 7/100
+
+========= Epoch [104/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [104][1/5]  Loss:0.370 (Avg 0.3703) Dice:0.7301 (Avg 0.7301) LR 8.15e-04   (AvgTime 1.1)   
+   [Train] Epoch: [104][2/5]  Loss:0.413 (Avg 0.3916) Dice:0.6551 (Avg 0.6926) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [104][3/5]  Loss:0.368 (Avg 0.3839) Dice:0.7212 (Avg 0.7021) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [104][4/5]  Loss:0.425 (Avg 0.3941) Dice:0.6312 (Avg 0.6844) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [104][5/5]  Loss:0.407 (Avg 0.3967) Dice:0.6412 (Avg 0.6757) LR 8.15e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [104][1/2]  Loss:0.561 (Avg 0.5609) Dice:0.6105 (Avg 0.6105) (AvgTime 0.9)   
+   [Val] Epoch: [104][2/2]  Loss:0.588 (Avg 0.5719) Dice:0.5099 (Avg 0.5703) (AvgTime 0.6)   
+	 Mean dice:0.5703 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 8/100
+
+========= Epoch [105/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [105][1/5]  Loss:0.431 (Avg 0.4312) Dice:0.6192 (Avg 0.6192) LR 6.89e-04   (AvgTime 1.2)   
+   [Train] Epoch: [105][2/5]  Loss:0.401 (Avg 0.4163) Dice:0.6734 (Avg 0.6463) LR 6.89e-04   (AvgTime 1.0)   
+   [Train] Epoch: [105][3/5]  Loss:0.384 (Avg 0.4057) Dice:0.7060 (Avg 0.6662) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [105][4/5]  Loss:0.370 (Avg 0.3968) Dice:0.7233 (Avg 0.6805) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [105][5/5]  Loss:0.384 (Avg 0.3943) Dice:0.6944 (Avg 0.6832) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [105][1/2]  Loss:0.557 (Avg 0.5574) Dice:0.5705 (Avg 0.5705) (AvgTime 0.8)   
+   [Val] Epoch: [105][2/2]  Loss:0.509 (Avg 0.5382) Dice:0.5976 (Avg 0.5813) (AvgTime 0.6)   
+	 Mean dice:0.5813 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 9/100
+
+========= Epoch [106/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [106][1/5]  Loss:0.403 (Avg 0.4029) Dice:0.6515 (Avg 0.6515) LR 5.50e-04   (AvgTime 1.2)   
+   [Train] Epoch: [106][2/5]  Loss:0.430 (Avg 0.4165) Dice:0.5960 (Avg 0.6238) LR 5.50e-04   (AvgTime 1.0)   
+   [Train] Epoch: [106][3/5]  Loss:0.372 (Avg 0.4017) Dice:0.7103 (Avg 0.6526) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [106][4/5]  Loss:0.395 (Avg 0.3999) Dice:0.7003 (Avg 0.6645) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [106][5/5]  Loss:0.376 (Avg 0.3950) Dice:0.7371 (Avg 0.6791) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [106][1/2]  Loss:0.567 (Avg 0.5674) Dice:0.5603 (Avg 0.5603) (AvgTime 0.8)   
+   [Val] Epoch: [106][2/2]  Loss:0.599 (Avg 0.5801) Dice:0.5927 (Avg 0.5733) (AvgTime 0.6)   
+	 Mean dice:0.5733 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 10/100
+
+========= Epoch [107/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [107][1/5]  Loss:0.351 (Avg 0.3513) Dice:0.7972 (Avg 0.7972) LR 4.11e-04   (AvgTime 1.2)   
+   [Train] Epoch: [107][2/5]  Loss:0.389 (Avg 0.3703) Dice:0.7283 (Avg 0.7628) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [107][3/5]  Loss:0.397 (Avg 0.3792) Dice:0.7234 (Avg 0.7496) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [107][4/5]  Loss:0.450 (Avg 0.3970) Dice:0.5369 (Avg 0.6965) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [107][5/5]  Loss:0.382 (Avg 0.3940) Dice:0.7363 (Avg 0.7044) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [107][1/2]  Loss:0.519 (Avg 0.5190) Dice:0.6266 (Avg 0.6266) (AvgTime 0.9)   
+   [Val] Epoch: [107][2/2]  Loss:0.540 (Avg 0.5273) Dice:0.6259 (Avg 0.6263) (AvgTime 0.6)   
+	 Mean dice:0.6263 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 11/100
+
+========= Epoch [108/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [108][1/5]  Loss:0.365 (Avg 0.3648) Dice:0.7609 (Avg 0.7609) LR 2.85e-04   (AvgTime 1.2)   
+   [Train] Epoch: [108][2/5]  Loss:0.393 (Avg 0.3789) Dice:0.6582 (Avg 0.7095) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [108][3/5]  Loss:0.421 (Avg 0.3931) Dice:0.5983 (Avg 0.6724) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [108][4/5]  Loss:0.396 (Avg 0.3938) Dice:0.6966 (Avg 0.6785) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [108][5/5]  Loss:0.376 (Avg 0.3902) Dice:0.7351 (Avg 0.6898) LR 2.85e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [108][1/2]  Loss:0.555 (Avg 0.5548) Dice:0.5564 (Avg 0.5564) (AvgTime 0.8)   
+   [Val] Epoch: [108][2/2]  Loss:0.510 (Avg 0.5367) Dice:0.6322 (Avg 0.5867) (AvgTime 0.6)   
+	 Mean dice:0.5867 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 12/100
+
+========= Epoch [109/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [109][1/5]  Loss:0.398 (Avg 0.3982) Dice:0.6885 (Avg 0.6885) LR 1.86e-04   (AvgTime 1.2)   
+   [Train] Epoch: [109][2/5]  Loss:0.403 (Avg 0.4006) Dice:0.6606 (Avg 0.6746) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [109][3/5]  Loss:0.394 (Avg 0.3983) Dice:0.7052 (Avg 0.6848) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [109][4/5]  Loss:0.353 (Avg 0.3870) Dice:0.8023 (Avg 0.7142) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [109][5/5]  Loss:0.417 (Avg 0.3931) Dice:0.6437 (Avg 0.7001) LR 1.86e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [109][1/2]  Loss:0.555 (Avg 0.5551) Dice:0.6143 (Avg 0.6143) (AvgTime 0.8)   
+   [Val] Epoch: [109][2/2]  Loss:0.524 (Avg 0.5427) Dice:0.5947 (Avg 0.6065) (AvgTime 0.6)   
+	 Mean dice:0.6065 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 13/100
+
+========= Epoch [110/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [110][1/5]  Loss:0.392 (Avg 0.3918) Dice:0.6944 (Avg 0.6944) LR 1.22e-04   (AvgTime 1.1)   
+   [Train] Epoch: [110][2/5]  Loss:0.373 (Avg 0.3826) Dice:0.7612 (Avg 0.7278) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [110][3/5]  Loss:0.351 (Avg 0.3720) Dice:0.7516 (Avg 0.7357) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [110][4/5]  Loss:0.434 (Avg 0.3876) Dice:0.6156 (Avg 0.7057) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [110][5/5]  Loss:0.390 (Avg 0.3882) Dice:0.6705 (Avg 0.6987) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [110][1/2]  Loss:0.515 (Avg 0.5154) Dice:0.6584 (Avg 0.6584) (AvgTime 0.9)   
+   [Val] Epoch: [110][2/2]  Loss:0.547 (Avg 0.5281) Dice:0.5643 (Avg 0.6208) (AvgTime 0.6)   
+	 Mean dice:0.6208 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 14/100
+
+========= Epoch [111/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [111][1/5]  Loss:0.332 (Avg 0.3323) Dice:0.8113 (Avg 0.8113) LR 1.00e-03   (AvgTime 1.1)   
+   [Train] Epoch: [111][2/5]  Loss:0.369 (Avg 0.3508) Dice:0.7512 (Avg 0.7813) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [111][3/5]  Loss:0.465 (Avg 0.3889) Dice:0.4664 (Avg 0.6763) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [111][4/5]  Loss:0.454 (Avg 0.4052) Dice:0.5159 (Avg 0.6362) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [111][5/5]  Loss:0.354 (Avg 0.3949) Dice:0.7716 (Avg 0.6633) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [111][1/2]  Loss:0.548 (Avg 0.5481) Dice:0.5472 (Avg 0.5472) (AvgTime 0.9)   
+   [Val] Epoch: [111][2/2]  Loss:0.467 (Avg 0.5157) Dice:0.6394 (Avg 0.5840) (AvgTime 0.6)   
+	 Mean dice:0.5840 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 15/100
+
+========= Epoch [112/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [112][1/5]  Loss:0.437 (Avg 0.4368) Dice:0.6141 (Avg 0.6141) LR 9.78e-04   (AvgTime 1.1)   
+   [Train] Epoch: [112][2/5]  Loss:0.381 (Avg 0.4088) Dice:0.7105 (Avg 0.6623) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [112][3/5]  Loss:0.387 (Avg 0.4016) Dice:0.7536 (Avg 0.6927) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [112][4/5]  Loss:0.368 (Avg 0.3932) Dice:0.7660 (Avg 0.7110) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [112][5/5]  Loss:0.397 (Avg 0.3940) Dice:0.6460 (Avg 0.6980) LR 9.78e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [112][1/2]  Loss:0.573 (Avg 0.5727) Dice:0.5654 (Avg 0.5654) (AvgTime 0.8)   
+   [Val] Epoch: [112][2/2]  Loss:0.502 (Avg 0.5444) Dice:0.6764 (Avg 0.6098) (AvgTime 0.6)   
+	 Mean dice:0.6098 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 16/100
+
+========= Epoch [113/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [113][1/5]  Loss:0.385 (Avg 0.3849) Dice:0.6729 (Avg 0.6729) LR 9.14e-04   (AvgTime 1.2)   
+   [Train] Epoch: [113][2/5]  Loss:0.383 (Avg 0.3839) Dice:0.6709 (Avg 0.6719) LR 9.14e-04   (AvgTime 1.0)   
+   [Train] Epoch: [113][3/5]  Loss:0.412 (Avg 0.3931) Dice:0.6106 (Avg 0.6514) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [113][4/5]  Loss:0.429 (Avg 0.4020) Dice:0.5708 (Avg 0.6313) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [113][5/5]  Loss:0.395 (Avg 0.4006) Dice:0.6991 (Avg 0.6448) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [113][1/2]  Loss:0.450 (Avg 0.4496) Dice:0.5479 (Avg 0.5479) (AvgTime 0.9)   
+   [Val] Epoch: [113][2/2]  Loss:0.524 (Avg 0.4792) Dice:0.4874 (Avg 0.5237) (AvgTime 0.6)   
+	 Mean dice:0.5237 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 17/100
+
+========= Epoch [114/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [114][1/5]  Loss:0.377 (Avg 0.3767) Dice:0.7425 (Avg 0.7425) LR 8.15e-04   (AvgTime 1.2)   
+   [Train] Epoch: [114][2/5]  Loss:0.396 (Avg 0.3864) Dice:0.6850 (Avg 0.7137) LR 8.15e-04   (AvgTime 1.0)   
+   [Train] Epoch: [114][3/5]  Loss:0.418 (Avg 0.3969) Dice:0.5948 (Avg 0.6741) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [114][4/5]  Loss:0.404 (Avg 0.3986) Dice:0.6222 (Avg 0.6611) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [114][5/5]  Loss:0.400 (Avg 0.3990) Dice:0.6455 (Avg 0.6580) LR 8.15e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [114][1/2]  Loss:0.501 (Avg 0.5005) Dice:0.6168 (Avg 0.6168) (AvgTime 1.1)   
+   [Val] Epoch: [114][2/2]  Loss:0.477 (Avg 0.4911) Dice:0.6357 (Avg 0.6244) (AvgTime 0.8)   
+	 Mean dice:0.6244 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 18/100
+
+========= Epoch [115/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [115][1/5]  Loss:0.369 (Avg 0.3685) Dice:0.6767 (Avg 0.6767) LR 6.89e-04   (AvgTime 1.1)   
+   [Train] Epoch: [115][2/5]  Loss:0.349 (Avg 0.3585) Dice:0.7602 (Avg 0.7185) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [115][3/5]  Loss:0.420 (Avg 0.3790) Dice:0.5949 (Avg 0.6773) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [115][4/5]  Loss:0.446 (Avg 0.3956) Dice:0.5027 (Avg 0.6336) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [115][5/5]  Loss:0.393 (Avg 0.3950) Dice:0.6814 (Avg 0.6432) LR 6.89e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [115][1/2]  Loss:0.488 (Avg 0.4882) Dice:0.6099 (Avg 0.6099) (AvgTime 0.9)   
+   [Val] Epoch: [115][2/2]  Loss:0.524 (Avg 0.5024) Dice:0.5542 (Avg 0.5876) (AvgTime 0.6)   
+	 Mean dice:0.5876 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 19/100
+
+========= Epoch [116/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [116][1/5]  Loss:0.433 (Avg 0.4327) Dice:0.5513 (Avg 0.5513) LR 5.50e-04   (AvgTime 1.1)   
+   [Train] Epoch: [116][2/5]  Loss:0.412 (Avg 0.4223) Dice:0.6523 (Avg 0.6018) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [116][3/5]  Loss:0.384 (Avg 0.4096) Dice:0.7019 (Avg 0.6352) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [116][4/5]  Loss:0.365 (Avg 0.3984) Dice:0.7494 (Avg 0.6637) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [116][5/5]  Loss:0.364 (Avg 0.3914) Dice:0.7586 (Avg 0.6827) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [116][1/2]  Loss:0.486 (Avg 0.4862) Dice:0.6283 (Avg 0.6283) (AvgTime 0.9)   
+   [Val] Epoch: [116][2/2]  Loss:0.503 (Avg 0.4928) Dice:0.5675 (Avg 0.6040) (AvgTime 0.6)   
+	 Mean dice:0.6040 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 20/100
+
+========= Epoch [117/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [117][1/5]  Loss:0.328 (Avg 0.3280) Dice:0.8156 (Avg 0.8156) LR 4.11e-04   (AvgTime 1.1)   
+   [Train] Epoch: [117][2/5]  Loss:0.446 (Avg 0.3871) Dice:0.5559 (Avg 0.6858) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [117][3/5]  Loss:0.382 (Avg 0.3853) Dice:0.6910 (Avg 0.6875) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [117][4/5]  Loss:0.374 (Avg 0.3824) Dice:0.7354 (Avg 0.6995) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [117][5/5]  Loss:0.415 (Avg 0.3889) Dice:0.5760 (Avg 0.6748) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [117][1/2]  Loss:0.479 (Avg 0.4794) Dice:0.6450 (Avg 0.6450) (AvgTime 0.9)   
+   [Val] Epoch: [117][2/2]  Loss:0.527 (Avg 0.4985) Dice:0.5295 (Avg 0.5988) (AvgTime 0.7)   
+	 Mean dice:0.5988 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 21/100
+
+========= Epoch [118/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [118][1/5]  Loss:0.399 (Avg 0.3987) Dice:0.6770 (Avg 0.6770) LR 2.85e-04   (AvgTime 1.1)   
+   [Train] Epoch: [118][2/5]  Loss:0.319 (Avg 0.3590) Dice:0.8090 (Avg 0.7430) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [118][3/5]  Loss:0.423 (Avg 0.3803) Dice:0.5712 (Avg 0.6857) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [118][4/5]  Loss:0.398 (Avg 0.3847) Dice:0.6698 (Avg 0.6817) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [118][5/5]  Loss:0.388 (Avg 0.3854) Dice:0.6881 (Avg 0.6830) LR 2.85e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [118][1/2]  Loss:0.552 (Avg 0.5517) Dice:0.5486 (Avg 0.5486) (AvgTime 0.8)   
+   [Val] Epoch: [118][2/2]  Loss:0.487 (Avg 0.5258) Dice:0.6981 (Avg 0.6084) (AvgTime 0.6)   
+	 Mean dice:0.6084 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 22/100
+
+========= Epoch [119/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [119][1/5]  Loss:0.432 (Avg 0.4322) Dice:0.5996 (Avg 0.5996) LR 1.86e-04   (AvgTime 1.1)   
+   [Train] Epoch: [119][2/5]  Loss:0.381 (Avg 0.4068) Dice:0.7094 (Avg 0.6545) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [119][3/5]  Loss:0.375 (Avg 0.3961) Dice:0.6866 (Avg 0.6652) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [119][4/5]  Loss:0.381 (Avg 0.3924) Dice:0.6906 (Avg 0.6715) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [119][5/5]  Loss:0.346 (Avg 0.3830) Dice:0.7903 (Avg 0.6953) LR 1.86e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [119][1/2]  Loss:0.528 (Avg 0.5282) Dice:0.5781 (Avg 0.5781) (AvgTime 0.8)   
+   [Val] Epoch: [119][2/2]  Loss:0.544 (Avg 0.5345) Dice:0.6367 (Avg 0.6015) (AvgTime 0.6)   
+	 Mean dice:0.6015 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 23/100
+
+========= Epoch [120/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [120][1/5]  Loss:0.428 (Avg 0.4277) Dice:0.6025 (Avg 0.6025) LR 1.22e-04   (AvgTime 1.2)   
+   [Train] Epoch: [120][2/5]  Loss:0.372 (Avg 0.3997) Dice:0.6898 (Avg 0.6462) LR 1.22e-04   (AvgTime 1.0)   
+   [Train] Epoch: [120][3/5]  Loss:0.330 (Avg 0.3763) Dice:0.7977 (Avg 0.6967) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [120][4/5]  Loss:0.401 (Avg 0.3824) Dice:0.6869 (Avg 0.6942) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [120][5/5]  Loss:0.378 (Avg 0.3815) Dice:0.7163 (Avg 0.6986) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [120][1/2]  Loss:0.539 (Avg 0.5387) Dice:0.5796 (Avg 0.5796) (AvgTime 0.8)   
+   [Val] Epoch: [120][2/2]  Loss:0.513 (Avg 0.5286) Dice:0.6565 (Avg 0.6104) (AvgTime 0.6)   
+	 Mean dice:0.6104 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 24/100
+
+========= Epoch [121/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [121][1/5]  Loss:0.384 (Avg 0.3839) Dice:0.6933 (Avg 0.6933) LR 1.00e-03   (AvgTime 1.2)   
+   [Train] Epoch: [121][2/5]  Loss:0.352 (Avg 0.3681) Dice:0.7730 (Avg 0.7331) LR 1.00e-03   (AvgTime 1.0)   
+   [Train] Epoch: [121][3/5]  Loss:0.365 (Avg 0.3670) Dice:0.7436 (Avg 0.7366) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [121][4/5]  Loss:0.449 (Avg 0.3875) Dice:0.5317 (Avg 0.6854) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [121][5/5]  Loss:0.356 (Avg 0.3811) Dice:0.7751 (Avg 0.7033) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [121][1/2]  Loss:0.604 (Avg 0.6039) Dice:0.4896 (Avg 0.4896) (AvgTime 0.8)   
+   [Val] Epoch: [121][2/2]  Loss:0.654 (Avg 0.6242) Dice:0.5122 (Avg 0.4986) (AvgTime 0.6)   
+	 Mean dice:0.4986 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 25/100
+
+========= Epoch [122/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [122][1/5]  Loss:0.378 (Avg 0.3784) Dice:0.7113 (Avg 0.7113) LR 9.78e-04   (AvgTime 1.1)   
+   [Train] Epoch: [122][2/5]  Loss:0.358 (Avg 0.3682) Dice:0.7801 (Avg 0.7457) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [122][3/5]  Loss:0.434 (Avg 0.3902) Dice:0.6040 (Avg 0.6985) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [122][4/5]  Loss:0.384 (Avg 0.3887) Dice:0.6547 (Avg 0.6875) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [122][5/5]  Loss:0.364 (Avg 0.3837) Dice:0.7735 (Avg 0.7047) LR 9.78e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [122][1/2]  Loss:0.581 (Avg 0.5807) Dice:0.5823 (Avg 0.5823) (AvgTime 0.8)   
+   [Val] Epoch: [122][2/2]  Loss:0.538 (Avg 0.5638) Dice:0.5562 (Avg 0.5719) (AvgTime 0.6)   
+	 Mean dice:0.5719 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 26/100
+
+========= Epoch [123/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [123][1/5]  Loss:0.373 (Avg 0.3727) Dice:0.7492 (Avg 0.7492) LR 9.14e-04   (AvgTime 1.1)   
+   [Train] Epoch: [123][2/5]  Loss:0.351 (Avg 0.3617) Dice:0.7755 (Avg 0.7624) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [123][3/5]  Loss:0.409 (Avg 0.3775) Dice:0.6496 (Avg 0.7248) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [123][4/5]  Loss:0.345 (Avg 0.3693) Dice:0.7438 (Avg 0.7295) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [123][5/5]  Loss:0.431 (Avg 0.3817) Dice:0.5700 (Avg 0.6976) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [123][1/2]  Loss:0.517 (Avg 0.5165) Dice:0.6459 (Avg 0.6459) (AvgTime 0.8)   
+   [Val] Epoch: [123][2/2]  Loss:0.540 (Avg 0.5257) Dice:0.5612 (Avg 0.6120) (AvgTime 0.6)   
+	 Mean dice:0.6120 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 27/100
+
+========= Epoch [124/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [124][1/5]  Loss:0.343 (Avg 0.3434) Dice:0.7688 (Avg 0.7688) LR 8.15e-04   (AvgTime 1.2)   
+   [Train] Epoch: [124][2/5]  Loss:0.354 (Avg 0.3488) Dice:0.7981 (Avg 0.7834) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [124][3/5]  Loss:0.411 (Avg 0.3695) Dice:0.6552 (Avg 0.7407) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [124][4/5]  Loss:0.363 (Avg 0.3678) Dice:0.7652 (Avg 0.7468) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [124][5/5]  Loss:0.413 (Avg 0.3769) Dice:0.6255 (Avg 0.7226) LR 8.15e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [124][1/2]  Loss:0.562 (Avg 0.5625) Dice:0.5423 (Avg 0.5423) (AvgTime 0.8)   
+   [Val] Epoch: [124][2/2]  Loss:0.575 (Avg 0.5677) Dice:0.6162 (Avg 0.5719) (AvgTime 0.6)   
+	 Mean dice:0.5719 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 28/100
+
+========= Epoch [125/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [125][1/5]  Loss:0.344 (Avg 0.3442) Dice:0.7904 (Avg 0.7904) LR 6.89e-04   (AvgTime 1.1)   
+   [Train] Epoch: [125][2/5]  Loss:0.442 (Avg 0.3932) Dice:0.5548 (Avg 0.6726) LR 6.89e-04   (AvgTime 1.0)   
+   [Train] Epoch: [125][3/5]  Loss:0.356 (Avg 0.3808) Dice:0.7415 (Avg 0.6956) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [125][4/5]  Loss:0.386 (Avg 0.3820) Dice:0.6765 (Avg 0.6908) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [125][5/5]  Loss:0.359 (Avg 0.3774) Dice:0.7343 (Avg 0.6995) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [125][1/2]  Loss:0.553 (Avg 0.5527) Dice:0.5685 (Avg 0.5685) (AvgTime 0.8)   
+   [Val] Epoch: [125][2/2]  Loss:0.501 (Avg 0.5320) Dice:0.6621 (Avg 0.6060) (AvgTime 0.6)   
+	 Mean dice:0.6060 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 29/100
+
+========= Epoch [126/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [126][1/5]  Loss:0.305 (Avg 0.3053) Dice:0.8338 (Avg 0.8338) LR 5.50e-04   (AvgTime 1.2)   
+   [Train] Epoch: [126][2/5]  Loss:0.361 (Avg 0.3334) Dice:0.7443 (Avg 0.7890) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [126][3/5]  Loss:0.449 (Avg 0.3720) Dice:0.5253 (Avg 0.7011) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [126][4/5]  Loss:0.362 (Avg 0.3694) Dice:0.7374 (Avg 0.7102) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [126][5/5]  Loss:0.411 (Avg 0.3777) Dice:0.6279 (Avg 0.6937) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [126][1/2]  Loss:0.562 (Avg 0.5625) Dice:0.5480 (Avg 0.5480) (AvgTime 0.8)   
+   [Val] Epoch: [126][2/2]  Loss:0.564 (Avg 0.5632) Dice:0.5711 (Avg 0.5572) (AvgTime 0.6)   
+	 Mean dice:0.5572 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 30/100
+
+========= Epoch [127/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [127][1/5]  Loss:0.352 (Avg 0.3518) Dice:0.7174 (Avg 0.7174) LR 4.11e-04   (AvgTime 1.1)   
+   [Train] Epoch: [127][2/5]  Loss:0.358 (Avg 0.3549) Dice:0.7301 (Avg 0.7238) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [127][3/5]  Loss:0.386 (Avg 0.3654) Dice:0.6760 (Avg 0.7078) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [127][4/5]  Loss:0.424 (Avg 0.3801) Dice:0.6338 (Avg 0.6893) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [127][5/5]  Loss:0.347 (Avg 0.3736) Dice:0.7956 (Avg 0.7106) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [127][1/2]  Loss:0.535 (Avg 0.5349) Dice:0.6121 (Avg 0.6121) (AvgTime 0.8)   
+   [Val] Epoch: [127][2/2]  Loss:0.569 (Avg 0.5483) Dice:0.5388 (Avg 0.5828) (AvgTime 0.6)   
+	 Mean dice:0.5828 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 31/100
+
+========= Epoch [128/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [128][1/5]  Loss:0.352 (Avg 0.3518) Dice:0.7344 (Avg 0.7344) LR 2.85e-04   (AvgTime 1.1)   
+   [Train] Epoch: [128][2/5]  Loss:0.410 (Avg 0.3811) Dice:0.6689 (Avg 0.7017) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [128][3/5]  Loss:0.340 (Avg 0.3675) Dice:0.7816 (Avg 0.7283) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [128][4/5]  Loss:0.373 (Avg 0.3688) Dice:0.7068 (Avg 0.7229) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [128][5/5]  Loss:0.387 (Avg 0.3725) Dice:0.7178 (Avg 0.7219) LR 2.85e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [128][1/2]  Loss:0.523 (Avg 0.5232) Dice:0.6182 (Avg 0.6182) (AvgTime 0.8)   
+   [Val] Epoch: [128][2/2]  Loss:0.569 (Avg 0.5415) Dice:0.5862 (Avg 0.6054) (AvgTime 0.6)   
+	 Mean dice:0.6054 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 32/100
+
+========= Epoch [129/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [129][1/5]  Loss:0.418 (Avg 0.4182) Dice:0.5915 (Avg 0.5915) LR 1.86e-04   (AvgTime 1.1)   
+   [Train] Epoch: [129][2/5]  Loss:0.385 (Avg 0.4018) Dice:0.7508 (Avg 0.6712) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [129][3/5]  Loss:0.369 (Avg 0.3909) Dice:0.7091 (Avg 0.6838) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [129][4/5]  Loss:0.296 (Avg 0.3672) Dice:0.8452 (Avg 0.7241) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [129][5/5]  Loss:0.395 (Avg 0.3728) Dice:0.6972 (Avg 0.7188) LR 1.86e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [129][1/2]  Loss:0.492 (Avg 0.4923) Dice:0.6657 (Avg 0.6657) (AvgTime 0.8)   
+   [Val] Epoch: [129][2/2]  Loss:0.566 (Avg 0.5220) Dice:0.5837 (Avg 0.6329) (AvgTime 0.6)   
+	 Mean dice:0.6329 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 33/100
+
+========= Epoch [130/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [130][1/5]  Loss:0.327 (Avg 0.3272) Dice:0.8158 (Avg 0.8158) LR 1.22e-04   (AvgTime 1.2)   
+   [Train] Epoch: [130][2/5]  Loss:0.377 (Avg 0.3523) Dice:0.7512 (Avg 0.7835) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [130][3/5]  Loss:0.351 (Avg 0.3517) Dice:0.8284 (Avg 0.7985) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [130][4/5]  Loss:0.447 (Avg 0.3756) Dice:0.5483 (Avg 0.7359) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [130][5/5]  Loss:0.354 (Avg 0.3713) Dice:0.7196 (Avg 0.7327) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [130][1/2]  Loss:0.531 (Avg 0.5312) Dice:0.6422 (Avg 0.6422) (AvgTime 0.8)   
+   [Val] Epoch: [130][2/2]  Loss:0.501 (Avg 0.5193) Dice:0.6308 (Avg 0.6376) (AvgTime 0.6)   
+	 Mean dice:0.6376 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 34/100
+
+========= Epoch [131/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [131][1/5]  Loss:0.307 (Avg 0.3072) Dice:0.8174 (Avg 0.8174) LR 1.00e-03   (AvgTime 1.1)   
+   [Train] Epoch: [131][2/5]  Loss:0.402 (Avg 0.3548) Dice:0.6291 (Avg 0.7232) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [131][3/5]  Loss:0.393 (Avg 0.3677) Dice:0.6407 (Avg 0.6957) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [131][4/5]  Loss:0.382 (Avg 0.3712) Dice:0.7222 (Avg 0.7023) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [131][5/5]  Loss:0.368 (Avg 0.3706) Dice:0.7836 (Avg 0.7186) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [131][1/2]  Loss:0.567 (Avg 0.5674) Dice:0.6210 (Avg 0.6210) (AvgTime 0.8)   
+   [Val] Epoch: [131][2/2]  Loss:0.575 (Avg 0.5703) Dice:0.5189 (Avg 0.5801) (AvgTime 0.6)   
+	 Mean dice:0.5801 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 35/100
+
+========= Epoch [132/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [132][1/5]  Loss:0.382 (Avg 0.3818) Dice:0.7054 (Avg 0.7054) LR 9.78e-04   (AvgTime 1.1)   
+   [Train] Epoch: [132][2/5]  Loss:0.378 (Avg 0.3797) Dice:0.6762 (Avg 0.6908) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [132][3/5]  Loss:0.395 (Avg 0.3848) Dice:0.6933 (Avg 0.6916) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [132][4/5]  Loss:0.321 (Avg 0.3688) Dice:0.8190 (Avg 0.7235) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [132][5/5]  Loss:0.386 (Avg 0.3721) Dice:0.6731 (Avg 0.7134) LR 9.78e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [132][1/2]  Loss:0.640 (Avg 0.6397) Dice:0.4934 (Avg 0.4934) (AvgTime 0.8)   
+   [Val] Epoch: [132][2/2]  Loss:0.590 (Avg 0.6200) Dice:0.5481 (Avg 0.5153) (AvgTime 0.6)   
+	 Mean dice:0.5153 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 36/100
+
+========= Epoch [133/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [133][1/5]  Loss:0.426 (Avg 0.4260) Dice:0.5888 (Avg 0.5888) LR 9.14e-04   (AvgTime 1.1)   
+   [Train] Epoch: [133][2/5]  Loss:0.367 (Avg 0.3966) Dice:0.7358 (Avg 0.6623) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [133][3/5]  Loss:0.361 (Avg 0.3848) Dice:0.7700 (Avg 0.6982) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [133][4/5]  Loss:0.332 (Avg 0.3717) Dice:0.8191 (Avg 0.7284) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [133][5/5]  Loss:0.380 (Avg 0.3733) Dice:0.6829 (Avg 0.7193) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [133][1/2]  Loss:0.552 (Avg 0.5520) Dice:0.5585 (Avg 0.5585) (AvgTime 0.8)   
+   [Val] Epoch: [133][2/2]  Loss:0.466 (Avg 0.5175) Dice:0.6331 (Avg 0.5884) (AvgTime 0.6)   
+	 Mean dice:0.5884 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 37/100
+
+========= Epoch [134/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [134][1/5]  Loss:0.318 (Avg 0.3179) Dice:0.7965 (Avg 0.7965) LR 8.15e-04   (AvgTime 1.3)   
+   [Train] Epoch: [134][2/5]  Loss:0.413 (Avg 0.3654) Dice:0.5942 (Avg 0.6954) LR 8.15e-04   (AvgTime 1.0)   
+   [Train] Epoch: [134][3/5]  Loss:0.393 (Avg 0.3746) Dice:0.6423 (Avg 0.6777) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [134][4/5]  Loss:0.372 (Avg 0.3740) Dice:0.7000 (Avg 0.6832) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [134][5/5]  Loss:0.357 (Avg 0.3705) Dice:0.7797 (Avg 0.7025) LR 8.15e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [134][1/2]  Loss:0.595 (Avg 0.5949) Dice:0.5340 (Avg 0.5340) (AvgTime 0.8)   
+   [Val] Epoch: [134][2/2]  Loss:0.518 (Avg 0.5639) Dice:0.6573 (Avg 0.5833) (AvgTime 0.6)   
+	 Mean dice:0.5833 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 38/100
+
+========= Epoch [135/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [135][1/5]  Loss:0.389 (Avg 0.3887) Dice:0.6622 (Avg 0.6622) LR 6.89e-04   (AvgTime 1.1)   
+   [Train] Epoch: [135][2/5]  Loss:0.358 (Avg 0.3735) Dice:0.7924 (Avg 0.7273) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [135][3/5]  Loss:0.408 (Avg 0.3851) Dice:0.6294 (Avg 0.6947) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [135][4/5]  Loss:0.344 (Avg 0.3749) Dice:0.7660 (Avg 0.7125) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [135][5/5]  Loss:0.326 (Avg 0.3651) Dice:0.8150 (Avg 0.7330) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [135][1/2]  Loss:0.530 (Avg 0.5298) Dice:0.6279 (Avg 0.6279) (AvgTime 0.9)   
+   [Val] Epoch: [135][2/2]  Loss:0.586 (Avg 0.5522) Dice:0.5524 (Avg 0.5977) (AvgTime 0.6)   
+	 Mean dice:0.5977 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 39/100
+
+========= Epoch [136/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [136][1/5]  Loss:0.353 (Avg 0.3531) Dice:0.7494 (Avg 0.7494) LR 5.50e-04   (AvgTime 1.1)   
+   [Train] Epoch: [136][2/5]  Loss:0.384 (Avg 0.3687) Dice:0.7078 (Avg 0.7286) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [136][3/5]  Loss:0.391 (Avg 0.3761) Dice:0.6861 (Avg 0.7144) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [136][4/5]  Loss:0.380 (Avg 0.3770) Dice:0.6647 (Avg 0.7020) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [136][5/5]  Loss:0.324 (Avg 0.3665) Dice:0.7979 (Avg 0.7212) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [136][1/2]  Loss:0.513 (Avg 0.5126) Dice:0.6259 (Avg 0.6259) (AvgTime 0.9)   
+   [Val] Epoch: [136][2/2]  Loss:0.463 (Avg 0.4927) Dice:0.6420 (Avg 0.6324) (AvgTime 0.7)   
+	 Mean dice:0.6324 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 40/100
+
+========= Epoch [137/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [137][1/5]  Loss:0.325 (Avg 0.3246) Dice:0.7864 (Avg 0.7864) LR 4.11e-04   (AvgTime 1.1)   
+   [Train] Epoch: [137][2/5]  Loss:0.343 (Avg 0.3338) Dice:0.7699 (Avg 0.7781) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [137][3/5]  Loss:0.403 (Avg 0.3569) Dice:0.6303 (Avg 0.7288) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [137][4/5]  Loss:0.406 (Avg 0.3692) Dice:0.6078 (Avg 0.6986) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [137][5/5]  Loss:0.352 (Avg 0.3656) Dice:0.7526 (Avg 0.7094) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [137][1/2]  Loss:0.507 (Avg 0.5066) Dice:0.6246 (Avg 0.6246) (AvgTime 0.9)   
+   [Val] Epoch: [137][2/2]  Loss:0.560 (Avg 0.5280) Dice:0.5530 (Avg 0.5960) (AvgTime 0.6)   
+	 Mean dice:0.5960 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 41/100
+
+========= Epoch [138/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [138][1/5]  Loss:0.358 (Avg 0.3575) Dice:0.7129 (Avg 0.7129) LR 2.85e-04   (AvgTime 1.1)   
+   [Train] Epoch: [138][2/5]  Loss:0.358 (Avg 0.3579) Dice:0.7682 (Avg 0.7406) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [138][3/5]  Loss:0.378 (Avg 0.3647) Dice:0.7141 (Avg 0.7318) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [138][4/5]  Loss:0.368 (Avg 0.3656) Dice:0.7336 (Avg 0.7322) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [138][5/5]  Loss:0.341 (Avg 0.3608) Dice:0.7971 (Avg 0.7452) LR 2.85e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [138][1/2]  Loss:0.533 (Avg 0.5329) Dice:0.6024 (Avg 0.6024) (AvgTime 0.8)   
+   [Val] Epoch: [138][2/2]  Loss:0.578 (Avg 0.5511) Dice:0.5658 (Avg 0.5878) (AvgTime 0.6)   
+	 Mean dice:0.5878 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 42/100
+
+========= Epoch [139/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [139][1/5]  Loss:0.412 (Avg 0.4122) Dice:0.6542 (Avg 0.6542) LR 1.86e-04   (AvgTime 1.1)   
+   [Train] Epoch: [139][2/5]  Loss:0.322 (Avg 0.3673) Dice:0.8217 (Avg 0.7380) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [139][3/5]  Loss:0.347 (Avg 0.3604) Dice:0.7976 (Avg 0.7579) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [139][4/5]  Loss:0.386 (Avg 0.3668) Dice:0.6871 (Avg 0.7402) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [139][5/5]  Loss:0.338 (Avg 0.3610) Dice:0.8001 (Avg 0.7522) LR 1.86e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [139][1/2]  Loss:0.534 (Avg 0.5344) Dice:0.6150 (Avg 0.6150) (AvgTime 0.9)   
+   [Val] Epoch: [139][2/2]  Loss:0.534 (Avg 0.5343) Dice:0.5876 (Avg 0.6040) (AvgTime 0.7)   
+	 Mean dice:0.6040 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 43/100
+
+========= Epoch [140/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [140][1/5]  Loss:0.307 (Avg 0.3070) Dice:0.8522 (Avg 0.8522) LR 1.22e-04   (AvgTime 1.2)   
+   [Train] Epoch: [140][2/5]  Loss:0.439 (Avg 0.3729) Dice:0.5573 (Avg 0.7047) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [140][3/5]  Loss:0.359 (Avg 0.3682) Dice:0.7572 (Avg 0.7222) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [140][4/5]  Loss:0.319 (Avg 0.3558) Dice:0.8018 (Avg 0.7421) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [140][5/5]  Loss:0.384 (Avg 0.3615) Dice:0.6659 (Avg 0.7269) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [140][1/2]  Loss:0.531 (Avg 0.5307) Dice:0.6090 (Avg 0.6090) (AvgTime 0.8)   
+   [Val] Epoch: [140][2/2]  Loss:0.519 (Avg 0.5260) Dice:0.6226 (Avg 0.6144) (AvgTime 0.6)   
+	 Mean dice:0.6144 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 44/100
+
+========= Epoch [141/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [141][1/5]  Loss:0.344 (Avg 0.3436) Dice:0.7630 (Avg 0.7630) LR 1.00e-03   (AvgTime 1.1)   
+   [Train] Epoch: [141][2/5]  Loss:0.340 (Avg 0.3416) Dice:0.7837 (Avg 0.7733) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [141][3/5]  Loss:0.422 (Avg 0.3686) Dice:0.6053 (Avg 0.7173) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [141][4/5]  Loss:0.318 (Avg 0.3560) Dice:0.8201 (Avg 0.7430) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [141][5/5]  Loss:0.374 (Avg 0.3596) Dice:0.7136 (Avg 0.7371) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [141][1/2]  Loss:0.492 (Avg 0.4920) Dice:0.6273 (Avg 0.6273) (AvgTime 0.8)   
+   [Val] Epoch: [141][2/2]  Loss:0.582 (Avg 0.5281) Dice:0.5791 (Avg 0.6080) (AvgTime 0.6)   
+	 Mean dice:0.6080 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 45/100
+
+========= Epoch [142/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [142][1/5]  Loss:0.378 (Avg 0.3778) Dice:0.6848 (Avg 0.6848) LR 9.78e-04   (AvgTime 1.2)   
+   [Train] Epoch: [142][2/5]  Loss:0.369 (Avg 0.3735) Dice:0.7196 (Avg 0.7022) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [142][3/5]  Loss:0.315 (Avg 0.3541) Dice:0.7987 (Avg 0.7344) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [142][4/5]  Loss:0.361 (Avg 0.3558) Dice:0.7412 (Avg 0.7361) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [142][5/5]  Loss:0.388 (Avg 0.3621) Dice:0.6918 (Avg 0.7272) LR 9.78e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [142][1/2]  Loss:0.621 (Avg 0.6210) Dice:0.4621 (Avg 0.4621) (AvgTime 0.8)   
+   [Val] Epoch: [142][2/2]  Loss:0.586 (Avg 0.6069) Dice:0.5198 (Avg 0.4852) (AvgTime 0.6)   
+	 Mean dice:0.4852 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 46/100
+
+========= Epoch [143/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [143][1/5]  Loss:0.338 (Avg 0.3378) Dice:0.7850 (Avg 0.7850) LR 9.14e-04   (AvgTime 1.2)   
+   [Train] Epoch: [143][2/5]  Loss:0.367 (Avg 0.3522) Dice:0.7148 (Avg 0.7499) LR 9.14e-04   (AvgTime 1.0)   
+   [Train] Epoch: [143][3/5]  Loss:0.358 (Avg 0.3543) Dice:0.7227 (Avg 0.7408) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [143][4/5]  Loss:0.320 (Avg 0.3458) Dice:0.7741 (Avg 0.7492) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [143][5/5]  Loss:0.428 (Avg 0.3623) Dice:0.5532 (Avg 0.7100) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [143][1/2]  Loss:0.456 (Avg 0.4559) Dice:0.6318 (Avg 0.6318) (AvgTime 0.8)   
+   [Val] Epoch: [143][2/2]  Loss:0.495 (Avg 0.4714) Dice:0.5783 (Avg 0.6104) (AvgTime 0.6)   
+	 Mean dice:0.6104 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 47/100
+
+========= Epoch [144/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [144][1/5]  Loss:0.349 (Avg 0.3486) Dice:0.8142 (Avg 0.8142) LR 8.15e-04   (AvgTime 1.0)   
+   [Train] Epoch: [144][2/5]  Loss:0.363 (Avg 0.3557) Dice:0.7974 (Avg 0.8058) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [144][3/5]  Loss:0.323 (Avg 0.3446) Dice:0.7932 (Avg 0.8016) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [144][4/5]  Loss:0.401 (Avg 0.3588) Dice:0.6711 (Avg 0.7690) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [144][5/5]  Loss:0.377 (Avg 0.3624) Dice:0.7139 (Avg 0.7580) LR 8.15e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [144][1/2]  Loss:0.468 (Avg 0.4684) Dice:0.6610 (Avg 0.6610) (AvgTime 0.9)   
+   [Val] Epoch: [144][2/2]  Loss:0.481 (Avg 0.4733) Dice:0.5837 (Avg 0.6301) (AvgTime 0.6)   
+	 Mean dice:0.6301 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 48/100
+
+========= Epoch [145/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [145][1/5]  Loss:0.335 (Avg 0.3350) Dice:0.7557 (Avg 0.7557) LR 6.89e-04   (AvgTime 1.2)   
+   [Train] Epoch: [145][2/5]  Loss:0.372 (Avg 0.3534) Dice:0.7087 (Avg 0.7322) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [145][3/5]  Loss:0.380 (Avg 0.3624) Dice:0.6368 (Avg 0.7004) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [145][4/5]  Loss:0.349 (Avg 0.3592) Dice:0.7635 (Avg 0.7162) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [145][5/5]  Loss:0.374 (Avg 0.3622) Dice:0.6799 (Avg 0.7089) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [145][1/2]  Loss:0.502 (Avg 0.5020) Dice:0.5773 (Avg 0.5773) (AvgTime 0.8)   
+   [Val] Epoch: [145][2/2]  Loss:0.453 (Avg 0.4824) Dice:0.6666 (Avg 0.6130) (AvgTime 0.6)   
+	 Mean dice:0.6130 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 49/100
+
+========= Epoch [146/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [146][1/5]  Loss:0.330 (Avg 0.3298) Dice:0.7883 (Avg 0.7883) LR 5.50e-04   (AvgTime 1.1)   
+   [Train] Epoch: [146][2/5]  Loss:0.401 (Avg 0.3653) Dice:0.6585 (Avg 0.7234) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [146][3/5]  Loss:0.353 (Avg 0.3613) Dice:0.6922 (Avg 0.7130) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [146][4/5]  Loss:0.339 (Avg 0.3558) Dice:0.7460 (Avg 0.7213) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [146][5/5]  Loss:0.412 (Avg 0.3671) Dice:0.6244 (Avg 0.7019) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [146][1/2]  Loss:0.449 (Avg 0.4491) Dice:0.6181 (Avg 0.6181) (AvgTime 0.8)   
+   [Val] Epoch: [146][2/2]  Loss:0.433 (Avg 0.4427) Dice:0.6556 (Avg 0.6331) (AvgTime 0.6)   
+	 Mean dice:0.6331 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 50/100
+
+========= Epoch [147/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [147][1/5]  Loss:0.376 (Avg 0.3757) Dice:0.7092 (Avg 0.7092) LR 4.11e-04   (AvgTime 1.2)   
+   [Train] Epoch: [147][2/5]  Loss:0.408 (Avg 0.3918) Dice:0.6466 (Avg 0.6779) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [147][3/5]  Loss:0.330 (Avg 0.3713) Dice:0.7925 (Avg 0.7161) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [147][4/5]  Loss:0.323 (Avg 0.3591) Dice:0.7742 (Avg 0.7306) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [147][5/5]  Loss:0.364 (Avg 0.3601) Dice:0.7514 (Avg 0.7348) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [147][1/2]  Loss:0.498 (Avg 0.4975) Dice:0.5908 (Avg 0.5908) (AvgTime 0.8)   
+   [Val] Epoch: [147][2/2]  Loss:0.479 (Avg 0.4903) Dice:0.6476 (Avg 0.6135) (AvgTime 0.6)   
+	 Mean dice:0.6135 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 51/100
+
+========= Epoch [148/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [148][1/5]  Loss:0.320 (Avg 0.3197) Dice:0.8027 (Avg 0.8027) LR 2.85e-04   (AvgTime 1.1)   
+   [Train] Epoch: [148][2/5]  Loss:0.418 (Avg 0.3690) Dice:0.6122 (Avg 0.7074) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [148][3/5]  Loss:0.352 (Avg 0.3633) Dice:0.7003 (Avg 0.7051) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [148][4/5]  Loss:0.335 (Avg 0.3563) Dice:0.7816 (Avg 0.7242) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [148][5/5]  Loss:0.356 (Avg 0.3562) Dice:0.7047 (Avg 0.7203) LR 2.85e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [148][1/2]  Loss:0.550 (Avg 0.5496) Dice:0.5457 (Avg 0.5457) (AvgTime 0.8)   
+   [Val] Epoch: [148][2/2]  Loss:0.498 (Avg 0.5290) Dice:0.6999 (Avg 0.6074) (AvgTime 0.6)   
+	 Mean dice:0.6074 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 52/100
+
+========= Epoch [149/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [149][1/5]  Loss:0.392 (Avg 0.3917) Dice:0.6599 (Avg 0.6599) LR 1.86e-04   (AvgTime 1.1)   
+   [Train] Epoch: [149][2/5]  Loss:0.322 (Avg 0.3569) Dice:0.7666 (Avg 0.7133) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [149][3/5]  Loss:0.325 (Avg 0.3462) Dice:0.7384 (Avg 0.7216) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [149][4/5]  Loss:0.389 (Avg 0.3568) Dice:0.6617 (Avg 0.7067) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [149][5/5]  Loss:0.356 (Avg 0.3566) Dice:0.7754 (Avg 0.7204) LR 1.86e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [149][1/2]  Loss:0.544 (Avg 0.5444) Dice:0.6163 (Avg 0.6163) (AvgTime 0.9)   
+   [Val] Epoch: [149][2/2]  Loss:0.553 (Avg 0.5479) Dice:0.5753 (Avg 0.5999) (AvgTime 0.6)   
+	 Mean dice:0.5999 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 53/100
+
+========= Epoch [150/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [150][1/5]  Loss:0.290 (Avg 0.2896) Dice:0.8343 (Avg 0.8343) LR 1.22e-04   (AvgTime 1.1)   
+   [Train] Epoch: [150][2/5]  Loss:0.426 (Avg 0.3576) Dice:0.5951 (Avg 0.7147) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [150][3/5]  Loss:0.405 (Avg 0.3734) Dice:0.6257 (Avg 0.6850) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [150][4/5]  Loss:0.325 (Avg 0.3613) Dice:0.8012 (Avg 0.7141) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [150][5/5]  Loss:0.329 (Avg 0.3548) Dice:0.7907 (Avg 0.7294) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [150][1/2]  Loss:0.541 (Avg 0.5409) Dice:0.6153 (Avg 0.6153) (AvgTime 0.8)   
+   [Val] Epoch: [150][2/2]  Loss:0.525 (Avg 0.5345) Dice:0.6182 (Avg 0.6164) (AvgTime 0.6)   
+	 Mean dice:0.6164 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 54/100
+
+========= Epoch [151/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [151][1/5]  Loss:0.327 (Avg 0.3268) Dice:0.8070 (Avg 0.8070) LR 1.00e-03   (AvgTime 1.2)   
+   [Train] Epoch: [151][2/5]  Loss:0.423 (Avg 0.3751) Dice:0.5808 (Avg 0.6939) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [151][3/5]  Loss:0.345 (Avg 0.3651) Dice:0.7835 (Avg 0.7238) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [151][4/5]  Loss:0.342 (Avg 0.3594) Dice:0.7495 (Avg 0.7302) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [151][5/5]  Loss:0.330 (Avg 0.3536) Dice:0.8075 (Avg 0.7457) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [151][1/2]  Loss:0.555 (Avg 0.5551) Dice:0.5923 (Avg 0.5923) (AvgTime 0.9)   
+   [Val] Epoch: [151][2/2]  Loss:0.499 (Avg 0.5326) Dice:0.6027 (Avg 0.5964) (AvgTime 0.6)   
+	 Mean dice:0.5964 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 55/100
+
+========= Epoch [152/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [152][1/5]  Loss:0.437 (Avg 0.4370) Dice:0.5921 (Avg 0.5921) LR 9.78e-04   (AvgTime 1.2)   
+   [Train] Epoch: [152][2/5]  Loss:0.309 (Avg 0.3728) Dice:0.8077 (Avg 0.6999) LR 9.78e-04   (AvgTime 1.0)   
+   [Train] Epoch: [152][3/5]  Loss:0.369 (Avg 0.3716) Dice:0.7115 (Avg 0.7038) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [152][4/5]  Loss:0.328 (Avg 0.3606) Dice:0.7954 (Avg 0.7267) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [152][5/5]  Loss:0.351 (Avg 0.3586) Dice:0.7652 (Avg 0.7344) LR 9.78e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [152][1/2]  Loss:0.592 (Avg 0.5923) Dice:0.4840 (Avg 0.4840) (AvgTime 0.9)   
+   [Val] Epoch: [152][2/2]  Loss:0.515 (Avg 0.5615) Dice:0.6785 (Avg 0.5618) (AvgTime 0.6)   
+	 Mean dice:0.5618 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 56/100
+
+========= Epoch [153/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [153][1/5]  Loss:0.357 (Avg 0.3574) Dice:0.7535 (Avg 0.7535) LR 9.14e-04   (AvgTime 1.2)   
+   [Train] Epoch: [153][2/5]  Loss:0.330 (Avg 0.3436) Dice:0.7424 (Avg 0.7480) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [153][3/5]  Loss:0.303 (Avg 0.3300) Dice:0.7984 (Avg 0.7648) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [153][4/5]  Loss:0.395 (Avg 0.3463) Dice:0.6223 (Avg 0.7292) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [153][5/5]  Loss:0.396 (Avg 0.3562) Dice:0.6366 (Avg 0.7107) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [153][1/2]  Loss:0.525 (Avg 0.5252) Dice:0.6010 (Avg 0.6010) (AvgTime 0.9)   
+   [Val] Epoch: [153][2/2]  Loss:0.595 (Avg 0.5533) Dice:0.5266 (Avg 0.5713) (AvgTime 0.6)   
+	 Mean dice:0.5713 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 57/100
+
+========= Epoch [154/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [154][1/5]  Loss:0.404 (Avg 0.4044) Dice:0.6684 (Avg 0.6684) LR 8.15e-04   (AvgTime 1.1)   
+   [Train] Epoch: [154][2/5]  Loss:0.312 (Avg 0.3583) Dice:0.8374 (Avg 0.7529) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [154][3/5]  Loss:0.380 (Avg 0.3657) Dice:0.7292 (Avg 0.7450) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [154][4/5]  Loss:0.317 (Avg 0.3536) Dice:0.8294 (Avg 0.7661) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [154][5/5]  Loss:0.384 (Avg 0.3597) Dice:0.6460 (Avg 0.7421) LR 8.15e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [154][1/2]  Loss:0.521 (Avg 0.5206) Dice:0.5926 (Avg 0.5926) (AvgTime 0.8)   
+   [Val] Epoch: [154][2/2]  Loss:0.581 (Avg 0.5446) Dice:0.5661 (Avg 0.5820) (AvgTime 0.6)   
+	 Mean dice:0.5820 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 58/100
+
+========= Epoch [155/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [155][1/5]  Loss:0.426 (Avg 0.4256) Dice:0.5246 (Avg 0.5246) LR 6.89e-04   (AvgTime 1.1)   
+   [Train] Epoch: [155][2/5]  Loss:0.342 (Avg 0.3839) Dice:0.7414 (Avg 0.6330) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [155][3/5]  Loss:0.330 (Avg 0.3658) Dice:0.7528 (Avg 0.6729) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [155][4/5]  Loss:0.334 (Avg 0.3578) Dice:0.7790 (Avg 0.6994) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [155][5/5]  Loss:0.328 (Avg 0.3519) Dice:0.8047 (Avg 0.7205) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [155][1/2]  Loss:0.519 (Avg 0.5187) Dice:0.5959 (Avg 0.5959) (AvgTime 0.8)   
+   [Val] Epoch: [155][2/2]  Loss:0.496 (Avg 0.5095) Dice:0.6275 (Avg 0.6085) (AvgTime 0.6)   
+	 Mean dice:0.6085 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 59/100
+
+========= Epoch [156/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [156][1/5]  Loss:0.333 (Avg 0.3327) Dice:0.7447 (Avg 0.7447) LR 5.50e-04   (AvgTime 1.2)   
+   [Train] Epoch: [156][2/5]  Loss:0.427 (Avg 0.3800) Dice:0.5569 (Avg 0.6508) LR 5.50e-04   (AvgTime 1.0)   
+   [Train] Epoch: [156][3/5]  Loss:0.324 (Avg 0.3615) Dice:0.7734 (Avg 0.6916) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [156][4/5]  Loss:0.350 (Avg 0.3587) Dice:0.7433 (Avg 0.7046) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [156][5/5]  Loss:0.314 (Avg 0.3496) Dice:0.8128 (Avg 0.7262) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [156][1/2]  Loss:0.514 (Avg 0.5138) Dice:0.5984 (Avg 0.5984) (AvgTime 0.9)   
+   [Val] Epoch: [156][2/2]  Loss:0.549 (Avg 0.5280) Dice:0.5955 (Avg 0.5972) (AvgTime 0.6)   
+	 Mean dice:0.5972 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 60/100
+
+========= Epoch [157/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [157][1/5]  Loss:0.359 (Avg 0.3590) Dice:0.7048 (Avg 0.7048) LR 4.11e-04   (AvgTime 1.2)   
+   [Train] Epoch: [157][2/5]  Loss:0.298 (Avg 0.3284) Dice:0.8439 (Avg 0.7743) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [157][3/5]  Loss:0.349 (Avg 0.3353) Dice:0.7356 (Avg 0.7614) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [157][4/5]  Loss:0.330 (Avg 0.3339) Dice:0.7556 (Avg 0.7600) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [157][5/5]  Loss:0.399 (Avg 0.3470) Dice:0.6532 (Avg 0.7386) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [157][1/2]  Loss:0.549 (Avg 0.5492) Dice:0.5981 (Avg 0.5981) (AvgTime 0.8)   
+   [Val] Epoch: [157][2/2]  Loss:0.551 (Avg 0.5498) Dice:0.5546 (Avg 0.5807) (AvgTime 0.6)   
+	 Mean dice:0.5807 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 61/100
+
+========= Epoch [158/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [158][1/5]  Loss:0.304 (Avg 0.3043) Dice:0.8202 (Avg 0.8202) LR 2.85e-04   (AvgTime 1.1)   
+   [Train] Epoch: [158][2/5]  Loss:0.302 (Avg 0.3032) Dice:0.8409 (Avg 0.8305) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [158][3/5]  Loss:0.313 (Avg 0.3065) Dice:0.7966 (Avg 0.8192) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [158][4/5]  Loss:0.431 (Avg 0.3377) Dice:0.5471 (Avg 0.7512) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [158][5/5]  Loss:0.374 (Avg 0.3449) Dice:0.7028 (Avg 0.7415) LR 2.85e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [158][1/2]  Loss:0.548 (Avg 0.5482) Dice:0.6109 (Avg 0.6109) (AvgTime 0.9)   
+   [Val] Epoch: [158][2/2]  Loss:0.501 (Avg 0.5293) Dice:0.5962 (Avg 0.6050) (AvgTime 0.6)   
+	 Mean dice:0.6050 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 62/100
+
+========= Epoch [159/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [159][1/5]  Loss:0.313 (Avg 0.3129) Dice:0.8115 (Avg 0.8115) LR 1.86e-04   (AvgTime 1.1)   
+   [Train] Epoch: [159][2/5]  Loss:0.419 (Avg 0.3658) Dice:0.6091 (Avg 0.7103) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [159][3/5]  Loss:0.365 (Avg 0.3654) Dice:0.7023 (Avg 0.7076) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [159][4/5]  Loss:0.362 (Avg 0.3646) Dice:0.6784 (Avg 0.7003) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [159][5/5]  Loss:0.268 (Avg 0.3453) Dice:0.8642 (Avg 0.7331) LR 1.86e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [159][1/2]  Loss:0.561 (Avg 0.5614) Dice:0.5646 (Avg 0.5646) (AvgTime 0.9)   
+   [Val] Epoch: [159][2/2]  Loss:0.524 (Avg 0.5465) Dice:0.5989 (Avg 0.5783) (AvgTime 0.6)   
+	 Mean dice:0.5783 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 63/100
+
+========= Epoch [160/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [160][1/5]  Loss:0.284 (Avg 0.2838) Dice:0.8568 (Avg 0.8568) LR 1.22e-04   (AvgTime 1.2)   
+   [Train] Epoch: [160][2/5]  Loss:0.352 (Avg 0.3178) Dice:0.7013 (Avg 0.7791) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [160][3/5]  Loss:0.342 (Avg 0.3257) Dice:0.7781 (Avg 0.7788) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [160][4/5]  Loss:0.385 (Avg 0.3406) Dice:0.6799 (Avg 0.7540) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [160][5/5]  Loss:0.345 (Avg 0.3415) Dice:0.7726 (Avg 0.7578) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [160][1/2]  Loss:0.572 (Avg 0.5717) Dice:0.5344 (Avg 0.5344) (AvgTime 0.8)   
+   [Val] Epoch: [160][2/2]  Loss:0.518 (Avg 0.5502) Dice:0.6357 (Avg 0.5750) (AvgTime 0.6)   
+	 Mean dice:0.5750 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 64/100
+
+========= Epoch [161/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [161][1/5]  Loss:0.411 (Avg 0.4105) Dice:0.6586 (Avg 0.6586) LR 1.00e-03   (AvgTime 1.1)   
+   [Train] Epoch: [161][2/5]  Loss:0.436 (Avg 0.4234) Dice:0.5583 (Avg 0.6085) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [161][3/5]  Loss:0.325 (Avg 0.3907) Dice:0.8436 (Avg 0.6869) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [161][4/5]  Loss:0.310 (Avg 0.3706) Dice:0.8379 (Avg 0.7246) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [161][5/5]  Loss:0.257 (Avg 0.3479) Dice:0.8525 (Avg 0.7502) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [161][1/2]  Loss:0.508 (Avg 0.5084) Dice:0.5530 (Avg 0.5530) (AvgTime 0.9)   
+   [Val] Epoch: [161][2/2]  Loss:0.468 (Avg 0.4921) Dice:0.6511 (Avg 0.5923) (AvgTime 0.6)   
+	 Mean dice:0.5923 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 65/100
+
+========= Epoch [162/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [162][1/5]  Loss:0.319 (Avg 0.3194) Dice:0.7558 (Avg 0.7558) LR 9.78e-04   (AvgTime 1.1)   
+   [Train] Epoch: [162][2/5]  Loss:0.294 (Avg 0.3066) Dice:0.7901 (Avg 0.7730) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [162][3/5]  Loss:0.323 (Avg 0.3121) Dice:0.7547 (Avg 0.7669) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [162][4/5]  Loss:0.450 (Avg 0.3466) Dice:0.4904 (Avg 0.6978) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [162][5/5]  Loss:0.355 (Avg 0.3483) Dice:0.7300 (Avg 0.7042) LR 9.78e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [162][1/2]  Loss:0.523 (Avg 0.5232) Dice:0.6452 (Avg 0.6452) (AvgTime 0.9)   
+   [Val] Epoch: [162][2/2]  Loss:0.567 (Avg 0.5407) Dice:0.5178 (Avg 0.5942) (AvgTime 0.6)   
+	 Mean dice:0.5942 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 66/100
+
+========= Epoch [163/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [163][1/5]  Loss:0.319 (Avg 0.3186) Dice:0.8555 (Avg 0.8555) LR 9.14e-04   (AvgTime 1.1)   
+   [Train] Epoch: [163][2/5]  Loss:0.346 (Avg 0.3322) Dice:0.8031 (Avg 0.8293) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [163][3/5]  Loss:0.389 (Avg 0.3509) Dice:0.6716 (Avg 0.7767) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [163][4/5]  Loss:0.370 (Avg 0.3557) Dice:0.6704 (Avg 0.7501) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [163][5/5]  Loss:0.306 (Avg 0.3458) Dice:0.8081 (Avg 0.7617) LR 9.14e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [163][1/2]  Loss:0.535 (Avg 0.5350) Dice:0.5756 (Avg 0.5756) (AvgTime 0.8)   
+   [Val] Epoch: [163][2/2]  Loss:0.580 (Avg 0.5530) Dice:0.4800 (Avg 0.5373) (AvgTime 0.6)   
+	 Mean dice:0.5373 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 67/100
+
+========= Epoch [164/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [164][1/5]  Loss:0.392 (Avg 0.3916) Dice:0.6233 (Avg 0.6233) LR 8.15e-04   (AvgTime 1.2)   
+   [Train] Epoch: [164][2/5]  Loss:0.402 (Avg 0.3966) Dice:0.6083 (Avg 0.6158) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [164][3/5]  Loss:0.285 (Avg 0.3594) Dice:0.8287 (Avg 0.6868) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [164][4/5]  Loss:0.354 (Avg 0.3580) Dice:0.7274 (Avg 0.6969) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [164][5/5]  Loss:0.290 (Avg 0.3443) Dice:0.8593 (Avg 0.7294) LR 8.15e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [164][1/2]  Loss:0.511 (Avg 0.5115) Dice:0.5745 (Avg 0.5745) (AvgTime 0.8)   
+   [Val] Epoch: [164][2/2]  Loss:0.489 (Avg 0.5025) Dice:0.6424 (Avg 0.6017) (AvgTime 0.6)   
+	 Mean dice:0.6017 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 68/100
+
+========= Epoch [165/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [165][1/5]  Loss:0.291 (Avg 0.2913) Dice:0.8325 (Avg 0.8325) LR 6.89e-04   (AvgTime 1.1)   
+   [Train] Epoch: [165][2/5]  Loss:0.344 (Avg 0.3176) Dice:0.7672 (Avg 0.7999) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [165][3/5]  Loss:0.352 (Avg 0.3291) Dice:0.7205 (Avg 0.7734) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [165][4/5]  Loss:0.377 (Avg 0.3412) Dice:0.6128 (Avg 0.7333) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [165][5/5]  Loss:0.356 (Avg 0.3442) Dice:0.7136 (Avg 0.7293) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [165][1/2]  Loss:0.531 (Avg 0.5306) Dice:0.5935 (Avg 0.5935) (AvgTime 0.8)   
+   [Val] Epoch: [165][2/2]  Loss:0.541 (Avg 0.5346) Dice:0.5724 (Avg 0.5851) (AvgTime 0.6)   
+	 Mean dice:0.5851 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 69/100
+
+========= Epoch [166/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [166][1/5]  Loss:0.384 (Avg 0.3842) Dice:0.6325 (Avg 0.6325) LR 5.50e-04   (AvgTime 1.2)   
+   [Train] Epoch: [166][2/5]  Loss:0.372 (Avg 0.3780) Dice:0.7009 (Avg 0.6667) LR 5.50e-04   (AvgTime 1.0)   
+   [Train] Epoch: [166][3/5]  Loss:0.285 (Avg 0.3470) Dice:0.8548 (Avg 0.7294) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [166][4/5]  Loss:0.339 (Avg 0.3451) Dice:0.7751 (Avg 0.7408) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [166][5/5]  Loss:0.339 (Avg 0.3438) Dice:0.7899 (Avg 0.7506) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [166][1/2]  Loss:0.462 (Avg 0.4619) Dice:0.6772 (Avg 0.6772) (AvgTime 0.9)   
+   [Val] Epoch: [166][2/2]  Loss:0.480 (Avg 0.4693) Dice:0.6048 (Avg 0.6482) (AvgTime 0.6)   
+	 Mean dice:0.6482 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 70/100
+
+========= Epoch [167/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [167][1/5]  Loss:0.457 (Avg 0.4574) Dice:0.4626 (Avg 0.4626) LR 4.11e-04   (AvgTime 1.2)   
+   [Train] Epoch: [167][2/5]  Loss:0.330 (Avg 0.3938) Dice:0.7967 (Avg 0.6296) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [167][3/5]  Loss:0.317 (Avg 0.3683) Dice:0.7869 (Avg 0.6821) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [167][4/5]  Loss:0.282 (Avg 0.3468) Dice:0.8469 (Avg 0.7233) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [167][5/5]  Loss:0.323 (Avg 0.3420) Dice:0.7827 (Avg 0.7352) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [167][1/2]  Loss:0.485 (Avg 0.4852) Dice:0.6268 (Avg 0.6268) (AvgTime 0.9)   
+   [Val] Epoch: [167][2/2]  Loss:0.529 (Avg 0.5029) Dice:0.6163 (Avg 0.6226) (AvgTime 0.6)   
+	 Mean dice:0.6226 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 71/100
+
+========= Epoch [168/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [168][1/5]  Loss:0.306 (Avg 0.3063) Dice:0.7666 (Avg 0.7666) LR 2.85e-04   (AvgTime 1.1)   
+   [Train] Epoch: [168][2/5]  Loss:0.342 (Avg 0.3242) Dice:0.7376 (Avg 0.7521) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [168][3/5]  Loss:0.319 (Avg 0.3226) Dice:0.8044 (Avg 0.7695) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [168][4/5]  Loss:0.331 (Avg 0.3247) Dice:0.7562 (Avg 0.7662) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [168][5/5]  Loss:0.387 (Avg 0.3371) Dice:0.6562 (Avg 0.7442) LR 2.85e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [168][1/2]  Loss:0.519 (Avg 0.5187) Dice:0.6427 (Avg 0.6427) (AvgTime 0.9)   
+   [Val] Epoch: [168][2/2]  Loss:0.555 (Avg 0.5332) Dice:0.5319 (Avg 0.5984) (AvgTime 0.6)   
+	 Mean dice:0.5984 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 72/100
+
+========= Epoch [169/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [169][1/5]  Loss:0.355 (Avg 0.3550) Dice:0.7110 (Avg 0.7110) LR 1.86e-04   (AvgTime 1.1)   
+   [Train] Epoch: [169][2/5]  Loss:0.313 (Avg 0.3342) Dice:0.7858 (Avg 0.7484) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [169][3/5]  Loss:0.301 (Avg 0.3233) Dice:0.8093 (Avg 0.7687) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [169][4/5]  Loss:0.338 (Avg 0.3270) Dice:0.7474 (Avg 0.7634) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [169][5/5]  Loss:0.367 (Avg 0.3350) Dice:0.6812 (Avg 0.7470) LR 1.86e-04   (AvgTime 0.7)   
+Validation
+   [Val] Epoch: [169][1/2]  Loss:0.528 (Avg 0.5282) Dice:0.6185 (Avg 0.6185) (AvgTime 0.8)   
+   [Val] Epoch: [169][2/2]  Loss:0.526 (Avg 0.5271) Dice:0.5938 (Avg 0.6086) (AvgTime 0.6)   
+	 Mean dice:0.6086 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 73/100
+
+========= Epoch [170/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [170][1/5]  Loss:0.288 (Avg 0.2879) Dice:0.8387 (Avg 0.8387) LR 1.22e-04   (AvgTime 1.1)   
+   [Train] Epoch: [170][2/5]  Loss:0.370 (Avg 0.3291) Dice:0.6694 (Avg 0.7540) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [170][3/5]  Loss:0.366 (Avg 0.3416) Dice:0.7089 (Avg 0.7390) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [170][4/5]  Loss:0.327 (Avg 0.3378) Dice:0.7476 (Avg 0.7411) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [170][5/5]  Loss:0.321 (Avg 0.3346) Dice:0.8233 (Avg 0.7576) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [170][1/2]  Loss:0.522 (Avg 0.5224) Dice:0.6208 (Avg 0.6208) (AvgTime 0.8)   
+   [Val] Epoch: [170][2/2]  Loss:0.540 (Avg 0.5295) Dice:0.5930 (Avg 0.6096) (AvgTime 0.6)   
+	 Mean dice:0.6096 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 74/100
+
+========= Epoch [171/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [171][1/5]  Loss:0.327 (Avg 0.3272) Dice:0.7414 (Avg 0.7414) LR 1.00e-03   (AvgTime 1.2)   
+   [Train] Epoch: [171][2/5]  Loss:0.369 (Avg 0.3483) Dice:0.6790 (Avg 0.7102) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [171][3/5]  Loss:0.274 (Avg 0.3236) Dice:0.8719 (Avg 0.7641) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [171][4/5]  Loss:0.356 (Avg 0.3316) Dice:0.7180 (Avg 0.7526) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [171][5/5]  Loss:0.351 (Avg 0.3356) Dice:0.7641 (Avg 0.7549) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [171][1/2]  Loss:0.576 (Avg 0.5758) Dice:0.5396 (Avg 0.5396) (AvgTime 0.8)   
+   [Val] Epoch: [171][2/2]  Loss:0.503 (Avg 0.5467) Dice:0.6589 (Avg 0.5873) (AvgTime 0.6)   
+	 Mean dice:0.5873 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 75/100
+
+========= Epoch [172/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [172][1/5]  Loss:0.329 (Avg 0.3290) Dice:0.7021 (Avg 0.7021) LR 9.78e-04   (AvgTime 1.2)   
+   [Train] Epoch: [172][2/5]  Loss:0.331 (Avg 0.3299) Dice:0.8002 (Avg 0.7512) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [172][3/5]  Loss:0.314 (Avg 0.3245) Dice:0.7793 (Avg 0.7605) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [172][4/5]  Loss:0.386 (Avg 0.3398) Dice:0.6961 (Avg 0.7444) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [172][5/5]  Loss:0.322 (Avg 0.3362) Dice:0.8035 (Avg 0.7562) LR 9.78e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [172][1/2]  Loss:0.564 (Avg 0.5641) Dice:0.5454 (Avg 0.5454) (AvgTime 0.8)   
+   [Val] Epoch: [172][2/2]  Loss:0.595 (Avg 0.5765) Dice:0.5041 (Avg 0.5289) (AvgTime 0.6)   
+	 Mean dice:0.5289 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 76/100
+
+========= Epoch [173/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [173][1/5]  Loss:0.301 (Avg 0.3010) Dice:0.8187 (Avg 0.8187) LR 9.14e-04   (AvgTime 1.1)   
+   [Train] Epoch: [173][2/5]  Loss:0.379 (Avg 0.3402) Dice:0.6948 (Avg 0.7567) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [173][3/5]  Loss:0.302 (Avg 0.3274) Dice:0.8414 (Avg 0.7849) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [173][4/5]  Loss:0.312 (Avg 0.3236) Dice:0.7523 (Avg 0.7768) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [173][5/5]  Loss:0.394 (Avg 0.3377) Dice:0.6696 (Avg 0.7554) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [173][1/2]  Loss:0.511 (Avg 0.5106) Dice:0.5877 (Avg 0.5877) (AvgTime 0.8)   
+   [Val] Epoch: [173][2/2]  Loss:0.461 (Avg 0.4909) Dice:0.6531 (Avg 0.6138) (AvgTime 0.6)   
+	 Mean dice:0.6138 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 77/100
+
+========= Epoch [174/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [174][1/5]  Loss:0.314 (Avg 0.3137) Dice:0.8158 (Avg 0.8158) LR 8.15e-04   (AvgTime 1.1)   
+   [Train] Epoch: [174][2/5]  Loss:0.387 (Avg 0.3502) Dice:0.6346 (Avg 0.7252) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [174][3/5]  Loss:0.320 (Avg 0.3402) Dice:0.7890 (Avg 0.7465) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [174][4/5]  Loss:0.387 (Avg 0.3520) Dice:0.6490 (Avg 0.7221) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [174][5/5]  Loss:0.273 (Avg 0.3361) Dice:0.8489 (Avg 0.7475) LR 8.15e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [174][1/2]  Loss:0.476 (Avg 0.4759) Dice:0.6396 (Avg 0.6396) (AvgTime 0.8)   
+   [Val] Epoch: [174][2/2]  Loss:0.572 (Avg 0.5143) Dice:0.5361 (Avg 0.5982) (AvgTime 0.6)   
+	 Mean dice:0.5982 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 78/100
+
+========= Epoch [175/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [175][1/5]  Loss:0.292 (Avg 0.2916) Dice:0.8360 (Avg 0.8360) LR 6.89e-04   (AvgTime 1.1)   
+   [Train] Epoch: [175][2/5]  Loss:0.338 (Avg 0.3148) Dice:0.7681 (Avg 0.8020) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [175][3/5]  Loss:0.394 (Avg 0.3411) Dice:0.6068 (Avg 0.7369) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [175][4/5]  Loss:0.328 (Avg 0.3378) Dice:0.7594 (Avg 0.7426) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [175][5/5]  Loss:0.329 (Avg 0.3361) Dice:0.7663 (Avg 0.7473) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [175][1/2]  Loss:0.469 (Avg 0.4695) Dice:0.6727 (Avg 0.6727) (AvgTime 0.9)   
+   [Val] Epoch: [175][2/2]  Loss:0.541 (Avg 0.4980) Dice:0.5728 (Avg 0.6327) (AvgTime 0.6)   
+	 Mean dice:0.6327 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 79/100
+
+========= Epoch [176/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [176][1/5]  Loss:0.334 (Avg 0.3338) Dice:0.7437 (Avg 0.7437) LR 5.50e-04   (AvgTime 1.2)   
+   [Train] Epoch: [176][2/5]  Loss:0.360 (Avg 0.3471) Dice:0.7521 (Avg 0.7479) LR 5.50e-04   (AvgTime 1.0)   
+   [Train] Epoch: [176][3/5]  Loss:0.324 (Avg 0.3395) Dice:0.7462 (Avg 0.7473) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [176][4/5]  Loss:0.362 (Avg 0.3452) Dice:0.7437 (Avg 0.7464) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [176][5/5]  Loss:0.288 (Avg 0.3337) Dice:0.8298 (Avg 0.7631) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [176][1/2]  Loss:0.483 (Avg 0.4830) Dice:0.6441 (Avg 0.6441) (AvgTime 0.8)   
+   [Val] Epoch: [176][2/2]  Loss:0.518 (Avg 0.4972) Dice:0.5614 (Avg 0.6110) (AvgTime 0.6)   
+	 Mean dice:0.6110 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 80/100
+
+========= Epoch [177/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [177][1/5]  Loss:0.329 (Avg 0.3289) Dice:0.7869 (Avg 0.7869) LR 4.11e-04   (AvgTime 1.1)   
+   [Train] Epoch: [177][2/5]  Loss:0.380 (Avg 0.3542) Dice:0.6950 (Avg 0.7410) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [177][3/5]  Loss:0.275 (Avg 0.3277) Dice:0.8234 (Avg 0.7684) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [177][4/5]  Loss:0.355 (Avg 0.3345) Dice:0.6898 (Avg 0.7488) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [177][5/5]  Loss:0.317 (Avg 0.3309) Dice:0.7761 (Avg 0.7543) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [177][1/2]  Loss:0.490 (Avg 0.4899) Dice:0.6293 (Avg 0.6293) (AvgTime 0.9)   
+   [Val] Epoch: [177][2/2]  Loss:0.519 (Avg 0.5015) Dice:0.5799 (Avg 0.6095) (AvgTime 0.6)   
+	 Mean dice:0.6095 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 81/100
+
+========= Epoch [178/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [178][1/5]  Loss:0.307 (Avg 0.3072) Dice:0.7788 (Avg 0.7788) LR 2.85e-04   (AvgTime 1.1)   
+   [Train] Epoch: [178][2/5]  Loss:0.301 (Avg 0.3039) Dice:0.8095 (Avg 0.7941) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [178][3/5]  Loss:0.338 (Avg 0.3151) Dice:0.7821 (Avg 0.7901) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [178][4/5]  Loss:0.328 (Avg 0.3182) Dice:0.7419 (Avg 0.7781) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [178][5/5]  Loss:0.369 (Avg 0.3285) Dice:0.7397 (Avg 0.7704) LR 2.85e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [178][1/2]  Loss:0.525 (Avg 0.5254) Dice:0.5518 (Avg 0.5518) (AvgTime 0.8)   
+   [Val] Epoch: [178][2/2]  Loss:0.523 (Avg 0.5242) Dice:0.6330 (Avg 0.5843) (AvgTime 0.6)   
+	 Mean dice:0.5843 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 82/100
+
+========= Epoch [179/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [179][1/5]  Loss:0.315 (Avg 0.3148) Dice:0.7698 (Avg 0.7698) LR 1.86e-04   (AvgTime 1.1)   
+   [Train] Epoch: [179][2/5]  Loss:0.386 (Avg 0.3505) Dice:0.6911 (Avg 0.7305) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [179][3/5]  Loss:0.374 (Avg 0.3583) Dice:0.6821 (Avg 0.7143) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [179][4/5]  Loss:0.261 (Avg 0.3339) Dice:0.8584 (Avg 0.7504) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [179][5/5]  Loss:0.315 (Avg 0.3300) Dice:0.8079 (Avg 0.7619) LR 1.86e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [179][1/2]  Loss:0.542 (Avg 0.5420) Dice:0.5856 (Avg 0.5856) (AvgTime 0.9)   
+   [Val] Epoch: [179][2/2]  Loss:0.605 (Avg 0.5673) Dice:0.4848 (Avg 0.5453) (AvgTime 0.6)   
+	 Mean dice:0.5453 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 83/100
+
+========= Epoch [180/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [180][1/5]  Loss:0.372 (Avg 0.3718) Dice:0.6675 (Avg 0.6675) LR 1.22e-04   (AvgTime 1.2)   
+   [Train] Epoch: [180][2/5]  Loss:0.301 (Avg 0.3366) Dice:0.8355 (Avg 0.7515) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [180][3/5]  Loss:0.265 (Avg 0.3128) Dice:0.8548 (Avg 0.7859) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [180][4/5]  Loss:0.366 (Avg 0.3260) Dice:0.6979 (Avg 0.7639) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [180][5/5]  Loss:0.325 (Avg 0.3258) Dice:0.8084 (Avg 0.7728) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [180][1/2]  Loss:0.556 (Avg 0.5561) Dice:0.5381 (Avg 0.5381) (AvgTime 0.9)   
+   [Val] Epoch: [180][2/2]  Loss:0.604 (Avg 0.5752) Dice:0.5451 (Avg 0.5409) (AvgTime 0.6)   
+	 Mean dice:0.5409 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 84/100
+
+========= Epoch [181/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [181][1/5]  Loss:0.355 (Avg 0.3551) Dice:0.7092 (Avg 0.7092) LR 1.00e-03   (AvgTime 1.1)   
+   [Train] Epoch: [181][2/5]  Loss:0.302 (Avg 0.3286) Dice:0.8393 (Avg 0.7742) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [181][3/5]  Loss:0.365 (Avg 0.3407) Dice:0.6869 (Avg 0.7451) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [181][4/5]  Loss:0.339 (Avg 0.3404) Dice:0.7919 (Avg 0.7568) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [181][5/5]  Loss:0.262 (Avg 0.3248) Dice:0.8613 (Avg 0.7777) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [181][1/2]  Loss:0.578 (Avg 0.5783) Dice:0.5555 (Avg 0.5555) (AvgTime 0.8)   
+   [Val] Epoch: [181][2/2]  Loss:0.487 (Avg 0.5420) Dice:0.6394 (Avg 0.5891) (AvgTime 0.6)   
+	 Mean dice:0.5891 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 85/100
+
+========= Epoch [182/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [182][1/5]  Loss:0.392 (Avg 0.3924) Dice:0.6535 (Avg 0.6535) LR 9.78e-04   (AvgTime 1.1)   
+   [Train] Epoch: [182][2/5]  Loss:0.262 (Avg 0.3270) Dice:0.8277 (Avg 0.7406) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [182][3/5]  Loss:0.354 (Avg 0.3359) Dice:0.7375 (Avg 0.7396) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [182][4/5]  Loss:0.320 (Avg 0.3320) Dice:0.8040 (Avg 0.7557) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [182][5/5]  Loss:0.308 (Avg 0.3271) Dice:0.7830 (Avg 0.7611) LR 9.78e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [182][1/2]  Loss:0.592 (Avg 0.5918) Dice:0.4830 (Avg 0.4830) (AvgTime 0.8)   
+   [Val] Epoch: [182][2/2]  Loss:0.603 (Avg 0.5963) Dice:0.5574 (Avg 0.5128) (AvgTime 0.6)   
+	 Mean dice:0.5128 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 86/100
+
+========= Epoch [183/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [183][1/5]  Loss:0.293 (Avg 0.2931) Dice:0.7787 (Avg 0.7787) LR 9.14e-04   (AvgTime 1.1)   
+   [Train] Epoch: [183][2/5]  Loss:0.330 (Avg 0.3118) Dice:0.7927 (Avg 0.7857) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [183][3/5]  Loss:0.315 (Avg 0.3130) Dice:0.7696 (Avg 0.7803) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [183][4/5]  Loss:0.325 (Avg 0.3160) Dice:0.7387 (Avg 0.7699) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [183][5/5]  Loss:0.371 (Avg 0.3271) Dice:0.7042 (Avg 0.7568) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [183][1/2]  Loss:0.579 (Avg 0.5789) Dice:0.5438 (Avg 0.5438) (AvgTime 0.9)   
+   [Val] Epoch: [183][2/2]  Loss:0.502 (Avg 0.5482) Dice:0.6427 (Avg 0.5834) (AvgTime 0.6)   
+	 Mean dice:0.5834 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 87/100
+
+========= Epoch [184/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [184][1/5]  Loss:0.283 (Avg 0.2826) Dice:0.8497 (Avg 0.8497) LR 8.15e-04   (AvgTime 1.1)   
+   [Train] Epoch: [184][2/5]  Loss:0.388 (Avg 0.3351) Dice:0.6606 (Avg 0.7552) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [184][3/5]  Loss:0.263 (Avg 0.3112) Dice:0.8624 (Avg 0.7909) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [184][4/5]  Loss:0.381 (Avg 0.3286) Dice:0.6450 (Avg 0.7544) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [184][5/5]  Loss:0.330 (Avg 0.3288) Dice:0.7226 (Avg 0.7481) LR 8.15e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [184][1/2]  Loss:0.523 (Avg 0.5229) Dice:0.5952 (Avg 0.5952) (AvgTime 0.8)   
+   [Val] Epoch: [184][2/2]  Loss:0.550 (Avg 0.5336) Dice:0.5495 (Avg 0.5769) (AvgTime 0.6)   
+	 Mean dice:0.5769 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 88/100
+
+========= Epoch [185/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [185][1/5]  Loss:0.367 (Avg 0.3667) Dice:0.6592 (Avg 0.6592) LR 6.89e-04   (AvgTime 1.1)   
+   [Train] Epoch: [185][2/5]  Loss:0.363 (Avg 0.3650) Dice:0.7687 (Avg 0.7140) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [185][3/5]  Loss:0.301 (Avg 0.3436) Dice:0.8458 (Avg 0.7579) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [185][4/5]  Loss:0.289 (Avg 0.3299) Dice:0.7939 (Avg 0.7669) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [185][5/5]  Loss:0.300 (Avg 0.3239) Dice:0.8200 (Avg 0.7775) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [185][1/2]  Loss:0.539 (Avg 0.5393) Dice:0.6206 (Avg 0.6206) (AvgTime 0.8)   
+   [Val] Epoch: [185][2/2]  Loss:0.603 (Avg 0.5648) Dice:0.4799 (Avg 0.5643) (AvgTime 0.6)   
+	 Mean dice:0.5643 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 89/100
+
+========= Epoch [186/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [186][1/5]  Loss:0.340 (Avg 0.3404) Dice:0.7400 (Avg 0.7400) LR 5.50e-04   (AvgTime 1.2)   
+   [Train] Epoch: [186][2/5]  Loss:0.324 (Avg 0.3322) Dice:0.7548 (Avg 0.7474) LR 5.50e-04   (AvgTime 1.0)   
+   [Train] Epoch: [186][3/5]  Loss:0.305 (Avg 0.3232) Dice:0.7709 (Avg 0.7552) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [186][4/5]  Loss:0.369 (Avg 0.3346) Dice:0.6411 (Avg 0.7267) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [186][5/5]  Loss:0.284 (Avg 0.3244) Dice:0.8326 (Avg 0.7479) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [186][1/2]  Loss:0.524 (Avg 0.5235) Dice:0.6005 (Avg 0.6005) (AvgTime 0.9)   
+   [Val] Epoch: [186][2/2]  Loss:0.503 (Avg 0.5153) Dice:0.6021 (Avg 0.6011) (AvgTime 0.7)   
+	 Mean dice:0.6011 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 90/100
+
+========= Epoch [187/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [187][1/5]  Loss:0.293 (Avg 0.2930) Dice:0.8486 (Avg 0.8486) LR 4.11e-04   (AvgTime 1.2)   
+   [Train] Epoch: [187][2/5]  Loss:0.323 (Avg 0.3078) Dice:0.7491 (Avg 0.7989) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [187][3/5]  Loss:0.346 (Avg 0.3206) Dice:0.7546 (Avg 0.7841) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [187][4/5]  Loss:0.296 (Avg 0.3144) Dice:0.8143 (Avg 0.7917) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [187][5/5]  Loss:0.344 (Avg 0.3203) Dice:0.7218 (Avg 0.7777) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [187][1/2]  Loss:0.464 (Avg 0.4642) Dice:0.6407 (Avg 0.6407) (AvgTime 0.9)   
+   [Val] Epoch: [187][2/2]  Loss:0.508 (Avg 0.4819) Dice:0.6124 (Avg 0.6294) (AvgTime 0.7)   
+	 Mean dice:0.6294 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 91/100
+
+========= Epoch [188/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [188][1/5]  Loss:0.278 (Avg 0.2785) Dice:0.8275 (Avg 0.8275) LR 2.85e-04   (AvgTime 1.1)   
+   [Train] Epoch: [188][2/5]  Loss:0.283 (Avg 0.2809) Dice:0.8425 (Avg 0.8350) LR 2.85e-04   (AvgTime 0.9)   
+   [Train] Epoch: [188][3/5]  Loss:0.373 (Avg 0.3117) Dice:0.6513 (Avg 0.7738) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [188][4/5]  Loss:0.303 (Avg 0.3094) Dice:0.8113 (Avg 0.7832) LR 2.85e-04   (AvgTime 0.8)   
+   [Train] Epoch: [188][5/5]  Loss:0.363 (Avg 0.3202) Dice:0.6834 (Avg 0.7632) LR 2.85e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [188][1/2]  Loss:0.509 (Avg 0.5088) Dice:0.6090 (Avg 0.6090) (AvgTime 0.8)   
+   [Val] Epoch: [188][2/2]  Loss:0.490 (Avg 0.5012) Dice:0.6145 (Avg 0.6112) (AvgTime 0.6)   
+	 Mean dice:0.6112 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 92/100
+
+========= Epoch [189/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [189][1/5]  Loss:0.296 (Avg 0.2963) Dice:0.7786 (Avg 0.7786) LR 1.86e-04   (AvgTime 1.1)   
+   [Train] Epoch: [189][2/5]  Loss:0.265 (Avg 0.2807) Dice:0.8695 (Avg 0.8240) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [189][3/5]  Loss:0.337 (Avg 0.2995) Dice:0.7978 (Avg 0.8153) LR 1.86e-04   (AvgTime 0.9)   
+   [Train] Epoch: [189][4/5]  Loss:0.378 (Avg 0.3192) Dice:0.6443 (Avg 0.7725) LR 1.86e-04   (AvgTime 0.8)   
+   [Train] Epoch: [189][5/5]  Loss:0.314 (Avg 0.3182) Dice:0.8050 (Avg 0.7790) LR 1.86e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [189][1/2]  Loss:0.494 (Avg 0.4944) Dice:0.6273 (Avg 0.6273) (AvgTime 0.8)   
+   [Val] Epoch: [189][2/2]  Loss:0.527 (Avg 0.5073) Dice:0.5927 (Avg 0.6135) (AvgTime 0.6)   
+	 Mean dice:0.6135 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 93/100
+
+========= Epoch [190/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [190][1/5]  Loss:0.320 (Avg 0.3199) Dice:0.7584 (Avg 0.7584) LR 1.22e-04   (AvgTime 1.1)   
+   [Train] Epoch: [190][2/5]  Loss:0.321 (Avg 0.3206) Dice:0.8137 (Avg 0.7861) LR 1.22e-04   (AvgTime 0.9)   
+   [Train] Epoch: [190][3/5]  Loss:0.369 (Avg 0.3367) Dice:0.6787 (Avg 0.7503) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [190][4/5]  Loss:0.332 (Avg 0.3355) Dice:0.7741 (Avg 0.7562) LR 1.22e-04   (AvgTime 0.8)   
+   [Train] Epoch: [190][5/5]  Loss:0.241 (Avg 0.3166) Dice:0.9055 (Avg 0.7861) LR 1.22e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [190][1/2]  Loss:0.502 (Avg 0.5020) Dice:0.6444 (Avg 0.6444) (AvgTime 0.9)   
+   [Val] Epoch: [190][2/2]  Loss:0.574 (Avg 0.5307) Dice:0.5289 (Avg 0.5982) (AvgTime 0.6)   
+	 Mean dice:0.5982 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 94/100
+
+========= Epoch [191/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [191][1/5]  Loss:0.284 (Avg 0.2843) Dice:0.8426 (Avg 0.8426) LR 1.00e-03   (AvgTime 1.2)   
+   [Train] Epoch: [191][2/5]  Loss:0.351 (Avg 0.3174) Dice:0.7222 (Avg 0.7824) LR 1.00e-03   (AvgTime 0.9)   
+   [Train] Epoch: [191][3/5]  Loss:0.305 (Avg 0.3133) Dice:0.7985 (Avg 0.7877) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [191][4/5]  Loss:0.279 (Avg 0.3046) Dice:0.8231 (Avg 0.7966) LR 1.00e-03   (AvgTime 0.8)   
+   [Train] Epoch: [191][5/5]  Loss:0.363 (Avg 0.3163) Dice:0.6950 (Avg 0.7763) LR 1.00e-03   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [191][1/2]  Loss:0.566 (Avg 0.5660) Dice:0.5427 (Avg 0.5427) (AvgTime 0.8)   
+   [Val] Epoch: [191][2/2]  Loss:0.570 (Avg 0.5678) Dice:0.5445 (Avg 0.5434) (AvgTime 0.6)   
+	 Mean dice:0.5434 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 95/100
+
+========= Epoch [192/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [192][1/5]  Loss:0.346 (Avg 0.3461) Dice:0.7622 (Avg 0.7622) LR 9.78e-04   (AvgTime 1.1)   
+   [Train] Epoch: [192][2/5]  Loss:0.373 (Avg 0.3597) Dice:0.6926 (Avg 0.7274) LR 9.78e-04   (AvgTime 0.9)   
+   [Train] Epoch: [192][3/5]  Loss:0.325 (Avg 0.3481) Dice:0.7627 (Avg 0.7392) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [192][4/5]  Loss:0.258 (Avg 0.3256) Dice:0.8733 (Avg 0.7727) LR 9.78e-04   (AvgTime 0.8)   
+   [Train] Epoch: [192][5/5]  Loss:0.305 (Avg 0.3214) Dice:0.8169 (Avg 0.7815) LR 9.78e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [192][1/2]  Loss:0.453 (Avg 0.4529) Dice:0.6577 (Avg 0.6577) (AvgTime 0.9)   
+   [Val] Epoch: [192][2/2]  Loss:0.474 (Avg 0.4615) Dice:0.5800 (Avg 0.6266) (AvgTime 0.6)   
+	 Mean dice:0.6266 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 96/100
+
+========= Epoch [193/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [193][1/5]  Loss:0.322 (Avg 0.3219) Dice:0.7640 (Avg 0.7640) LR 9.14e-04   (AvgTime 1.1)   
+   [Train] Epoch: [193][2/5]  Loss:0.275 (Avg 0.2986) Dice:0.7740 (Avg 0.7690) LR 9.14e-04   (AvgTime 0.9)   
+   [Train] Epoch: [193][3/5]  Loss:0.376 (Avg 0.3243) Dice:0.6167 (Avg 0.7182) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [193][4/5]  Loss:0.327 (Avg 0.3251) Dice:0.7944 (Avg 0.7373) LR 9.14e-04   (AvgTime 0.8)   
+   [Train] Epoch: [193][5/5]  Loss:0.312 (Avg 0.3224) Dice:0.8187 (Avg 0.7536) LR 9.14e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [193][1/2]  Loss:0.491 (Avg 0.4912) Dice:0.5339 (Avg 0.5339) (AvgTime 0.8)   
+   [Val] Epoch: [193][2/2]  Loss:0.432 (Avg 0.4676) Dice:0.6597 (Avg 0.5842) (AvgTime 0.6)   
+	 Mean dice:0.5842 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 97/100
+
+========= Epoch [194/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [194][1/5]  Loss:0.328 (Avg 0.3282) Dice:0.7753 (Avg 0.7753) LR 8.15e-04   (AvgTime 1.2)   
+   [Train] Epoch: [194][2/5]  Loss:0.363 (Avg 0.3454) Dice:0.6745 (Avg 0.7249) LR 8.15e-04   (AvgTime 1.0)   
+   [Train] Epoch: [194][3/5]  Loss:0.332 (Avg 0.3409) Dice:0.7646 (Avg 0.7381) LR 8.15e-04   (AvgTime 0.9)   
+   [Train] Epoch: [194][4/5]  Loss:0.332 (Avg 0.3386) Dice:0.7791 (Avg 0.7484) LR 8.15e-04   (AvgTime 0.8)   
+   [Train] Epoch: [194][5/5]  Loss:0.266 (Avg 0.3240) Dice:0.8530 (Avg 0.7693) LR 8.15e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [194][1/2]  Loss:0.521 (Avg 0.5205) Dice:0.5841 (Avg 0.5841) (AvgTime 0.8)   
+   [Val] Epoch: [194][2/2]  Loss:0.497 (Avg 0.5109) Dice:0.6020 (Avg 0.5913) (AvgTime 0.6)   
+	 Mean dice:0.5913 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 98/100
+
+========= Epoch [195/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [195][1/5]  Loss:0.298 (Avg 0.2983) Dice:0.7812 (Avg 0.7812) LR 6.89e-04   (AvgTime 1.1)   
+   [Train] Epoch: [195][2/5]  Loss:0.327 (Avg 0.3125) Dice:0.7264 (Avg 0.7538) LR 6.89e-04   (AvgTime 0.9)   
+   [Train] Epoch: [195][3/5]  Loss:0.355 (Avg 0.3268) Dice:0.6528 (Avg 0.7202) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [195][4/5]  Loss:0.330 (Avg 0.3274) Dice:0.7215 (Avg 0.7205) LR 6.89e-04   (AvgTime 0.8)   
+   [Train] Epoch: [195][5/5]  Loss:0.295 (Avg 0.3209) Dice:0.8121 (Avg 0.7388) LR 6.89e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [195][1/2]  Loss:0.547 (Avg 0.5468) Dice:0.6119 (Avg 0.6119) (AvgTime 0.8)   
+   [Val] Epoch: [195][2/2]  Loss:0.528 (Avg 0.5392) Dice:0.5411 (Avg 0.5836) (AvgTime 0.6)   
+	 Mean dice:0.5836 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 99/100
+
+========= Epoch [196/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [196][1/5]  Loss:0.302 (Avg 0.3017) Dice:0.8228 (Avg 0.8228) LR 5.50e-04   (AvgTime 1.1)   
+   [Train] Epoch: [196][2/5]  Loss:0.307 (Avg 0.3044) Dice:0.7954 (Avg 0.8091) LR 5.50e-04   (AvgTime 0.9)   
+   [Train] Epoch: [196][3/5]  Loss:0.429 (Avg 0.3459) Dice:0.5542 (Avg 0.7241) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [196][4/5]  Loss:0.316 (Avg 0.3383) Dice:0.8196 (Avg 0.7480) LR 5.50e-04   (AvgTime 0.8)   
+   [Train] Epoch: [196][5/5]  Loss:0.245 (Avg 0.3196) Dice:0.8938 (Avg 0.7772) LR 5.50e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [196][1/2]  Loss:0.489 (Avg 0.4893) Dice:0.6405 (Avg 0.6405) (AvgTime 0.9)   
+   [Val] Epoch: [196][2/2]  Loss:0.507 (Avg 0.4964) Dice:0.5905 (Avg 0.6205) (AvgTime 0.6)   
+	 Mean dice:0.6205 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 100/100
+
+========= Epoch [197/1001] =========
+session_32
+Training with batch size : 12
+   [Train] Epoch: [197][1/5]  Loss:0.308 (Avg 0.3077) Dice:0.8091 (Avg 0.8091) LR 4.11e-04   (AvgTime 1.2)   
+   [Train] Epoch: [197][2/5]  Loss:0.313 (Avg 0.3101) Dice:0.7989 (Avg 0.8040) LR 4.11e-04   (AvgTime 1.0)   
+   [Train] Epoch: [197][3/5]  Loss:0.254 (Avg 0.2916) Dice:0.8359 (Avg 0.8146) LR 4.11e-04   (AvgTime 0.9)   
+   [Train] Epoch: [197][4/5]  Loss:0.326 (Avg 0.3003) Dice:0.7165 (Avg 0.7901) LR 4.11e-04   (AvgTime 0.8)   
+   [Train] Epoch: [197][5/5]  Loss:0.377 (Avg 0.3156) Dice:0.6551 (Avg 0.7631) LR 4.11e-04   (AvgTime 0.8)   
+Validation
+   [Val] Epoch: [197][1/2]  Loss:0.526 (Avg 0.5259) Dice:0.5928 (Avg 0.5928) (AvgTime 0.8)   
+   [Val] Epoch: [197][2/2]  Loss:0.416 (Avg 0.4821) Dice:0.6843 (Avg 0.6294) (AvgTime 0.6)   
+	 Mean dice:0.6294 does not increase, the best is still: 0.6560 in epoch 96
+	 early_stopping_count: 101/100
+	 early_stopping!
