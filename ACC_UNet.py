@@ -519,10 +519,10 @@ class MLFC(torch.nn.Module):
                 )
             )
 
-        x1 = self.sqe1(x1)
-        x2 = self.sqe2(x2)
-        x3 = self.sqe3(x3)
-        x4 = self.sqe4(x4)
+        x1 = self.sqe1(x_c1)
+        x2 = self.sqe2(x_c2)
+        x3 = self.sqe3(x_c3)
+        x4 = self.sqe4(x_c4)
 
         return x1, x2, x3, x4
 
