@@ -15,6 +15,25 @@ ACC-UNet : A Completely Convolutional UNet model for the 2020s using PyTorch.
 </a>  
 
 
+## Citation
+
+Ibtehaz, N., Kihara, D. (2023). ACC-UNet: A Completely Convolutional UNet Model for the 2020s. In: Greenspan, H., et al. Medical Image Computing and Computer Assisted Intervention – MICCAI 2023. MICCAI 2023. Lecture Notes in Computer Science, vol 14222. Springer, Cham. https://doi.org/10.1007/978-3-031-43898-1_66
+
+```
+@InProceedings{10.1007/978-3-031-43898-1_66,
+author="Ibtehaz, Nabil and Kihara, Daisuke",
+editor="Greenspan, Hayit and Madabhushi, Anant and Mousavi, Parvin and Salcudean, Septimiu and Duncan, James and Syeda-Mahmood, Tanveer and Taylor, Russell",
+title="ACC-UNet: A Completely Convolutional UNet Model for the 2020s",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2023",
+year="2023",
+publisher="Springer Nature Switzerland",
+pages="692--702",
+isbn="978-3-031-43898-1"
+}
+
+
+```
+
 
 
 ## Introduction
