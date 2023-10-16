@@ -36,14 +36,8 @@ The proposed model has $16.77$ M parameters, roughly a $2$M increase than the va
 
 ## Model Implementation
 
-A PyTorch implementation of the model can be found in `ACC_UNet.py`
+A PyTorch implementation of the model can be found in `/ACC_UNet` directory
 
-## Requirements
-
-Install from the ```requirements.txt``` using:
-```angular2html
-pip3 install -r requirements.txt
-```
 
 ## Experiments
 
